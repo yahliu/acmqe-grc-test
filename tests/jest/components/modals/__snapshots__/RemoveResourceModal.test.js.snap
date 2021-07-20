@@ -1,0 +1,2381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveResourceModal test renders as expected 1`] = `undefined`;
+
+exports[`RemoveResourceModal test renders as expected 2`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Connect(RemoveResourceModal))
+      data={
+        Object {
+          "__typename": "Compliance",
+          "clusterCompliant": "1/2",
+          "custom": Object {
+            "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+            "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+            "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+            "metadata.name": Object {
+              "_owner": null,
+              "_store": Object {},
+              "key": null,
+              "props": Object {
+                "children": "policy-auditpolicy-will-sev",
+                "replace": false,
+                "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+              },
+              "ref": null,
+            },
+          },
+          "kind": "HCMCompliance",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "annotations": Object {
+              "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+              "policy.open-cluster-management.io/controls": "IAM",
+              "policy.open-cluster-management.io/standards": "FISMA",
+              "seed-generation": "2",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "resourceVersion": "5300122",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+          },
+          "name": "policy-auditpolicy-will-sev",
+          "namespace": "mcm",
+          "placementBindings": Array [
+            Object {
+              "__typename": "PlacementBinding",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "name": "binding-policy-auditpolicy-will-sev",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+              },
+            },
+          ],
+          "placementPolicies": Array [
+            Object {
+              "__typename": "PlacementPolicy",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "name": "placement-policy-auditpolicy-will-sev",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+              },
+            },
+          ],
+          "policyCompliant": "1/2",
+          "raw": Object {
+            "apiVersion": "policy.open-cluster-management.io/v1",
+            "kind": "Policy",
+            "metadata": Object {
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "creationTimestamp": "2019-10-01T14:55:28Z",
+              "finalizers": Array [
+                "finalizer.policies.ibm.com",
+                "propagator.finalizer.mcm.ibm.com",
+              ],
+              "generation": 27,
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+              "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+            },
+            "spec": Object {
+              "complianceType": "musthave",
+              "namespaces": Object {
+                "exclude": Array [
+                  "kube-*",
+                ],
+                "include": Array [
+                  "default",
+                ],
+              },
+              "policy-templates": Array [
+                Object {
+                  "objectDefinition": Object {
+                    "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                    "kind": "AuditPolicy",
+                    "metadata": Object {
+                      "label": Object {
+                        "category": "System-Integrity",
+                      },
+                      "name": "policy-auditpolicy-will-sev",
+                    },
+                    "spec": Object {
+                      "clusterAuditPolicy": Object {
+                        "auditPolicyRules": Object {
+                          "auth-idp": "ignore",
+                          "helmapi": "ignore",
+                          "kubernetes": "ignore",
+                          "platform-api": "ignore",
+                          "platform-identity-manager": "ignore",
+                          "platform-identity-provider": "ignore",
+                          "vulnerability-advisor": "ignore",
+                        },
+                      },
+                      "namespaceSelector": Object {
+                        "exclude": Array [
+                          "kube-system",
+                        ],
+                        "include": Array [
+                          "default",
+                          "kube-*",
+                        ],
+                      },
+                      "remediationAction": "inform",
+                      "severity": "low",
+                    },
+                  },
+                  "status": Object {
+                    "Validity": Object {},
+                  },
+                },
+              ],
+              "remediationAction": "inform",
+            },
+            "status": Object {
+              "placementBindings": Array [
+                "binding-policy-auditpolicy-will-sev",
+              ],
+              "placementPolicies": Array [
+                "placement-policy-auditpolicy-will-sev",
+              ],
+              "status": Object {
+                "cluster1": Object {
+                  "aggregatePoliciesStatus": Object {
+                    "policy-auditpolicy-will-sev": Object {
+                      "compliant": "Compliant",
+                    },
+                  },
+                  "clustername": "cluster1",
+                  "compliant": "Compliant",
+                },
+                "clusterhub": Object {
+                  "aggregatePoliciesStatus": Object {
+                    "policy-auditpolicy-will-sev": Object {},
+                  },
+                  "clustername": "clusterhub",
+                },
+              },
+            },
+          },
+          "remediation": "inform",
+          "subItems": Array [
+            Object {
+              "items": Array [
+                "binding-policy-auditpolicy-will-sev",
+              ],
+              "name": "policy.pb",
+            },
+            Object {
+              "items": Array [
+                "placement-policy-auditpolicy-will-sev",
+              ],
+              "name": "policy.pp",
+            },
+          ],
+        }
+      }
+      handleClose={[MockFunction]}
+      handleSubmit={[MockFunction]}
+      label={
+        Object {
+          "heading": "modal.remove-hcmcompliance.heading",
+          "label": "modal.remove-hcmcompliance.label",
+          "primaryBtn": "modal.remove-hcmcompliance.heading",
+        }
+      }
+      locale="en"
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <Connect(RemoveResourceModal)
+        data={
+          Object {
+            "__typename": "Compliance",
+            "clusterCompliant": "1/2",
+            "custom": Object {
+              "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+              "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+              "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+              "metadata.name": Object {
+                "_owner": null,
+                "_store": Object {},
+                "key": null,
+                "props": Object {
+                  "children": "policy-auditpolicy-will-sev",
+                  "replace": false,
+                  "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                },
+                "ref": null,
+              },
+            },
+            "kind": "HCMCompliance",
+            "metadata": Object {
+              "__typename": "Metadata",
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "placementBindings": Array [
+              Object {
+                "__typename": "PlacementBinding",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "binding-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "placementPolicies": Array [
+              Object {
+                "__typename": "PlacementPolicy",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "placement-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "policyCompliant": "1/2",
+            "raw": Object {
+              "apiVersion": "policy.open-cluster-management.io/v1",
+              "kind": "Policy",
+              "metadata": Object {
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "creationTimestamp": "2019-10-01T14:55:28Z",
+                "finalizers": Array [
+                  "finalizer.policies.ibm.com",
+                  "propagator.finalizer.mcm.ibm.com",
+                ],
+                "generation": 27,
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+              },
+              "spec": Object {
+                "complianceType": "musthave",
+                "namespaces": Object {
+                  "exclude": Array [
+                    "kube-*",
+                  ],
+                  "include": Array [
+                    "default",
+                  ],
+                },
+                "policy-templates": Array [
+                  Object {
+                    "objectDefinition": Object {
+                      "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                      "kind": "AuditPolicy",
+                      "metadata": Object {
+                        "label": Object {
+                          "category": "System-Integrity",
+                        },
+                        "name": "policy-auditpolicy-will-sev",
+                      },
+                      "spec": Object {
+                        "clusterAuditPolicy": Object {
+                          "auditPolicyRules": Object {
+                            "auth-idp": "ignore",
+                            "helmapi": "ignore",
+                            "kubernetes": "ignore",
+                            "platform-api": "ignore",
+                            "platform-identity-manager": "ignore",
+                            "platform-identity-provider": "ignore",
+                            "vulnerability-advisor": "ignore",
+                          },
+                        },
+                        "namespaceSelector": Object {
+                          "exclude": Array [
+                            "kube-system",
+                          ],
+                          "include": Array [
+                            "default",
+                            "kube-*",
+                          ],
+                        },
+                        "remediationAction": "inform",
+                        "severity": "low",
+                      },
+                    },
+                    "status": Object {
+                      "Validity": Object {},
+                    },
+                  },
+                ],
+                "remediationAction": "inform",
+              },
+              "status": Object {
+                "placementBindings": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "placementPolicies": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "status": Object {
+                  "cluster1": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {
+                        "compliant": "Compliant",
+                      },
+                    },
+                    "clustername": "cluster1",
+                    "compliant": "Compliant",
+                  },
+                  "clusterhub": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {},
+                    },
+                    "clustername": "clusterhub",
+                  },
+                },
+              },
+            },
+            "remediation": "inform",
+            "subItems": Array [
+              Object {
+                "items": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pb",
+              },
+              Object {
+                "items": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pp",
+              },
+            ],
+          }
+        }
+        handleClose={[MockFunction]}
+        handleSubmit={[MockFunction]}
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        label={
+          Object {
+            "heading": "modal.remove-hcmcompliance.heading",
+            "label": "modal.remove-hcmcompliance.label",
+            "primaryBtn": "modal.remove-hcmcompliance.heading",
+          }
+        }
+        locale="en"
+        location={
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <RemoveResourceModal
+          data={
+            Object {
+              "__typename": "Compliance",
+              "clusterCompliant": "1/2",
+              "custom": Object {
+                "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+                "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+                "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+                "metadata.name": Object {
+                  "_owner": null,
+                  "_store": Object {},
+                  "key": null,
+                  "props": Object {
+                    "children": "policy-auditpolicy-will-sev",
+                    "replace": false,
+                    "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                  },
+                  "ref": null,
+                },
+              },
+              "kind": "HCMCompliance",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "placementBindings": Array [
+                Object {
+                  "__typename": "PlacementBinding",
+                  "metadata": Object {
+                    "__typename": "Metadata",
+                    "name": "binding-policy-auditpolicy-will-sev",
+                    "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                  },
+                },
+              ],
+              "placementPolicies": Array [
+                Object {
+                  "__typename": "PlacementPolicy",
+                  "metadata": Object {
+                    "__typename": "Metadata",
+                    "name": "placement-policy-auditpolicy-will-sev",
+                    "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                  },
+                },
+              ],
+              "policyCompliant": "1/2",
+              "raw": Object {
+                "apiVersion": "policy.open-cluster-management.io/v1",
+                "kind": "Policy",
+                "metadata": Object {
+                  "annotations": Object {
+                    "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                    "policy.open-cluster-management.io/controls": "IAM",
+                    "policy.open-cluster-management.io/standards": "FISMA",
+                    "seed-generation": "2",
+                  },
+                  "creationTimestamp": "2019-10-01T14:55:28Z",
+                  "finalizers": Array [
+                    "finalizer.policies.ibm.com",
+                    "propagator.finalizer.mcm.ibm.com",
+                  ],
+                  "generation": 27,
+                  "name": "policy-auditpolicy-will-sev",
+                  "namespace": "mcm",
+                  "resourceVersion": "5300122",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                  "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+                },
+                "spec": Object {
+                  "complianceType": "musthave",
+                  "namespaces": Object {
+                    "exclude": Array [
+                      "kube-*",
+                    ],
+                    "include": Array [
+                      "default",
+                    ],
+                  },
+                  "policy-templates": Array [
+                    Object {
+                      "objectDefinition": Object {
+                        "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                        "kind": "AuditPolicy",
+                        "metadata": Object {
+                          "label": Object {
+                            "category": "System-Integrity",
+                          },
+                          "name": "policy-auditpolicy-will-sev",
+                        },
+                        "spec": Object {
+                          "clusterAuditPolicy": Object {
+                            "auditPolicyRules": Object {
+                              "auth-idp": "ignore",
+                              "helmapi": "ignore",
+                              "kubernetes": "ignore",
+                              "platform-api": "ignore",
+                              "platform-identity-manager": "ignore",
+                              "platform-identity-provider": "ignore",
+                              "vulnerability-advisor": "ignore",
+                            },
+                          },
+                          "namespaceSelector": Object {
+                            "exclude": Array [
+                              "kube-system",
+                            ],
+                            "include": Array [
+                              "default",
+                              "kube-*",
+                            ],
+                          },
+                          "remediationAction": "inform",
+                          "severity": "low",
+                        },
+                      },
+                      "status": Object {
+                        "Validity": Object {},
+                      },
+                    },
+                  ],
+                  "remediationAction": "inform",
+                },
+                "status": Object {
+                  "placementBindings": Array [
+                    "binding-policy-auditpolicy-will-sev",
+                  ],
+                  "placementPolicies": Array [
+                    "placement-policy-auditpolicy-will-sev",
+                  ],
+                  "status": Object {
+                    "cluster1": Object {
+                      "aggregatePoliciesStatus": Object {
+                        "policy-auditpolicy-will-sev": Object {
+                          "compliant": "Compliant",
+                        },
+                      },
+                      "clustername": "cluster1",
+                      "compliant": "Compliant",
+                    },
+                    "clusterhub": Object {
+                      "aggregatePoliciesStatus": Object {
+                        "policy-auditpolicy-will-sev": Object {},
+                      },
+                      "clustername": "clusterhub",
+                    },
+                  },
+                },
+              },
+              "remediation": "inform",
+              "subItems": Array [
+                Object {
+                  "items": Array [
+                    "binding-policy-auditpolicy-will-sev",
+                  ],
+                  "name": "policy.pb",
+                },
+                Object {
+                  "items": Array [
+                    "placement-policy-auditpolicy-will-sev",
+                  ],
+                  "name": "policy.pp",
+                },
+              ],
+            }
+          }
+          handleClose={[Function]}
+          handleSubmit={[Function]}
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          label={
+            Object {
+              "heading": "modal.remove-hcmcompliance.heading",
+              "label": "modal.remove-hcmcompliance.label",
+              "primaryBtn": "modal.remove-hcmcompliance.heading",
+            }
+          }
+          locale="en"
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          open={true}
+          receiveDelError={[Function]}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+        >
+          <div>
+            <AcmModal
+              actions={
+                Array [
+                  <AcmButton
+                    onClick={[Function]}
+                    variant="danger"
+                  >
+                    Remove policy
+                  </AcmButton>,
+                  <AcmButton
+                    onClick={[Function]}
+                    variant="link"
+                  >
+                    Cancel
+                  </AcmButton>,
+                ]
+              }
+              id="remove-resource-modal"
+              isOpen={true}
+              onClose={[Function]}
+              showClose={true}
+              title="Remove policy"
+              titleIconVariant="warning"
+              variant="medium"
+            >
+              <AcmAlertProvider>
+                <AcmModalContent
+                  actions={
+                    Array [
+                      <AcmButton
+                        onClick={[Function]}
+                        variant="danger"
+                      >
+                        Remove policy
+                      </AcmButton>,
+                      <AcmButton
+                        onClick={[Function]}
+                        variant="link"
+                      >
+                        Cancel
+                      </AcmButton>,
+                    ]
+                  }
+                  id="remove-resource-modal"
+                  isOpen={true}
+                  onClose={[Function]}
+                  showClose={true}
+                  title="Remove policy"
+                  titleIconVariant="warning"
+                  variant="medium"
+                >
+                  <Modal
+                    actions={
+                      Array [
+                        <AcmButton
+                          onClick={[Function]}
+                          variant="danger"
+                        >
+                          Remove policy
+                        </AcmButton>,
+                        <AcmButton
+                          onClick={[Function]}
+                          variant="link"
+                        >
+                          Cancel
+                        </AcmButton>,
+                      ]
+                    }
+                    appendTo={[Function]}
+                    aria-describedby=""
+                    aria-label=""
+                    aria-labelledby=""
+                    className=""
+                    hasNoBodyWrapper={false}
+                    id="remove-resource-modal"
+                    isOpen={true}
+                    onClose={[Function]}
+                    ouiaSafe={true}
+                    showClose={true}
+                    title="Remove policy"
+                    titleIconVariant="warning"
+                    titleLabel=""
+                    variant="medium"
+                  >
+                    <Portal
+                      containerInfo={
+                        <div>
+                          <div
+                            class="pf-c-backdrop"
+                          >
+                            <div
+                              class="pf-l-bullseye"
+                            >
+                              <div
+                                aria-describedby="pf-modal-part-2"
+                                aria-labelledby="pf-modal-part-1"
+                                aria-modal="true"
+                                class="pf-c-modal-box pf-m-warning pf-m-md"
+                                data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                data-ouia-component-type="PF4/ModalContent"
+                                data-ouia-safe="true"
+                                id="remove-resource-modal"
+                                role="dialog"
+                              >
+                                <button
+                                  aria-disabled="false"
+                                  aria-label="Close"
+                                  class="pf-c-button pf-m-plain"
+                                  data-ouia-component-id="OUIA-Generated-Button-plain-1"
+                                  data-ouia-component-type="PF4/Button"
+                                  data-ouia-safe="true"
+                                  type="button"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    style="vertical-align: -0.125em;"
+                                    viewBox="0 0 352 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                                    />
+                                  </svg>
+                                </button>
+                                <header
+                                  class="pf-c-modal-box__header"
+                                >
+                                  <h1
+                                    class="pf-c-modal-box__title pf-m-icon"
+                                    id="pf-modal-part-1"
+                                  >
+                                    <span
+                                      class="pf-c-modal-box__title-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        fill="currentColor"
+                                        height="1em"
+                                        role="img"
+                                        style="vertical-align: -0.125em;"
+                                        viewBox="0 0 576 512"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                        />
+                                      </svg>
+                                    </span>
+                                    <span
+                                      class="pf-u-screen-reader"
+                                    >
+                                      Warning alert:
+                                    </span>
+                                    <span
+                                      class="pf-c-modal-box__title-text"
+                                    >
+                                      Remove policy
+                                    </span>
+                                  </h1>
+                                </header>
+                                <div
+                                  class="pf-c-modal-box__body"
+                                  id="pf-modal-part-2"
+                                >
+                                  <div />
+                                  <p>
+                                    Removing {0} is irreversible. Are you sure you want to continue?
+                                  </p>
+                                </div>
+                                <footer
+                                  class="pf-c-modal-box__footer"
+                                >
+                                  <button
+                                    aria-disabled="false"
+                                    class="pf-c-button pf-m-danger"
+                                    data-ouia-component-id="OUIA-Generated-Button-danger-1"
+                                    data-ouia-component-type="PF4/Button"
+                                    data-ouia-safe="true"
+                                    type="button"
+                                  >
+                                    Remove policy
+                                  </button>
+                                  <button
+                                    aria-disabled="false"
+                                    class="pf-c-button pf-m-link"
+                                    data-ouia-component-id="OUIA-Generated-Button-link-1"
+                                    data-ouia-component-type="PF4/Button"
+                                    data-ouia-safe="true"
+                                    type="button"
+                                  >
+                                    Cancel
+                                  </button>
+                                </footer>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      }
+                    >
+                      <ModalContent
+                        actions={
+                          Array [
+                            <AcmButton
+                              onClick={[Function]}
+                              variant="danger"
+                            >
+                              Remove policy
+                            </AcmButton>,
+                            <AcmButton
+                              onClick={[Function]}
+                              variant="link"
+                            >
+                              Cancel
+                            </AcmButton>,
+                          ]
+                        }
+                        aria-describedby=""
+                        aria-label=""
+                        aria-labelledby=""
+                        boxId="remove-resource-modal"
+                        className=""
+                        descriptorId="pf-modal-part-2"
+                        hasNoBodyWrapper={false}
+                        id="remove-resource-modal"
+                        isOpen={true}
+                        labelId="pf-modal-part-1"
+                        onClose={[Function]}
+                        ouiaId="OUIA-Generated-Modal-medium-1"
+                        ouiaSafe={true}
+                        showClose={true}
+                        title="Remove policy"
+                        titleIconVariant="warning"
+                        titleLabel=""
+                        variant="medium"
+                      >
+                        <Backdrop>
+                          <div
+                            className="pf-c-backdrop"
+                          >
+                            <FocusTrap
+                              active={true}
+                              className="pf-l-bullseye"
+                              focusTrapOptions={
+                                Object {
+                                  "clickOutsideDeactivates": true,
+                                }
+                              }
+                              paused={false}
+                              preventScrollOnDeactivate={false}
+                            >
+                              <div
+                                className="pf-l-bullseye"
+                              >
+                                <ModalBox
+                                  aria-describedby="pf-modal-part-2"
+                                  aria-label=""
+                                  aria-labelledby="pf-modal-part-1"
+                                  className="pf-m-warning"
+                                  data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                  data-ouia-component-type="PF4/ModalContent"
+                                  data-ouia-safe={true}
+                                  id="remove-resource-modal"
+                                  style={Object {}}
+                                  variant="medium"
+                                >
+                                  <div
+                                    aria-describedby="pf-modal-part-2"
+                                    aria-label={null}
+                                    aria-labelledby="pf-modal-part-1"
+                                    aria-modal="true"
+                                    className="pf-c-modal-box pf-m-warning pf-m-md"
+                                    data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                    data-ouia-component-type="PF4/ModalContent"
+                                    data-ouia-safe={true}
+                                    id="remove-resource-modal"
+                                    role="dialog"
+                                    style={Object {}}
+                                  >
+                                    <ModalBoxCloseButton
+                                      onClose={[Function]}
+                                    >
+                                      <Button
+                                        aria-label="Close"
+                                        className=""
+                                        onClick={[Function]}
+                                        variant="plain"
+                                      >
+                                        <ButtonBase
+                                          aria-label="Close"
+                                          className=""
+                                          innerRef={null}
+                                          onClick={[Function]}
+                                          variant="plain"
+                                        >
+                                          <button
+                                            aria-disabled={false}
+                                            aria-label="Close"
+                                            className="pf-c-button pf-m-plain"
+                                            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+                                            data-ouia-component-type="PF4/Button"
+                                            data-ouia-safe={true}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            role={null}
+                                            type="button"
+                                          >
+                                            <TimesIcon
+                                              color="currentColor"
+                                              noVerticalAlign={false}
+                                              size="sm"
+                                            >
+                                              <svg
+                                                aria-hidden={true}
+                                                aria-labelledby={null}
+                                                fill="currentColor"
+                                                height="1em"
+                                                role="img"
+                                                style={
+                                                  Object {
+                                                    "verticalAlign": "-0.125em",
+                                                  }
+                                                }
+                                                viewBox="0 0 352 512"
+                                                width="1em"
+                                              >
+                                                <path
+                                                  d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                                                />
+                                              </svg>
+                                            </TimesIcon>
+                                          </button>
+                                        </ButtonBase>
+                                      </Button>
+                                    </ModalBoxCloseButton>
+                                    <ModalBoxHeader
+                                      help={null}
+                                    >
+                                      <header
+                                        className="pf-c-modal-box__header"
+                                      >
+                                        <ModalBoxTitle
+                                          id="pf-modal-part-1"
+                                          title="Remove policy"
+                                          titleIconVariant="warning"
+                                          titleLabel=""
+                                        >
+                                          <h1
+                                            className="pf-c-modal-box__title pf-m-icon"
+                                            id="pf-modal-part-1"
+                                          >
+                                            <span
+                                              className="pf-c-modal-box__title-icon"
+                                            >
+                                              <ExclamationTriangleIcon
+                                                color="currentColor"
+                                                noVerticalAlign={false}
+                                                size="sm"
+                                              >
+                                                <svg
+                                                  aria-hidden={true}
+                                                  aria-labelledby={null}
+                                                  fill="currentColor"
+                                                  height="1em"
+                                                  role="img"
+                                                  style={
+                                                    Object {
+                                                      "verticalAlign": "-0.125em",
+                                                    }
+                                                  }
+                                                  viewBox="0 0 576 512"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                                  />
+                                                </svg>
+                                              </ExclamationTriangleIcon>
+                                            </span>
+                                            <span
+                                              className="pf-u-screen-reader"
+                                            >
+                                              Warning alert:
+                                            </span>
+                                            <span
+                                              className="pf-c-modal-box__title-text"
+                                            >
+                                              Remove policy
+                                            </span>
+                                          </h1>
+                                        </ModalBoxTitle>
+                                      </header>
+                                    </ModalBoxHeader>
+                                    <ModalBoxBody
+                                      id="pf-modal-part-2"
+                                    >
+                                      <div
+                                        className="pf-c-modal-box__body"
+                                        id="pf-modal-part-2"
+                                      >
+                                        <div />
+                                        <p>
+                                          Removing {0} is irreversible. Are you sure you want to continue?
+                                        </p>
+                                      </div>
+                                    </ModalBoxBody>
+                                    <ModalBoxFooter>
+                                      <footer
+                                        className="pf-c-modal-box__footer"
+                                      >
+                                        <AcmButton
+                                          key="confirm"
+                                          onClick={[Function]}
+                                          variant="danger"
+                                        >
+                                          <TooltipWrapper>
+                                            <Button
+                                              onClick={[Function]}
+                                              variant="danger"
+                                            >
+                                              <ButtonBase
+                                                innerRef={null}
+                                                onClick={[Function]}
+                                                variant="danger"
+                                              >
+                                                <button
+                                                  aria-disabled={false}
+                                                  aria-label={null}
+                                                  className="pf-c-button pf-m-danger"
+                                                  data-ouia-component-id="OUIA-Generated-Button-danger-1"
+                                                  data-ouia-component-type="PF4/Button"
+                                                  data-ouia-safe={true}
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  role={null}
+                                                  type="button"
+                                                >
+                                                  Remove policy
+                                                </button>
+                                              </ButtonBase>
+                                            </Button>
+                                          </TooltipWrapper>
+                                        </AcmButton>
+                                        <AcmButton
+                                          key="cancel"
+                                          onClick={[Function]}
+                                          variant="link"
+                                        >
+                                          <TooltipWrapper>
+                                            <Button
+                                              onClick={[Function]}
+                                              variant="link"
+                                            >
+                                              <ButtonBase
+                                                innerRef={null}
+                                                onClick={[Function]}
+                                                variant="link"
+                                              >
+                                                <button
+                                                  aria-disabled={false}
+                                                  aria-label={null}
+                                                  className="pf-c-button pf-m-link"
+                                                  data-ouia-component-id="OUIA-Generated-Button-link-1"
+                                                  data-ouia-component-type="PF4/Button"
+                                                  data-ouia-safe={true}
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  role={null}
+                                                  type="button"
+                                                >
+                                                  Cancel
+                                                </button>
+                                              </ButtonBase>
+                                            </Button>
+                                          </TooltipWrapper>
+                                        </AcmButton>
+                                      </footer>
+                                    </ModalBoxFooter>
+                                  </div>
+                                </ModalBox>
+                              </div>
+                            </FocusTrap>
+                          </div>
+                        </Backdrop>
+                      </ModalContent>
+                    </Portal>
+                  </Modal>
+                </AcmModalContent>
+              </AcmAlertProvider>
+            </AcmModal>
+          </div>
+        </RemoveResourceModal>
+      </Connect(RemoveResourceModal)>
+    </withRouter(Connect(RemoveResourceModal))>
+  </Router>
+</BrowserRouter>
+`;
+
+exports[`RemoveResourceModal test renders as expected 3`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Connect(RemoveResourceModal))
+      data={
+        Object {
+          "__typename": "Compliance",
+          "clusterCompliant": "1/2",
+          "custom": Object {
+            "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+            "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+            "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+            "metadata.name": Object {
+              "_owner": null,
+              "_store": Object {},
+              "key": null,
+              "props": Object {
+                "children": "policy-auditpolicy-will-sev",
+                "replace": false,
+                "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+              },
+              "ref": null,
+            },
+          },
+          "kind": "HCMCompliance",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "annotations": Object {
+              "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+              "policy.open-cluster-management.io/controls": "IAM",
+              "policy.open-cluster-management.io/standards": "FISMA",
+              "seed-generation": "2",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "resourceVersion": "5300122",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+          },
+          "name": "policy-auditpolicy-will-sev",
+          "namespace": "mcm",
+          "placementBindings": Array [
+            Object {
+              "__typename": "PlacementBinding",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "name": "binding-policy-auditpolicy-will-sev",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+              },
+            },
+          ],
+          "placementPolicies": Array [
+            Object {
+              "__typename": "PlacementPolicy",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "name": "placement-policy-auditpolicy-will-sev",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+              },
+            },
+          ],
+          "policyCompliant": "1/2",
+          "raw": Object {
+            "apiVersion": "policy.open-cluster-management.io/v1",
+            "kind": "Policy",
+            "metadata": Object {
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "creationTimestamp": "2019-10-01T14:55:28Z",
+              "finalizers": Array [
+                "finalizer.policies.ibm.com",
+                "propagator.finalizer.mcm.ibm.com",
+              ],
+              "generation": 27,
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+              "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+            },
+            "spec": Object {
+              "complianceType": "musthave",
+              "namespaces": Object {
+                "exclude": Array [
+                  "kube-*",
+                ],
+                "include": Array [
+                  "default",
+                ],
+              },
+              "policy-templates": Array [
+                Object {
+                  "objectDefinition": Object {
+                    "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                    "kind": "AuditPolicy",
+                    "metadata": Object {
+                      "label": Object {
+                        "category": "System-Integrity",
+                      },
+                      "name": "policy-auditpolicy-will-sev",
+                    },
+                    "spec": Object {
+                      "clusterAuditPolicy": Object {
+                        "auditPolicyRules": Object {
+                          "auth-idp": "ignore",
+                          "helmapi": "ignore",
+                          "kubernetes": "ignore",
+                          "platform-api": "ignore",
+                          "platform-identity-manager": "ignore",
+                          "platform-identity-provider": "ignore",
+                          "vulnerability-advisor": "ignore",
+                        },
+                      },
+                      "namespaceSelector": Object {
+                        "exclude": Array [
+                          "kube-system",
+                        ],
+                        "include": Array [
+                          "default",
+                          "kube-*",
+                        ],
+                      },
+                      "remediationAction": "inform",
+                      "severity": "low",
+                    },
+                  },
+                  "status": Object {
+                    "Validity": Object {},
+                  },
+                },
+              ],
+              "remediationAction": "inform",
+            },
+            "status": Object {
+              "placementBindings": Array [
+                "binding-policy-auditpolicy-will-sev",
+              ],
+              "placementPolicies": Array [
+                "placement-policy-auditpolicy-will-sev",
+              ],
+              "status": Object {
+                "cluster1": Object {
+                  "aggregatePoliciesStatus": Object {
+                    "policy-auditpolicy-will-sev": Object {
+                      "compliant": "Compliant",
+                    },
+                  },
+                  "clustername": "cluster1",
+                  "compliant": "Compliant",
+                },
+                "clusterhub": Object {
+                  "aggregatePoliciesStatus": Object {
+                    "policy-auditpolicy-will-sev": Object {},
+                  },
+                  "clustername": "clusterhub",
+                },
+              },
+            },
+          },
+          "remediation": "inform",
+          "subItems": Array [
+            Object {
+              "items": Array [
+                "binding-policy-auditpolicy-will-sev",
+              ],
+              "name": "policy.pb",
+            },
+            Object {
+              "items": Array [
+                "placement-policy-auditpolicy-will-sev",
+              ],
+              "name": "policy.pp",
+            },
+          ],
+        }
+      }
+      handleClose={[MockFunction]}
+      handleSubmit={[MockFunction]}
+      label={
+        Object {
+          "heading": "modal.remove-hcmcompliance.heading",
+          "label": "modal.remove-hcmcompliance.label",
+          "primaryBtn": "modal.remove-hcmcompliance.heading",
+        }
+      }
+      locale="en"
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <Connect(RemoveResourceModal)
+        data={
+          Object {
+            "__typename": "Compliance",
+            "clusterCompliant": "1/2",
+            "custom": Object {
+              "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+              "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+              "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+              "metadata.name": Object {
+                "_owner": null,
+                "_store": Object {},
+                "key": null,
+                "props": Object {
+                  "children": "policy-auditpolicy-will-sev",
+                  "replace": false,
+                  "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                },
+                "ref": null,
+              },
+            },
+            "kind": "HCMCompliance",
+            "metadata": Object {
+              "__typename": "Metadata",
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "placementBindings": Array [
+              Object {
+                "__typename": "PlacementBinding",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "binding-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "placementPolicies": Array [
+              Object {
+                "__typename": "PlacementPolicy",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "placement-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "policyCompliant": "1/2",
+            "raw": Object {
+              "apiVersion": "policy.open-cluster-management.io/v1",
+              "kind": "Policy",
+              "metadata": Object {
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "creationTimestamp": "2019-10-01T14:55:28Z",
+                "finalizers": Array [
+                  "finalizer.policies.ibm.com",
+                  "propagator.finalizer.mcm.ibm.com",
+                ],
+                "generation": 27,
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+              },
+              "spec": Object {
+                "complianceType": "musthave",
+                "namespaces": Object {
+                  "exclude": Array [
+                    "kube-*",
+                  ],
+                  "include": Array [
+                    "default",
+                  ],
+                },
+                "policy-templates": Array [
+                  Object {
+                    "objectDefinition": Object {
+                      "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                      "kind": "AuditPolicy",
+                      "metadata": Object {
+                        "label": Object {
+                          "category": "System-Integrity",
+                        },
+                        "name": "policy-auditpolicy-will-sev",
+                      },
+                      "spec": Object {
+                        "clusterAuditPolicy": Object {
+                          "auditPolicyRules": Object {
+                            "auth-idp": "ignore",
+                            "helmapi": "ignore",
+                            "kubernetes": "ignore",
+                            "platform-api": "ignore",
+                            "platform-identity-manager": "ignore",
+                            "platform-identity-provider": "ignore",
+                            "vulnerability-advisor": "ignore",
+                          },
+                        },
+                        "namespaceSelector": Object {
+                          "exclude": Array [
+                            "kube-system",
+                          ],
+                          "include": Array [
+                            "default",
+                            "kube-*",
+                          ],
+                        },
+                        "remediationAction": "inform",
+                        "severity": "low",
+                      },
+                    },
+                    "status": Object {
+                      "Validity": Object {},
+                    },
+                  },
+                ],
+                "remediationAction": "inform",
+              },
+              "status": Object {
+                "placementBindings": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "placementPolicies": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "status": Object {
+                  "cluster1": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {
+                        "compliant": "Compliant",
+                      },
+                    },
+                    "clustername": "cluster1",
+                    "compliant": "Compliant",
+                  },
+                  "clusterhub": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {},
+                    },
+                    "clustername": "clusterhub",
+                  },
+                },
+              },
+            },
+            "remediation": "inform",
+            "subItems": Array [
+              Object {
+                "items": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pb",
+              },
+              Object {
+                "items": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pp",
+              },
+            ],
+          }
+        }
+        handleClose={[MockFunction]}
+        handleSubmit={[MockFunction]}
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        label={
+          Object {
+            "heading": "modal.remove-hcmcompliance.heading",
+            "label": "modal.remove-hcmcompliance.label",
+            "primaryBtn": "modal.remove-hcmcompliance.heading",
+          }
+        }
+        locale="en"
+        location={
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <RemoveResourceModal
+          data={
+            Object {
+              "__typename": "Compliance",
+              "clusterCompliant": "1/2",
+              "custom": Object {
+                "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+                "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+                "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+                "metadata.name": Object {
+                  "_owner": null,
+                  "_store": Object {},
+                  "key": null,
+                  "props": Object {
+                    "children": "policy-auditpolicy-will-sev",
+                    "replace": false,
+                    "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                  },
+                  "ref": null,
+                },
+              },
+              "kind": "HCMCompliance",
+              "metadata": Object {
+                "__typename": "Metadata",
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "placementBindings": Array [
+                Object {
+                  "__typename": "PlacementBinding",
+                  "metadata": Object {
+                    "__typename": "Metadata",
+                    "name": "binding-policy-auditpolicy-will-sev",
+                    "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                  },
+                },
+              ],
+              "placementPolicies": Array [
+                Object {
+                  "__typename": "PlacementPolicy",
+                  "metadata": Object {
+                    "__typename": "Metadata",
+                    "name": "placement-policy-auditpolicy-will-sev",
+                    "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                  },
+                },
+              ],
+              "policyCompliant": "1/2",
+              "raw": Object {
+                "apiVersion": "policy.open-cluster-management.io/v1",
+                "kind": "Policy",
+                "metadata": Object {
+                  "annotations": Object {
+                    "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                    "policy.open-cluster-management.io/controls": "IAM",
+                    "policy.open-cluster-management.io/standards": "FISMA",
+                    "seed-generation": "2",
+                  },
+                  "creationTimestamp": "2019-10-01T14:55:28Z",
+                  "finalizers": Array [
+                    "finalizer.policies.ibm.com",
+                    "propagator.finalizer.mcm.ibm.com",
+                  ],
+                  "generation": 27,
+                  "name": "policy-auditpolicy-will-sev",
+                  "namespace": "mcm",
+                  "resourceVersion": "5300122",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                  "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+                },
+                "spec": Object {
+                  "complianceType": "musthave",
+                  "namespaces": Object {
+                    "exclude": Array [
+                      "kube-*",
+                    ],
+                    "include": Array [
+                      "default",
+                    ],
+                  },
+                  "policy-templates": Array [
+                    Object {
+                      "objectDefinition": Object {
+                        "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                        "kind": "AuditPolicy",
+                        "metadata": Object {
+                          "label": Object {
+                            "category": "System-Integrity",
+                          },
+                          "name": "policy-auditpolicy-will-sev",
+                        },
+                        "spec": Object {
+                          "clusterAuditPolicy": Object {
+                            "auditPolicyRules": Object {
+                              "auth-idp": "ignore",
+                              "helmapi": "ignore",
+                              "kubernetes": "ignore",
+                              "platform-api": "ignore",
+                              "platform-identity-manager": "ignore",
+                              "platform-identity-provider": "ignore",
+                              "vulnerability-advisor": "ignore",
+                            },
+                          },
+                          "namespaceSelector": Object {
+                            "exclude": Array [
+                              "kube-system",
+                            ],
+                            "include": Array [
+                              "default",
+                              "kube-*",
+                            ],
+                          },
+                          "remediationAction": "inform",
+                          "severity": "low",
+                        },
+                      },
+                      "status": Object {
+                        "Validity": Object {},
+                      },
+                    },
+                  ],
+                  "remediationAction": "inform",
+                },
+                "status": Object {
+                  "placementBindings": Array [
+                    "binding-policy-auditpolicy-will-sev",
+                  ],
+                  "placementPolicies": Array [
+                    "placement-policy-auditpolicy-will-sev",
+                  ],
+                  "status": Object {
+                    "cluster1": Object {
+                      "aggregatePoliciesStatus": Object {
+                        "policy-auditpolicy-will-sev": Object {
+                          "compliant": "Compliant",
+                        },
+                      },
+                      "clustername": "cluster1",
+                      "compliant": "Compliant",
+                    },
+                    "clusterhub": Object {
+                      "aggregatePoliciesStatus": Object {
+                        "policy-auditpolicy-will-sev": Object {},
+                      },
+                      "clustername": "clusterhub",
+                    },
+                  },
+                },
+              },
+              "remediation": "inform",
+              "subItems": Array [
+                Object {
+                  "items": Array [
+                    "binding-policy-auditpolicy-will-sev",
+                  ],
+                  "name": "policy.pb",
+                },
+                Object {
+                  "items": Array [
+                    "placement-policy-auditpolicy-will-sev",
+                  ],
+                  "name": "policy.pp",
+                },
+              ],
+            }
+          }
+          handleClose={[Function]}
+          handleSubmit={[Function]}
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          label={
+            Object {
+              "heading": "modal.remove-hcmcompliance.heading",
+              "label": "modal.remove-hcmcompliance.label",
+              "primaryBtn": "modal.remove-hcmcompliance.heading",
+            }
+          }
+          locale="en"
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          open={true}
+          receiveDelError={[Function]}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+        >
+          <div>
+            <AcmModal
+              actions={
+                Array [
+                  <AcmButton
+                    onClick={[Function]}
+                    variant="danger"
+                  >
+                    Remove policy
+                  </AcmButton>,
+                  <AcmButton
+                    onClick={[Function]}
+                    variant="link"
+                  >
+                    Cancel
+                  </AcmButton>,
+                ]
+              }
+              id="remove-resource-modal"
+              isOpen={true}
+              onClose={[Function]}
+              showClose={true}
+              title="Remove policy"
+              titleIconVariant="warning"
+              variant="medium"
+            >
+              <AcmAlertProvider>
+                <AcmModalContent
+                  actions={
+                    Array [
+                      <AcmButton
+                        onClick={[Function]}
+                        variant="danger"
+                      >
+                        Remove policy
+                      </AcmButton>,
+                      <AcmButton
+                        onClick={[Function]}
+                        variant="link"
+                      >
+                        Cancel
+                      </AcmButton>,
+                    ]
+                  }
+                  id="remove-resource-modal"
+                  isOpen={true}
+                  onClose={[Function]}
+                  showClose={true}
+                  title="Remove policy"
+                  titleIconVariant="warning"
+                  variant="medium"
+                >
+                  <Modal
+                    actions={
+                      Array [
+                        <AcmButton
+                          onClick={[Function]}
+                          variant="danger"
+                        >
+                          Remove policy
+                        </AcmButton>,
+                        <AcmButton
+                          onClick={[Function]}
+                          variant="link"
+                        >
+                          Cancel
+                        </AcmButton>,
+                      ]
+                    }
+                    appendTo={[Function]}
+                    aria-describedby=""
+                    aria-label=""
+                    aria-labelledby=""
+                    className=""
+                    hasNoBodyWrapper={false}
+                    id="remove-resource-modal"
+                    isOpen={true}
+                    onClose={[Function]}
+                    ouiaSafe={true}
+                    showClose={true}
+                    title="Remove policy"
+                    titleIconVariant="warning"
+                    titleLabel=""
+                    variant="medium"
+                  >
+                    <Portal
+                      containerInfo={
+                        <div>
+                          <div
+                            class="pf-c-backdrop"
+                          >
+                            <div
+                              class="pf-l-bullseye"
+                            >
+                              <div
+                                aria-describedby="pf-modal-part-2"
+                                aria-labelledby="pf-modal-part-1"
+                                aria-modal="true"
+                                class="pf-c-modal-box pf-m-warning pf-m-md"
+                                data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                data-ouia-component-type="PF4/ModalContent"
+                                data-ouia-safe="true"
+                                id="remove-resource-modal"
+                                role="dialog"
+                              >
+                                <button
+                                  aria-disabled="false"
+                                  aria-label="Close"
+                                  class="pf-c-button pf-m-plain"
+                                  data-ouia-component-id="OUIA-Generated-Button-plain-1"
+                                  data-ouia-component-type="PF4/Button"
+                                  data-ouia-safe="true"
+                                  type="button"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    style="vertical-align: -0.125em;"
+                                    viewBox="0 0 352 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                                    />
+                                  </svg>
+                                </button>
+                                <header
+                                  class="pf-c-modal-box__header"
+                                >
+                                  <h1
+                                    class="pf-c-modal-box__title pf-m-icon"
+                                    id="pf-modal-part-1"
+                                  >
+                                    <span
+                                      class="pf-c-modal-box__title-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        fill="currentColor"
+                                        height="1em"
+                                        role="img"
+                                        style="vertical-align: -0.125em;"
+                                        viewBox="0 0 576 512"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                        />
+                                      </svg>
+                                    </span>
+                                    <span
+                                      class="pf-u-screen-reader"
+                                    >
+                                      Warning alert:
+                                    </span>
+                                    <span
+                                      class="pf-c-modal-box__title-text"
+                                    >
+                                      Remove policy
+                                    </span>
+                                  </h1>
+                                </header>
+                                <div
+                                  class="pf-c-modal-box__body"
+                                  id="pf-modal-part-2"
+                                >
+                                  <div />
+                                  <p>
+                                    Removing {0} is irreversible. Are you sure you want to continue?
+                                  </p>
+                                </div>
+                                <footer
+                                  class="pf-c-modal-box__footer"
+                                >
+                                  <button
+                                    aria-disabled="false"
+                                    class="pf-c-button pf-m-danger"
+                                    data-ouia-component-id="OUIA-Generated-Button-danger-1"
+                                    data-ouia-component-type="PF4/Button"
+                                    data-ouia-safe="true"
+                                    type="button"
+                                  >
+                                    Remove policy
+                                  </button>
+                                  <button
+                                    aria-disabled="false"
+                                    class="pf-c-button pf-m-link"
+                                    data-ouia-component-id="OUIA-Generated-Button-link-1"
+                                    data-ouia-component-type="PF4/Button"
+                                    data-ouia-safe="true"
+                                    type="button"
+                                  >
+                                    Cancel
+                                  </button>
+                                </footer>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      }
+                    >
+                      <ModalContent
+                        actions={
+                          Array [
+                            <AcmButton
+                              onClick={[Function]}
+                              variant="danger"
+                            >
+                              Remove policy
+                            </AcmButton>,
+                            <AcmButton
+                              onClick={[Function]}
+                              variant="link"
+                            >
+                              Cancel
+                            </AcmButton>,
+                          ]
+                        }
+                        aria-describedby=""
+                        aria-label=""
+                        aria-labelledby=""
+                        boxId="remove-resource-modal"
+                        className=""
+                        descriptorId="pf-modal-part-2"
+                        hasNoBodyWrapper={false}
+                        id="remove-resource-modal"
+                        isOpen={true}
+                        labelId="pf-modal-part-1"
+                        onClose={[Function]}
+                        ouiaId="OUIA-Generated-Modal-medium-1"
+                        ouiaSafe={true}
+                        showClose={true}
+                        title="Remove policy"
+                        titleIconVariant="warning"
+                        titleLabel=""
+                        variant="medium"
+                      >
+                        <Backdrop>
+                          <div
+                            className="pf-c-backdrop"
+                          >
+                            <FocusTrap
+                              active={true}
+                              className="pf-l-bullseye"
+                              focusTrapOptions={
+                                Object {
+                                  "clickOutsideDeactivates": true,
+                                }
+                              }
+                              paused={false}
+                              preventScrollOnDeactivate={false}
+                            >
+                              <div
+                                className="pf-l-bullseye"
+                              >
+                                <ModalBox
+                                  aria-describedby="pf-modal-part-2"
+                                  aria-label=""
+                                  aria-labelledby="pf-modal-part-1"
+                                  className="pf-m-warning"
+                                  data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                  data-ouia-component-type="PF4/ModalContent"
+                                  data-ouia-safe={true}
+                                  id="remove-resource-modal"
+                                  style={Object {}}
+                                  variant="medium"
+                                >
+                                  <div
+                                    aria-describedby="pf-modal-part-2"
+                                    aria-label={null}
+                                    aria-labelledby="pf-modal-part-1"
+                                    aria-modal="true"
+                                    className="pf-c-modal-box pf-m-warning pf-m-md"
+                                    data-ouia-component-id="OUIA-Generated-Modal-medium-1"
+                                    data-ouia-component-type="PF4/ModalContent"
+                                    data-ouia-safe={true}
+                                    id="remove-resource-modal"
+                                    role="dialog"
+                                    style={Object {}}
+                                  >
+                                    <ModalBoxCloseButton
+                                      onClose={[Function]}
+                                    >
+                                      <Button
+                                        aria-label="Close"
+                                        className=""
+                                        onClick={[Function]}
+                                        variant="plain"
+                                      >
+                                        <ButtonBase
+                                          aria-label="Close"
+                                          className=""
+                                          innerRef={null}
+                                          onClick={[Function]}
+                                          variant="plain"
+                                        >
+                                          <button
+                                            aria-disabled={false}
+                                            aria-label="Close"
+                                            className="pf-c-button pf-m-plain"
+                                            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+                                            data-ouia-component-type="PF4/Button"
+                                            data-ouia-safe={true}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            role={null}
+                                            type="button"
+                                          >
+                                            <TimesIcon
+                                              color="currentColor"
+                                              noVerticalAlign={false}
+                                              size="sm"
+                                            >
+                                              <svg
+                                                aria-hidden={true}
+                                                aria-labelledby={null}
+                                                fill="currentColor"
+                                                height="1em"
+                                                role="img"
+                                                style={
+                                                  Object {
+                                                    "verticalAlign": "-0.125em",
+                                                  }
+                                                }
+                                                viewBox="0 0 352 512"
+                                                width="1em"
+                                              >
+                                                <path
+                                                  d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                                                />
+                                              </svg>
+                                            </TimesIcon>
+                                          </button>
+                                        </ButtonBase>
+                                      </Button>
+                                    </ModalBoxCloseButton>
+                                    <ModalBoxHeader
+                                      help={null}
+                                    >
+                                      <header
+                                        className="pf-c-modal-box__header"
+                                      >
+                                        <ModalBoxTitle
+                                          id="pf-modal-part-1"
+                                          title="Remove policy"
+                                          titleIconVariant="warning"
+                                          titleLabel=""
+                                        >
+                                          <h1
+                                            className="pf-c-modal-box__title pf-m-icon"
+                                            id="pf-modal-part-1"
+                                          >
+                                            <span
+                                              className="pf-c-modal-box__title-icon"
+                                            >
+                                              <ExclamationTriangleIcon
+                                                color="currentColor"
+                                                noVerticalAlign={false}
+                                                size="sm"
+                                              >
+                                                <svg
+                                                  aria-hidden={true}
+                                                  aria-labelledby={null}
+                                                  fill="currentColor"
+                                                  height="1em"
+                                                  role="img"
+                                                  style={
+                                                    Object {
+                                                      "verticalAlign": "-0.125em",
+                                                    }
+                                                  }
+                                                  viewBox="0 0 576 512"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                                  />
+                                                </svg>
+                                              </ExclamationTriangleIcon>
+                                            </span>
+                                            <span
+                                              className="pf-u-screen-reader"
+                                            >
+                                              Warning alert:
+                                            </span>
+                                            <span
+                                              className="pf-c-modal-box__title-text"
+                                            >
+                                              Remove policy
+                                            </span>
+                                          </h1>
+                                        </ModalBoxTitle>
+                                      </header>
+                                    </ModalBoxHeader>
+                                    <ModalBoxBody
+                                      id="pf-modal-part-2"
+                                    >
+                                      <div
+                                        className="pf-c-modal-box__body"
+                                        id="pf-modal-part-2"
+                                      >
+                                        <div />
+                                        <p>
+                                          Removing {0} is irreversible. Are you sure you want to continue?
+                                        </p>
+                                      </div>
+                                    </ModalBoxBody>
+                                    <ModalBoxFooter>
+                                      <footer
+                                        className="pf-c-modal-box__footer"
+                                      >
+                                        <AcmButton
+                                          key="confirm"
+                                          onClick={[Function]}
+                                          variant="danger"
+                                        >
+                                          <TooltipWrapper>
+                                            <Button
+                                              onClick={[Function]}
+                                              variant="danger"
+                                            >
+                                              <ButtonBase
+                                                innerRef={null}
+                                                onClick={[Function]}
+                                                variant="danger"
+                                              >
+                                                <button
+                                                  aria-disabled={false}
+                                                  aria-label={null}
+                                                  className="pf-c-button pf-m-danger"
+                                                  data-ouia-component-id="OUIA-Generated-Button-danger-1"
+                                                  data-ouia-component-type="PF4/Button"
+                                                  data-ouia-safe={true}
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  role={null}
+                                                  type="button"
+                                                >
+                                                  Remove policy
+                                                </button>
+                                              </ButtonBase>
+                                            </Button>
+                                          </TooltipWrapper>
+                                        </AcmButton>
+                                        <AcmButton
+                                          key="cancel"
+                                          onClick={[Function]}
+                                          variant="link"
+                                        >
+                                          <TooltipWrapper>
+                                            <Button
+                                              onClick={[Function]}
+                                              variant="link"
+                                            >
+                                              <ButtonBase
+                                                innerRef={null}
+                                                onClick={[Function]}
+                                                variant="link"
+                                              >
+                                                <button
+                                                  aria-disabled={false}
+                                                  aria-label={null}
+                                                  className="pf-c-button pf-m-link"
+                                                  data-ouia-component-id="OUIA-Generated-Button-link-1"
+                                                  data-ouia-component-type="PF4/Button"
+                                                  data-ouia-safe={true}
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  role={null}
+                                                  type="button"
+                                                >
+                                                  Cancel
+                                                </button>
+                                              </ButtonBase>
+                                            </Button>
+                                          </TooltipWrapper>
+                                        </AcmButton>
+                                      </footer>
+                                    </ModalBoxFooter>
+                                  </div>
+                                </ModalBox>
+                              </div>
+                            </FocusTrap>
+                          </div>
+                        </Backdrop>
+                      </ModalContent>
+                    </Portal>
+                  </Modal>
+                </AcmModalContent>
+              </AcmAlertProvider>
+            </AcmModal>
+          </div>
+        </RemoveResourceModal>
+      </Connect(RemoveResourceModal)>
+    </withRouter(Connect(RemoveResourceModal))>
+  </Router>
+</BrowserRouter>
+`;

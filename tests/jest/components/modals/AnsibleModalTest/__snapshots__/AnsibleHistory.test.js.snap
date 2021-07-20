@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render AnsibleHistory component render AnsibleHistory page 1`] = `
+<AcmTable
+  autoHidePagination={true}
+  columns={
+    Array [
+      Object {
+        "cell": "status",
+        "cellTransforms": Array [
+          [Function],
+        ],
+        "header": "Status",
+        "search": [Function],
+        "sort": "status",
+        "transforms": undefined,
+      },
+      Object {
+        "cell": "started",
+        "cellTransforms": undefined,
+        "header": "Started",
+        "search": undefined,
+        "sort": "started",
+        "transforms": Array [
+          [Function],
+        ],
+      },
+      Object {
+        "cell": "finished",
+        "cellTransforms": undefined,
+        "header": "Finished",
+        "search": undefined,
+        "sort": "finished",
+        "transforms": Array [
+          [Function],
+        ],
+      },
+      Object {
+        "cell": "link",
+        "cellTransforms": undefined,
+        "header": "",
+        "search": undefined,
+        "sort": undefined,
+        "transforms": undefined,
+      },
+    ]
+  }
+  gridBreakPoint=""
+  initialSort={
+    Object {
+      "direction": "desc",
+      "index": 1,
+    }
+  }
+  items={
+    Array [
+      Object {
+        "finished": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "link": Object {
+          "rawData": undefined,
+          "title": "",
+        },
+        "started": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "status": Object {
+          "rawData": Object {
+            "ansibleJobResult": Object {
+              "changed": true,
+              "elapsed": "6.384",
+              "failed": false,
+              "finished": "2021-05-03T17:18:43.332157Z",
+              "started": "2021-05-03T17:18:36.948508Z",
+              "status": "successful",
+              "url": "https://ansible-tower-web-svc-tower.apps.policy-grc-cp-dev-z4bg2.dev08.red-chesterfield.com/#/jobs/playbook/20",
+            },
+            "conditions": Array [
+              Object {
+                "ansibleResult": Object {
+                  "changed": 0,
+                  "completion": "2021-05-03T17:18:55.54961",
+                  "failures": 0,
+                  "ok": 3,
+                  "skipped": 0,
+                },
+                "lastTransitionTime": "2021-05-03T17:18:10Z",
+                "message": "Awaiting next reconciliation",
+                "reason": "Successful",
+                "status": "True",
+                "type": "Running",
+              },
+            ],
+            "k8sJob": Object {
+              "created": true,
+              "env": Object {
+                "templateName": "Demo Job Template",
+                "verifySSL": false,
+              },
+              "message": "Monitor the job.batch status for more details with the following commands:
+'kubectl -n default get job.batch/create-service-now-ticket-once-g6xsr'
+'kubectl -n default describe job.batch/create-service-now-ticket-once-g6xsr'
+'kubectl -n default logs -f job.batch/create-service-now-ticket-once-g6xsr'",
+              "namespacedName": "default/create-service-now-ticket-once-g6xsr",
+            },
+            "message": "This job instance is already running or has reached its end state.",
+          },
+          "title": <div>
+            <YellowExclamationTriangleIcon />
+             
+            No status
+          </div>,
+        },
+        "uid": 0,
+      },
+      Object {
+        "finished": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "link": Object {
+          "rawData": undefined,
+          "title": "",
+        },
+        "started": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "status": Object {
+          "rawData": Object {
+            "ansibleJobResult": Object {
+              "changed": true,
+              "elapsed": "6.578",
+              "failed": false,
+              "finished": "2021-05-03T17:32:06.357295Z",
+              "started": "2021-05-03T17:31:59.779211Z",
+              "status": "successful",
+              "url": "https://ansible-tower-web-svc-tower.apps.policy-grc-cp-dev-z4bg2.dev08.red-chesterfield.com/#/jobs/playbook/22",
+            },
+            "conditions": Array [
+              Object {
+                "ansibleResult": Object {
+                  "changed": 0,
+                  "completion": "2021-05-03T17:32:18.620627",
+                  "failures": 0,
+                  "ok": 3,
+                  "skipped": 0,
+                },
+                "lastTransitionTime": "2021-05-03T17:31:32Z",
+                "message": "Awaiting next reconciliation",
+                "reason": "Successful",
+                "status": "True",
+                "type": "Running",
+              },
+            ],
+            "k8sJob": Object {
+              "created": true,
+              "env": Object {
+                "templateName": "Demo Job Template",
+                "verifySSL": false,
+              },
+              "message": "Monitor the job.batch status for more details with the following commands:
+'kubectl -n default get job.batch/policy-role-once-7fg9p'
+'kubectl -n default describe job.batch/policy-role-once-7fg9p'
+'kubectl -n default logs -f job.batch/policy-role-once-7fg9p'",
+              "namespacedName": "default/policy-role-once-7fg9p",
+            },
+            "message": "This job instance is already running or has reached its end state.",
+          },
+          "title": <div>
+            <YellowExclamationTriangleIcon />
+             
+            No status
+          </div>,
+        },
+        "uid": 1,
+      },
+      Object {
+        "finished": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "link": Object {
+          "rawData": undefined,
+          "title": "",
+        },
+        "started": Object {
+          "rawData": undefined,
+          "title": <TableTimestamp />,
+        },
+        "status": Object {
+          "rawData": Object {
+            "conditions": Array [
+              Object {
+                "ansibleResult": Object {
+                  "changed": 0,
+                  "completion": "2021-05-03T17:32:18.620627",
+                  "failures": 0,
+                  "ok": 3,
+                  "skipped": 0,
+                },
+                "lastTransitionTime": "2021-05-03T17:31:32Z",
+                "message": "Tower Secret must exists",
+                "reason": "Failed",
+                "status": "True",
+                "type": "Failure",
+              },
+            ],
+          },
+          "title": <div>
+            <YellowExclamationTriangleIcon />
+             
+            No status
+          </div>,
+        },
+        "uid": 2,
+      },
+    ]
+  }
+  keyFn={[Function]}
+  plural="ansible jobs"
+  showToolbar={false}
+/>
+`;
+
+exports[`render AnsibleHistory component render empty AnsibleHistory page 1`] = `
+<AcmTable
+  autoHidePagination={true}
+  columns={
+    Array [
+      Object {
+        "cell": "status",
+        "cellTransforms": Array [
+          [Function],
+        ],
+        "header": "Status",
+        "search": [Function],
+        "sort": "status",
+        "transforms": undefined,
+      },
+      Object {
+        "cell": "started",
+        "cellTransforms": undefined,
+        "header": "Started",
+        "search": undefined,
+        "sort": "started",
+        "transforms": Array [
+          [Function],
+        ],
+      },
+      Object {
+        "cell": "finished",
+        "cellTransforms": undefined,
+        "header": "Finished",
+        "search": undefined,
+        "sort": "finished",
+        "transforms": Array [
+          [Function],
+        ],
+      },
+      Object {
+        "cell": "link",
+        "cellTransforms": undefined,
+        "header": "",
+        "search": undefined,
+        "sort": undefined,
+        "transforms": undefined,
+      },
+    ]
+  }
+  gridBreakPoint=""
+  initialSort={
+    Object {
+      "direction": "desc",
+      "index": 1,
+    }
+  }
+  items={Array []}
+  keyFn={[Function]}
+  plural="ansible jobs"
+  showToolbar={false}
+/>
+`;

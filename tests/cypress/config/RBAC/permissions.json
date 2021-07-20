@@ -1,0 +1,26 @@
+{
+  "clusterAdmin": {
+    "get": true,
+    "patch": true,
+    "create": true,
+    "delete": true
+  },
+  "admin": {
+    "get": true,
+    "patch": true,
+    "create": true,
+    "delete": true
+  },
+  "edit": {
+    "get": true,
+    "patch": true,
+    "create": false,
+    "delete": false
+  },
+  "view": {
+    "get": true,
+    "patch": false,
+    "create": false,
+    "delete": false
+  }
+}

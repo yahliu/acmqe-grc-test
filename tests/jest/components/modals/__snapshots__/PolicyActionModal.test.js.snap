@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyActionModal component Disable modal renders as expected 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        >
+          Disable policy
+        </AcmButton>,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id="disable-resource-modal"
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    title="Disable policy"
+    titleIconVariant="warning"
+    variant="medium"
+  >
+    <div />
+    Are you sure you want to disable this policy?
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Enable modal renders as expected 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        >
+          Enable policy
+        </AcmButton>,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id="enable-resource-modal"
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    title="Enable policy"
+    titleIconVariant="default"
+    variant="medium"
+  >
+    <div />
+    Are you sure you want to enable this policy?
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Enforce modal renders as expected 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        >
+          Enforce policy
+        </AcmButton>,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id="enforce-resource-modal"
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    title="Enforce policy"
+    titleIconVariant="warning"
+    variant="medium"
+  >
+    <div />
+    Are you sure you want to enforce this policy? The policy makes any necessary changes to the applied cluster to remediate the violations.
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Inform modal renders as expected 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        >
+          Inform policy
+        </AcmButton>,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id="inform-resource-modal"
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    title="Inform policy"
+    titleIconVariant="default"
+    variant="medium"
+  >
+    <div />
+    Are you sure you want to change the remediation action of this policy to inform? You must manually remediate the policy violations.
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal renders without data 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        />,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id=""
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    titleIconVariant="default"
+    variant="medium"
+  >
+    <div />
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal returns notification on error 1`] = `
+<div>
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        />,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id=""
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    titleIconVariant="default"
+    variant="medium"
+  >
+    <div>
+      <AcmAlert
+        isInline={true}
+        noClose={true}
+        title="There was an error."
+        variant="warning"
+      />
+    </div>
+  </AcmModal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal returns spinner when loading 1`] = `
+<div>
+  <Spinner
+    className="patternfly-spinner"
+  />
+  <AcmModal
+    actions={
+      Array [
+        <AcmButton
+          onClick={[Function]}
+          variant="primary"
+        />,
+        <AcmButton
+          onClick={[Function]}
+          variant="link"
+        >
+          Cancel
+        </AcmButton>,
+      ]
+    }
+    id=""
+    isOpen={true}
+    onClose={[Function]}
+    showClose={true}
+    titleIconVariant="default"
+    variant="medium"
+  >
+    <div />
+  </AcmModal>
+</div>
+`;

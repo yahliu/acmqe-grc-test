@@ -1,0 +1,1305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyDetailsOverview component logs an error with more than one policy 1`] = `"Only one policy was expected but 2 were received. The other policies will be ignored."`;
+
+exports[`PolicyDetailsOverview component renders a cluster list expander with more than 5 clusters 1`] = `
+<div
+  className="overview-content"
+>
+  <div
+    className="vertical-expend"
+    id="compliance.details"
+  >
+    <article
+      className="pf-c-card pf-m-expanded"
+      data-ouia-component-id="OUIA-Generated-Card-2"
+      data-ouia-component-type="PF4/Card"
+      data-ouia-safe={true}
+      id=""
+    >
+      <div
+        className="pf-c-card__header makeStyles-header-2"
+        onClick={[Function]}
+      >
+        <div
+          className="pf-c-card__header-toggle"
+        >
+          <button
+            aria-disabled={false}
+            aria-expanded={true}
+            aria-label="Toggle details"
+            className="pf-c-button pf-m-plain"
+            data-ouia-component-id="OUIA-Generated-Button-plain-2"
+            data-ouia-component-type="PF4/Button"
+            data-ouia-safe={true}
+            disabled={false}
+            id="toggle-button"
+            onClick={[Function]}
+            role={null}
+            type="button"
+          >
+            <span
+              className="pf-c-card__header-toggle-icon"
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby={null}
+                fill="currentColor"
+                height="1em"
+                role="img"
+                style={
+                  Object {
+                    "verticalAlign": "-0.125em",
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div
+          className="pf-c-card__title"
+        >
+          Policy details
+        </div>
+      </div>
+      <div
+        className="pf-c-card__expandable-content makeStyles-body-3"
+      >
+        <div
+          className="pf-c-card__body"
+        >
+          <div
+            className="pf-l-grid pf-m-all-12-col-on-sm pf-m-all-6-col-on-md"
+          >
+            <div
+              className="pf-l-grid__item makeStyles-leftCol-1"
+            >
+              <dl
+                className="pf-c-description-list pf-m-horizontal"
+              >
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Name
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      case6-test-policy
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Namespace
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      default
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Remediation
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      inform
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Disabled
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      false
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Cluster violations
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      <div
+                        className="violationCell"
+                      >
+                        <div
+                          content="Policy is non-compliant."
+                          data-testid="mockTooltip"
+                        >
+                          <svg
+                            aria-hidden={true}
+                            aria-labelledby={null}
+                            fill="#c9190b"
+                            height="1em"
+                            role="img"
+                            style={
+                              Object {
+                                "verticalAlign": "-0.125em",
+                              }
+                            }
+                            viewBox="0 0 512 512"
+                            width="1em"
+                          >
+                            <path
+                              d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                            />
+                          </svg>
+                        </div>
+                        1/1
+                      </div>
+                    </div>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <div
+              className="pf-l-grid__item"
+            >
+              <dl
+                className="pf-c-description-list pf-m-horizontal"
+              >
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Categories
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Controls
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Standards
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Created
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      7 months ago
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Automation
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      <span
+                        aria-valuetext="Loading..."
+                        className="pf-c-spinner pf-m-md"
+                        role="progressbar"
+                      >
+                        <span
+                          className="pf-c-spinner__clipper"
+                        />
+                        <span
+                          className="pf-c-spinner__lead-ball"
+                        />
+                        <span
+                          className="pf-c-spinner__tail-ball"
+                        />
+                      </span>
+                    </div>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div
+    className="vertical-expend cluster-list"
+  >
+    <h5
+      className="section-title"
+    >
+      Placement
+    </h5>
+    <div
+      className="pf-c-toolbar"
+      id="pf-random-id-2"
+    >
+      <div
+        className="pf-c-toolbar__content"
+      >
+        <div
+          className="pf-c-toolbar__content-section"
+        />
+        <div
+          className="pf-c-toolbar__expandable-content"
+          id="pf-random-id-2-expandable-content-3"
+        >
+          <div
+            className="pf-c-toolbar__group"
+          />
+        </div>
+      </div>
+      <div
+        className="pf-c-toolbar__content pf-m-hidden"
+        hidden={true}
+      >
+        <div
+          className="pf-c-toolbar__group"
+        />
+      </div>
+    </div>
+    <div
+      className="makeStyles-outerDiv-5"
+    >
+      <div
+        className="makeStyles-tableDiv-4"
+      >
+        <table
+          aria-label="Simple Table"
+          className="makeStyles-table-6 pf-c-table pf-m-compact"
+          data-ouia-component-id="OUIA-Generated-Table-4"
+          data-ouia-component-type="PF4/Table"
+          data-ouia-safe={true}
+          role="grid"
+        >
+          <thead
+            className=""
+          >
+            <tr
+              className=""
+              data-ouia-component-id="OUIA-Generated-TableRow-2"
+              data-ouia-component-type="PF4/TableRow"
+              data-ouia-safe={true}
+              hidden={false}
+            >
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={0}
+                data-label="Cluster selector"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Cluster selector
+              </th>
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={1}
+                data-label="Clusters"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Clusters
+              </th>
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={2}
+                data-label="Status"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Status
+              </th>
+              <td
+                className=""
+                data-key={3}
+                data-label=""
+                onMouseEnter={[Function]}
+                scope={null}
+              >
+                
+              </td>
+            </tr>
+          </thead>
+          <tbody
+            className=""
+            role="rowgroup"
+          >
+            <tr
+              className=""
+              data-ouia-component-id="0"
+              data-ouia-component-type="PF4/TableRow"
+              data-ouia-safe={true}
+              hidden={false}
+              onMouseDown={[Function]}
+            >
+              <td
+                className="pf-m-break-word"
+                data-key={0}
+                data-label="Cluster selector"
+                onMouseEnter={[Function]}
+              >
+                -
+              </td>
+              <td
+                className="pf-m-break-word"
+                data-key={1}
+                data-label="Clusters"
+                onMouseEnter={[Function]}
+              >
+                6
+              </td>
+              <td
+                className="pf-m-break-word"
+                data-key={2}
+                data-label="Status"
+                onMouseEnter={[Function]}
+              >
+                <div
+                  className="status-container"
+                >
+                  <span
+                    className="status-heading"
+                  >
+                    <span
+                      className="table-status-row"
+                    >
+                      <span
+                        className="table-status-icon table-status-icon__nostatus"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          aria-labelledby={null}
+                          fill="#f0ab00"
+                          height="1em"
+                          role="img"
+                          style={
+                            Object {
+                              "verticalAlign": "-0.125em",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="table-status-label"
+                      >
+                        No status: 
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    className="status-list status-list__nostatus"
+                  >
+                    <div
+                      className="pf-c-label-group"
+                    >
+                      <div
+                        className="pf-c-label-group__main"
+                      >
+                        
+                        <ul
+                          aria-label="Label group category"
+                          className="pf-c-label-group__list"
+                          role="list"
+                        >
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  calamari
+                                  , 
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  cluster1
+                                  , 
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  cluster2
+                                  , 
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  cluster3
+                                  , 
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  cluster4
+                                  , 
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <button
+                              className="pf-c-label pf-m-overflow"
+                              onClick={[Function]}
+                            >
+                              <span
+                                className="pf-c-label__content"
+                              >
+                                1 more
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </td>
+              <td
+                className="pf-c-table__action"
+                data-key={3}
+                data-label={null}
+                onMouseEnter={[Function]}
+                style={
+                  Object {
+                    "paddingRight": 0,
+                    "width": "auto",
+                  }
+                }
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PolicyDetailsOverview component renders as normal 1`] = `
+<div
+  className="overview-content"
+>
+  <div
+    className="vertical-expend"
+    id="compliance.details"
+  >
+    <article
+      className="pf-c-card pf-m-expanded"
+      data-ouia-component-id="OUIA-Generated-Card-1"
+      data-ouia-component-type="PF4/Card"
+      data-ouia-safe={true}
+      id=""
+    >
+      <div
+        className="pf-c-card__header makeStyles-header-2"
+        onClick={[Function]}
+      >
+        <div
+          className="pf-c-card__header-toggle"
+        >
+          <button
+            aria-disabled={false}
+            aria-expanded={true}
+            aria-label="Toggle details"
+            className="pf-c-button pf-m-plain"
+            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+            data-ouia-component-type="PF4/Button"
+            data-ouia-safe={true}
+            disabled={false}
+            id="toggle-button"
+            onClick={[Function]}
+            role={null}
+            type="button"
+          >
+            <span
+              className="pf-c-card__header-toggle-icon"
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby={null}
+                fill="currentColor"
+                height="1em"
+                role="img"
+                style={
+                  Object {
+                    "verticalAlign": "-0.125em",
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div
+          className="pf-c-card__title"
+        >
+          Policy details
+        </div>
+      </div>
+      <div
+        className="pf-c-card__expandable-content makeStyles-body-3"
+      >
+        <div
+          className="pf-c-card__body"
+        >
+          <div
+            className="pf-l-grid pf-m-all-12-col-on-sm pf-m-all-6-col-on-md"
+          >
+            <div
+              className="pf-l-grid__item makeStyles-leftCol-1"
+            >
+              <dl
+                className="pf-c-description-list pf-m-horizontal"
+              >
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Name
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      case6-test-policy
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Namespace
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      default
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Remediation
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      inform
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Disabled
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      false
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Cluster violations
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      <div
+                        className="violationCell"
+                      >
+                        <div
+                          content="Policy is non-compliant."
+                          data-testid="mockTooltip"
+                        >
+                          <svg
+                            aria-hidden={true}
+                            aria-labelledby={null}
+                            fill="#c9190b"
+                            height="1em"
+                            role="img"
+                            style={
+                              Object {
+                                "verticalAlign": "-0.125em",
+                              }
+                            }
+                            viewBox="0 0 512 512"
+                            width="1em"
+                          >
+                            <path
+                              d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                            />
+                          </svg>
+                        </div>
+                        1/1
+                      </div>
+                    </div>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <div
+              className="pf-l-grid__item"
+            >
+              <dl
+                className="pf-c-description-list pf-m-horizontal"
+              >
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Categories
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Controls
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Standards
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      -
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Created
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      7 months ago
+                    </div>
+                  </dd>
+                </div>
+                <div
+                  className="pf-c-description-list__group"
+                >
+                  <dt
+                    className="pf-c-description-list__term"
+                  >
+                    <span
+                      className="pf-c-description-list__text"
+                    >
+                      Automation
+                       
+                    </span>
+                  </dt>
+                  <dd
+                    className="pf-c-description-list__description"
+                  >
+                    <div
+                      className="pf-c-description-list__text"
+                    >
+                      <span
+                        aria-valuetext="Loading..."
+                        className="pf-c-spinner pf-m-md"
+                        role="progressbar"
+                      >
+                        <span
+                          className="pf-c-spinner__clipper"
+                        />
+                        <span
+                          className="pf-c-spinner__lead-ball"
+                        />
+                        <span
+                          className="pf-c-spinner__tail-ball"
+                        />
+                      </span>
+                    </div>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div
+    className="vertical-expend cluster-list"
+  >
+    <h5
+      className="section-title"
+    >
+      Placement
+    </h5>
+    <div
+      className="pf-c-toolbar"
+      id="pf-random-id-0"
+    >
+      <div
+        className="pf-c-toolbar__content"
+      >
+        <div
+          className="pf-c-toolbar__content-section"
+        />
+        <div
+          className="pf-c-toolbar__expandable-content"
+          id="pf-random-id-0-expandable-content-1"
+        >
+          <div
+            className="pf-c-toolbar__group"
+          />
+        </div>
+      </div>
+      <div
+        className="pf-c-toolbar__content pf-m-hidden"
+        hidden={true}
+      >
+        <div
+          className="pf-c-toolbar__group"
+        />
+      </div>
+    </div>
+    <div
+      className="makeStyles-outerDiv-5"
+    >
+      <div
+        className="makeStyles-tableDiv-4"
+      >
+        <table
+          aria-label="Simple Table"
+          className="makeStyles-table-6 pf-c-table pf-m-compact"
+          data-ouia-component-id="OUIA-Generated-Table-2"
+          data-ouia-component-type="PF4/Table"
+          data-ouia-safe={true}
+          role="grid"
+        >
+          <thead
+            className=""
+          >
+            <tr
+              className=""
+              data-ouia-component-id="OUIA-Generated-TableRow-1"
+              data-ouia-component-type="PF4/TableRow"
+              data-ouia-safe={true}
+              hidden={false}
+            >
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={0}
+                data-label="Cluster selector"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Cluster selector
+              </th>
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={1}
+                data-label="Clusters"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Clusters
+              </th>
+              <th
+                className="pf-m-nowrap pf-m-wrap"
+                data-key={2}
+                data-label="Status"
+                onMouseEnter={[Function]}
+                scope="col"
+              >
+                Status
+              </th>
+              <td
+                className=""
+                data-key={3}
+                data-label=""
+                onMouseEnter={[Function]}
+                scope={null}
+              >
+                
+              </td>
+            </tr>
+          </thead>
+          <tbody
+            className=""
+            role="rowgroup"
+          >
+            <tr
+              className=""
+              data-ouia-component-id="0"
+              data-ouia-component-type="PF4/TableRow"
+              data-ouia-safe={true}
+              hidden={false}
+              onMouseDown={[Function]}
+            >
+              <td
+                className="pf-m-break-word"
+                data-key={0}
+                data-label="Cluster selector"
+                onMouseEnter={[Function]}
+              >
+                -
+              </td>
+              <td
+                className="pf-m-break-word"
+                data-key={1}
+                data-label="Clusters"
+                onMouseEnter={[Function]}
+              >
+                1
+              </td>
+              <td
+                className="pf-m-break-word"
+                data-key={2}
+                data-label="Status"
+                onMouseEnter={[Function]}
+              >
+                <div
+                  className="status-container"
+                >
+                  <span
+                    className="status-heading"
+                  >
+                    <span
+                      className="table-status-row"
+                    >
+                      <span
+                        className="table-status-icon table-status-icon__nostatus"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          aria-labelledby={null}
+                          fill="#f0ab00"
+                          height="1em"
+                          role="img"
+                          style={
+                            Object {
+                              "verticalAlign": "-0.125em",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="table-status-label"
+                      >
+                        No status: 
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    className="status-list status-list__nostatus"
+                  >
+                    <div
+                      className="pf-c-label-group"
+                    >
+                      <div
+                        className="pf-c-label-group__main"
+                      >
+                        
+                        <ul
+                          aria-label="Label group category"
+                          className="pf-c-label-group__list"
+                          role="list"
+                        >
+                          <li
+                            className="pf-c-label-group__list-item"
+                          >
+                            <span>
+                              <span
+                                className="pf-c-label pf-m-outline"
+                              >
+                                <a
+                                  className="pf-c-label__content"
+                                  href="/undefined/all/default/case6-test-policy"
+                                  onClick={[Function]}
+                                >
+                                  calamari
+                                </a>
+                              </span>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </td>
+              <td
+                className="pf-c-table__action"
+                data-key={3}
+                data-label={null}
+                onMouseEnter={[Function]}
+                style={
+                  Object {
+                    "paddingRight": 0,
+                    "width": "auto",
+                  }
+                }
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PolicyDetailsOverview component renders no resource 1`] = `
+<div>
+  <div
+    className="no-resource"
+  >
+    <img
+      alt="No resource"
+      className="no-resource-icon"
+      src="undefined/graphics/EmptyPagePlanet-illus.png"
+    />
+    <div
+      className="no-resource-text-info"
+    >
+      <div
+        className="no-resource-title"
+      >
+        Resource not found
+      </div>
+    </div>
+  </div>
+</div>
+`;

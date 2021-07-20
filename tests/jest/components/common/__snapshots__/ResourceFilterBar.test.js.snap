@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResourceFilterBar w/ HIPAA filter returns multiple filter chips and clear all link 1`] = `
+<div
+  className="resource-filter-bar"
+>
+  <span
+    className="title"
+  >
+    Filters:
+  </span>
+  <div
+    className="pf-c-chip"
+    data-ouia-component-id="OUIA-Generated-Chip-2"
+    data-ouia-component-type="PF4/Chip"
+    data-ouia-safe={true}
+  >
+    <span
+      className="pf-c-chip__text"
+      id="pf-random-id-1"
+    >
+      HIPAA
+    </span>
+    <button
+      aria-disabled={false}
+      aria-label="close"
+      aria-labelledby="remove_pf-random-id-1 pf-random-id-1"
+      className="pf-c-button pf-m-plain"
+      data-ouia-component-id="close"
+      data-ouia-component-type="PF4/Button"
+      data-ouia-safe={true}
+      disabled={false}
+      id="remove_pf-random-id-1"
+      onClick={[Function]}
+      role={null}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        aria-labelledby={null}
+        fill="currentColor"
+        height="1em"
+        role="img"
+        style={
+          Object {
+            "verticalAlign": "-0.125em",
+          }
+        }
+        viewBox="0 0 352 512"
+        width="1em"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="pf-c-chip"
+    data-ouia-component-id="OUIA-Generated-Chip-3"
+    data-ouia-component-type="PF4/Chip"
+    data-ouia-safe={true}
+  >
+    <span
+      className="pf-c-chip__text"
+      id="pf-random-id-2"
+    >
+      Enforce
+    </span>
+    <button
+      aria-disabled={false}
+      aria-label="close"
+      aria-labelledby="remove_pf-random-id-2 pf-random-id-2"
+      className="pf-c-button pf-m-plain"
+      data-ouia-component-id="close"
+      data-ouia-component-type="PF4/Button"
+      data-ouia-safe={true}
+      disabled={false}
+      id="remove_pf-random-id-2"
+      onClick={[Function]}
+      role={null}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        aria-labelledby={null}
+        fill="currentColor"
+        height="1em"
+        role="img"
+        style={
+          Object {
+            "verticalAlign": "-0.125em",
+          }
+        }
+        viewBox="0 0 352 512"
+        width="1em"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ResourceFilterBar w/ HIPAA filter returns single filter chip and clear all link 1`] = `
+<div
+  className="resource-filter-bar"
+>
+  <span
+    className="title"
+  >
+    Filters:
+  </span>
+  <div
+    className="pf-c-chip"
+    data-ouia-component-id="OUIA-Generated-Chip-1"
+    data-ouia-component-type="PF4/Chip"
+    data-ouia-safe={true}
+  >
+    <span
+      className="pf-c-chip__text"
+      id="pf-random-id-0"
+    >
+      HIPAA
+    </span>
+    <button
+      aria-disabled={false}
+      aria-label="close"
+      aria-labelledby="remove_pf-random-id-0 pf-random-id-0"
+      className="pf-c-button pf-m-plain"
+      data-ouia-component-id="close"
+      data-ouia-component-type="PF4/Button"
+      data-ouia-safe={true}
+      disabled={false}
+      id="remove_pf-random-id-0"
+      onClick={[Function]}
+      role={null}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        aria-labelledby={null}
+        fill="currentColor"
+        height="1em"
+        role="img"
+        style={
+          Object {
+            "verticalAlign": "-0.125em",
+          }
+        }
+        viewBox="0 0 352 512"
+        width="1em"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

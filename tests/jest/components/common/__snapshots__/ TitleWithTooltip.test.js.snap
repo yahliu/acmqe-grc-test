@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleWithTooltip renders as expected for TitleWithTooltip 1`] = `
+<div
+  className="testingTitleWithTooltip"
+>
+  <Title
+    headingLevel="h3"
+  >
+    this is the title to test TitleWithTooltip
+  </Title>
+  <div
+    className="GrayOutlinedQuestionCircleIcon"
+  >
+    <mockTooltip
+      content={
+        <div>
+          this is the tooltip to test TitleWithTooltip
+        </div>
+      }
+      position="top"
+    >
+      <OutlinedQuestionCircleIcon
+        color="#6a6e73"
+        noVerticalAlign={false}
+        size="sm"
+      />
+    </mockTooltip>
+  </div>
+</div>
+`;

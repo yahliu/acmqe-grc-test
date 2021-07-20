@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkCreatePermission should return 0 for a user with edit and view in diff ns 1`] = `0`;
+
+exports[`checkCreatePermission should return 1 for a user with admin and edit in diff ns 1`] = `1`;
+
+exports[`checkCreatePermission should return correct permissions for admin users 1`] = `1`;
+
+exports[`checkCreatePermission should return correct permissions for clusterAdmin users 1`] = `1`;
+
+exports[`checkCreatePermission should return correct permissions for edit users 1`] = `0`;
+
+exports[`checkCreatePermission should return correct permissions for view users 1`] = `0`;
+
+exports[`checkCreateRole should return 0 for a user with admin and edit in diff kinds 1`] = `0`;
+
+exports[`checkCreateRole should return 0 for a user with edit and view in diff kinds 1`] = `0`;
+
+exports[`checkCreateRole should return correct permissions for admin users 1`] = `1`;
+
+exports[`checkCreateRole should return correct permissions for clusterAdmin users 1`] = `1`;
+
+exports[`checkCreateRole should return correct permissions for edit users 1`] = `0`;
+
+exports[`checkCreateRole should return correct permissions for view users 1`] = `0`;
+
+exports[`checkEditPermission should return 1 for a user with admin and edit in diff ns 1`] = `1`;
+
+exports[`checkEditPermission should return 1 for a user with edit and view in diff ns 1`] = `1`;
+
+exports[`checkEditPermission should return correct permissions for admin users 1`] = `1`;
+
+exports[`checkEditPermission should return correct permissions for clusterAdmin users 1`] = `1`;
+
+exports[`checkEditPermission should return correct permissions for edit users 1`] = `1`;
+
+exports[`checkEditPermission should return correct permissions for view users 1`] = `0`;
+
+exports[`checkEditRole should return 0 for a user with edit and view in diff kinds 1`] = `0`;
+
+exports[`checkEditRole should return 1 for a user with admin and edit in diff kinds 1`] = `1`;
+
+exports[`checkEditRole should return correct permissions for admin users 1`] = `1`;
+
+exports[`checkEditRole should return correct permissions for clusterAdmin users 1`] = `1`;
+
+exports[`checkEditRole should return correct permissions for edit users 1`] = `1`;
+
+exports[`checkEditRole should return correct permissions for view users 1`] = `0`;

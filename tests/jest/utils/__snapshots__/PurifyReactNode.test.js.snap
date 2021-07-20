@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test purifyReactNode renders empty array 1`] = `""`;
+
+exports[`test purifyReactNode renders empty node 1`] = `""`;
+
+exports[`test purifyReactNode renders empty object 1`] = `""`;
+
+exports[`test purifyReactNode renders null node 1`] = `""`;
+
+exports[`test purifyReactNode renders number 1`] = `"2020"`;
+
+exports[`test purifyReactNode renders object1 1`] = `""`;
+
+exports[`test purifyReactNode renders object2 1`] = `"object2child1"`;
+
+exports[`test purifyReactNode renders object3 1`] = `"object3->child1object3->child1->grandchild1"`;
+
+exports[`test purifyReactNode renders object4 1`] = `"object4->child1NonCompliant; violation - namespaces \`prod\` does not exist as specified"`;
+
+exports[`test purifyReactNode renders string 1`] = `"Red Hat"`;

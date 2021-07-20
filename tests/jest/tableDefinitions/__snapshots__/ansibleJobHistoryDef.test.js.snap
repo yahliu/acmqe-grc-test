@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return error anisble job status 1`] = `
+<div>
+  <RedExclamationCircleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  Failed
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return failed anisble job status 1`] = `
+<div>
+  <RedExclamationCircleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  Failed
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return no anisble job status 1`] = `
+<div>
+  <YellowExclamationTriangleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  No status
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return no anisble job status 2`] = `
+<div>
+  <YellowExclamationTriangleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  No status
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return other anisble job status 1`] = `
+<div>
+  <YellowExclamationTriangleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  other anisble job status
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildAnsibleJobStatus should return successful anisble job status 1`] = `
+<div>
+  <GreenCheckCircleIcon
+    tooltip="Awaiting next reconciliation"
+  />
+   
+  Successful
+</div>
+`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildViewJobLink should return empty anisble job link 1`] = `""`;
+
+exports[`tableDefinitions ansibleJobHistoryDef - buildViewJobLink should return valid anisble job link 1`] = `
+<a
+  href="/search?filters={%22textsearch%22:%22cluster%3Alocal-cluster%20kind%3Ajob%20namespace%3Adefault%20name%3Apolicy-pod-policy-automation-once-hd5xz%22}"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  View job
+</a>
+`;

@@ -1,0 +1,103 @@
+# CertificatePolicy specification
+[POLICYNAME]-cert-expiration:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ "01": "No namespaces matched the namespace selector"
+ 1: "TBD"
+# ComplianceOperator specification
+comp-operator-ns:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - namespaces not found: \\[openshift-compliance\\] missing"
+comp-operator-operator-group:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind OperatorGroup, please check if you have CRD deployed"
+ 2: "violation - operatorgroups not found: \\[compliance-operator\\] missing"
+comp-operator-subscription:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind Subscription, please check if you have CRD deployed"
+ 2: "violation - operatorgroups not found: \\[compliance-operator\\] missing"
+# EtcdEncryption specification
+[POLICYNAME]-etcd-encryption:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "TBD"
+# GatekeeperOperator specification 
+gatekeeper:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind Gatekeeper, please check if you have CRD deployed"
+gatekeeper-operator-ns:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - namespaces not found: \\[gatekeeper-system\\] missing;"
+ 2: "violation - clusterroles not found: \\[gatekeeper-operator-openshift-role\\] missing;"
+ 3: "violation - rolebindings not found: \\[gatekeeper-operator-openshift-binding\\] in namespace [NAMESPACE] missing"
+gatekeeper-operator-catalog-source:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind CatalogSource, please check if you have CRD deployed"
+ 2: "violation - catalogsources not found: \\[gatekeeper-operator\\] in namespace [NAMESPACE] missing"
+gatekeeper-operator-group:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind OperatorGroup, please check if you have CRD deployed"
+ 2: "violation - catalogsources not found: \\[gatekeeper-operator\\] in namespace [NAMESPACE] missing"
+gatekeeper-operator-subscription:
+ ?: "(notification|violation)"
+ 0: "TBD"
+ 1: "violation - couldn't find mapping resource with kind Subscription, please check if you have CRD deployed"
+ 2: "violation - subscriptions not found: \\[gatekeeper-operator-sub\\] in namespace [NAMESPACE] missing"
+# IamPolicy specification
+[POLICYNAME]-limit-clusteradmin:
+ ?: "(notification|violation)"
+ 0: "Number of users with clusteradmin role is 0 above the specified limit"
+ 1: "Number of users with clusteradmin role is [0-9]+ above the specified limit"
+# ImageManifestVulnPolicy specification
+[POLICYNAME]-image-vulnerability:
+ ?: "(notification|violation)"
+ 0: "notification - imagemanifestvulns"
+ 1: "violation - couldn't find mapping resource with kind ImageManifestVuln, please check if you have CRD deployed"
+[POLICYNAME]-subscription:
+ ?: "(notification|violation)"
+ 0: "notification - subscriptions \\[container-security-operator\\] in namespace openshift-operators (found as specified|was missing), (therefore this Object template is compliant|and was created successfully)"
+ 1: "violation - couldn't find mapping resource with kind Subscription, please check if you have CRD deployed"
+ 2: "violation - subscriptions not found: \\[container-security-operator\\] in namespace openshift-operators missing"
+# LimitRange specification
+[POLICYNAME]-container-mem-limit-range:
+ ?: "(notification|violation)"
+ 0: "notification - limitranges \\[container-mem-limit-range\\] in namespace [NAMESPACE] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - limitranges not found: \\[container-mem-limit-range\\] in namespace [NAMESPACE] missing"
+# Namespace specification
+[POLICYNAME]-prod-ns:
+ ?: "(notification|violation)"
+ 0: "notification - namespaces \\[prod\\] found as specified, therefore this Object template is compliant"
+ 1: "violation - namespaces not found: \\[prod\\] missing"
+# Pod specification
+[POLICYNAME]-nginx-pod:
+ ?: "(notification|violation)"
+ 0: "notification - pods \\[nginx-pod\\] in namespace [NAMESPACE] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - pods not found: \\[nginx-pod\\] in namespace [NAMESPACE] missing"
+ 2: "violation - namespaced object has no namespace specified"
+# PodSecurityPolicy specification
+[POLICYNAME]-restricted-psp:
+ ?: "(notification|violation)"
+ 0: "notification - podsecuritypolicies \\[restricted-psp\\] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - podsecuritypolicies not found: \\[restricted-psp\\] missing"
+# Role specification
+[POLICYNAME]-deployments-role:
+ ?: "(notification|violation)"
+ 0: "notification - roles \\[deployments-role\\] in namespace [NAMESPACE] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - roles not found: \\[deployments-role\\] in namespace [NAMESPACE] missing"
+# RoleBinding specification
+[POLICYNAME]-operatoruser-rolebinding:
+ ?: "(notification|violation)"
+ 0: "notification - rolebindings \\[operatoruser-rolebinding\\] in namespace [NAMESPACE] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - rolebindings not found: \\[operatoruser-rolebinding\\] in namespace [NAMESPACE] missing"
+# SecurityContextConstraints specification
+[POLICYNAME]-restricted-scc:
+ ?: "(notification|violation)"
+ 0: "notification - securitycontextconstraints \\[restricted-scc\\] (was missing, and was created successfully|found as specified, therefore this Object template is compliant)"
+ 1: "violation - securitycontextconstraints not found: \\[restricted-scc\\] missing"

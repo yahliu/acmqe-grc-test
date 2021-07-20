@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render AnsibleOperatorNotInstalled component AnsibleOperatorNotInstalled link renders as expected 1`] = `
+<Alert
+  actionClose=""
+  isInline={true}
+  title="The Ansible Automation Platform Resource Operator is required to create an Ansible job. Install the operator through the following link:"
+  variant="danger"
+>
+  <AcmLaunchLink
+    links={
+      Array [
+        Object {
+          "id": "installAnsibleOperatorLink",
+          "onClick": [Function],
+          "text": "OperatorHub",
+        },
+      ]
+    }
+  />
+</Alert>
+`;

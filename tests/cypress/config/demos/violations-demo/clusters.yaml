@@ -1,0 +1,9 @@
+dhaks1020-2-dho-461:
+  status: Ready
+  vendor: AKS
+dhgkeon1120-dho461:
+  status: Ready
+  vendor: GKE
+local-cluster:
+  status: Ready
+  vendor: OpenShift

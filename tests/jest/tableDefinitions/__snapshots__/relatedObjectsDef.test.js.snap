@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tableDefinitions relatedObjectsDef - buildViewYamlLink should return empty yaml link 1`] = `""`;
+
+exports[`tableDefinitions relatedObjectsDef - buildViewYamlLink should return valid yaml link with namespace 1`] = `
+<a
+  href="/resources?cluster=testCluster&kind=testKind&apiversion=testApiVersion&namespace=testNamespace&name=testName"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  View yaml
+</a>
+`;
+
+exports[`tableDefinitions relatedObjectsDef - buildViewYamlLink should return valid yaml link without namespace 1`] = `
+<a
+  href="/resources?cluster=testCluster&kind=testKind&apiversion=testApiVersion&name=testName"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  View yaml
+</a>
+`;

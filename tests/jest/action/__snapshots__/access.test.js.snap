@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test getUserAccessData get getUserAccessData as expected 1`] = `[Function]`;
+
+exports[`test userAccessFailure get userAccessFailure as expected 1`] = `
+Object {
+  "err": "Unable get user access info",
+  "type": "USER_ACCESS_FAILURE",
+}
+`;
+
+exports[`test userAccessSuccess get userAccessSuccess as expected 1`] = `
+Object {
+  "access": Array [
+    Object {
+      "namespace": "default",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "e2e-rbac-test-1",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "e2e-rbac-test-2",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "hive",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "kube-node-lease",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "kube-public",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "kube-system",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "local-cluster",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "open-cluster-management",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "open-cluster-management-agent",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "open-cluster-management-agent-addon",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "open-cluster-management-hub",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-apiserver",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-apiserver-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-authentication",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-authentication-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cloud-credential-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-csi-drivers",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-machine-approver",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-node-tuning-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-samples-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-storage-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-cluster-version",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-compliance",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-config",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-config-managed",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-config-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-console",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-console-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-console-user-settings",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-controller-manager",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-controller-manager-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-dns",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-dns-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-etcd",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-etcd-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-image-registry",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-ingress",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-ingress-canary",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-ingress-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-insights",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kni-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-apiserver",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-apiserver-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-controller-manager",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-controller-manager-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-scheduler",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-scheduler-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-storage-version-migrator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kube-storage-version-migrator-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-kubevirt-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-machine-api",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-machine-config-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-marketplace",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-monitoring",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-multus",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-network-diagnostics",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-network-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-node",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-oauth-apiserver",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-openstack-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-operator-lifecycle-manager",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-operators",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-ovirt-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-ovn-kubernetes",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-service-ca",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-service-ca-operator",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-user-workload-monitoring",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+    Object {
+      "namespace": "openshift-vsphere-infra",
+      "rules": Object {
+        "*/*": Array [
+          "*",
+        ],
+      },
+    },
+  ],
+  "type": "USER_ACCESS_SUCCESS",
+}
+`;

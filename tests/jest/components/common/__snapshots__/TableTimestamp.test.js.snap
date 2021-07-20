@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyTemplateDetailsView component renders as expected (long ago) 1`] = `
+<span>
+  5 years ago
+</span>
+`;
+
+exports[`PolicyTemplateDetailsView component renders as expected (recent) 1`] = `
+<span>
+  2 days ago
+</span>
+`;
+
+exports[`PolicyTemplateDetailsView component renders as expected -- unknown timestamp 1`] = `
+<span>
+  unknown
+</span>
+`;

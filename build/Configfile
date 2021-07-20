@@ -1,0 +1,16 @@
+NODE_ENV ?=development
+cfcRouterUrl ?=https://9.42.82.240:8443
+WLP_CLIENT_ID ?=
+WLP_CLIENT_SECRET ?=
+WLP_REDIRECT_URL ?=https://localhost:3000/auth/liberty/callback
+GRC_UI_API_URL ?=https://10.10.0.5:4000/grcuiapi
+
+DOCKER_RUN_OPTS=\
+	-d \
+	-e NODE_ENV=$(NODE_ENV) \
+	-e cfcRouterUrl=$(cfcRouterUrl) \
+	-e PLATFORM_IDENTITY_PROVIDER_URL=$(PLATFORM_IDENTITY_PROVIDER_URL) \
+	-e WLP_CLIENT_ID=$(WLP_CLIENT_ID) \
+	-e WLP_CLIENT_SECRET=$(WLP_CLIENT_SECRET) \
+	-e WLP_REDIRECT_URL=$(WLP_REDIRECT_URL) \
+	-e grcUiApiUrl=$(GRC_UI_API_URL)

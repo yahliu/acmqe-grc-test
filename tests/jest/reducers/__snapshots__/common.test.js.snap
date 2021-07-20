@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resourceReducerFunction should return a state with DONE status 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "0/1/0",
+      "clusterConsoleURL": Object {
+        "local-cluster": "https://console-openshift-console.apps.policy-grc-cp-autoclaims-9jswd.dev08.red-chesterfield.com",
+      },
+      "clusterNS": Object {
+        "local-cluster": "local-cluster",
+      },
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "PR.IP Information Protection Processes and Procedures",
+          "policy.open-cluster-management.io/controls": "PR.IP-1 Baseline Configuration",
+          "policy.open-cluster-management.io/standards": "NIST-CSF",
+        },
+        "name": "policy-complianceoperator",
+        "namespace": "default",
+        "resourceVersion": "91729",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/default/policies/policy-complianceoperator",
+      },
+      "name": "policy-complianceoperator",
+      "namespace": "default",
+      "policyCompliant": "0/0",
+      "remediation": "enforce",
+      "subItems": Array [
+        Object {
+          "items": Array [],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [],
+          "name": "policy.pp",
+        },
+      ],
+    },
+    Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "-",
+      "clusterConsoleURL": Object {
+        "local-cluster": "https://console-openshift-console.apps.policy-grc-cp-autoclaims-9jswd.dev08.red-chesterfield.com",
+      },
+      "clusterNS": Object {
+        "local-cluster": "local-cluster",
+      },
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "CM Configuration Management",
+          "policy.open-cluster-management.io/controls": "CM-6 Configuration Settings",
+          "policy.open-cluster-management.io/standards": "NIST SP 800-53",
+        },
+        "name": "policy-e8-scan",
+        "namespace": "default",
+        "resourceVersion": "289855",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/default/policies/policy-e8-scan",
+      },
+      "name": "policy-e8-scan",
+      "namespace": "default",
+      "policyCompliant": "0/0",
+      "remediation": "enforce",
+      "subItems": Array [
+        Object {
+          "items": Array [],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [],
+          "name": "policy.pp",
+        },
+      ],
+    },
+  ],
+  "itemsPerPage": 1,
+  "page": 1,
+  "resourceVersion": 0,
+  "status": "DONE",
+  "test": "test",
+}
+`;
+
+exports[`resourceReducerFunction should return a state with DONE status 2`] = `
+Object {
+  "items": Array [
+    Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "0/1/0",
+      "clusterConsoleURL": Object {
+        "local-cluster": "https://console-openshift-console.apps.policy-grc-cp-autoclaims-9jswd.dev08.red-chesterfield.com",
+      },
+      "clusterNS": Object {
+        "local-cluster": "local-cluster",
+      },
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "PR.IP Information Protection Processes and Procedures",
+          "policy.open-cluster-management.io/controls": "PR.IP-1 Baseline Configuration",
+          "policy.open-cluster-management.io/standards": "NIST-CSF",
+        },
+        "name": "policy-complianceoperator",
+        "namespace": "default",
+        "resourceVersion": "91729",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/default/policies/policy-complianceoperator",
+      },
+      "name": "policy-complianceoperator",
+      "namespace": "default",
+      "policyCompliant": "0/0",
+      "remediation": "enforce",
+      "subItems": Array [
+        Object {
+          "items": Array [],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [],
+          "name": "policy.pp",
+        },
+      ],
+    },
+    Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "-",
+      "clusterConsoleURL": Object {
+        "local-cluster": "https://console-openshift-console.apps.policy-grc-cp-autoclaims-9jswd.dev08.red-chesterfield.com",
+      },
+      "clusterNS": Object {
+        "local-cluster": "local-cluster",
+      },
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "CM Configuration Management",
+          "policy.open-cluster-management.io/controls": "CM-6 Configuration Settings",
+          "policy.open-cluster-management.io/standards": "NIST SP 800-53",
+        },
+        "name": "policy-e8-scan",
+        "namespace": "default",
+        "resourceVersion": "289855",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/default/policies/policy-e8-scan",
+      },
+      "name": "policy-e8-scan",
+      "namespace": "default",
+      "policyCompliant": "0/0",
+      "remediation": "enforce",
+      "subItems": Array [
+        Object {
+          "items": Array [],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [],
+          "name": "policy.pp",
+        },
+      ],
+    },
+  ],
+  "itemsPerPage": 100,
+  "page": 4,
+  "resourceVersion": 0,
+  "status": "DONE",
+  "test": "test",
+}
+`;
