@@ -1,4 +1,0 @@
-"*": # this is the default mapping
- - "[POLICYNAME]-image-vulnerability-?"
- - "[POLICYNAME]-subscription-0"
-

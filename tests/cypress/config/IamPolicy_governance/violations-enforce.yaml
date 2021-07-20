@@ -1,3 +1,0 @@
-"*": # this is the default mapping
- - [POLICYNAME]-limit-clusteradmin-1  # IamPolicy cannot be enforced
-

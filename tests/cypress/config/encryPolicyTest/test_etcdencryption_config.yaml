@@ -1,9 +1,0 @@
-namespace: 'default'
-standards:
-- 'NIST-CSF'
-categories:
-- 'PR.DS Data Security'
-controls:
-- 'PR.DS-1 Data-at-rest'
-remediation: False
-disable: False
