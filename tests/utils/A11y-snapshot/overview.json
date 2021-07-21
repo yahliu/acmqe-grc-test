@@ -1,0 +1,187 @@
+{
+    "issueMessages": {
+        "messages": {
+            "rpt.g1180.styleTrigger": "Ensure Windows high contrast mode is supported.",
+            "rpt.g466.styleColorSemantics1": "Combine color and descriptive markup to convey information.",
+            "rpt.g506.styleHinderFocus1": "Ensure that, with the border or outline, the keyboard focus indicator is visible to users.",
+            "wcag20.tech.g1204.inputVisibleLabel": "The input component is missing an associated visible label.",
+            "rpt.g112.aTargetAndText": "Inform the user that clicking on certain links or areas of a window will open pop-up windows or change the active window.",
+            "wcag20.tech.aria.RequiredChildren": "An element with WAI-ARIA role {0} does not contain or own at least one child element with each of the following WAI-ARIA roles: {1}. See rule help for remediation guidance.",
+            "wcag20.tech.aria.MissingKeyboardHandler": "The {0} element with WAI-ARIA role {1} might not be keyboard accessible. See rule help for remediation guidance.",
+            "wcag20.tech.aria.OrphanedContent": "All content must reside within a WAI-ARIA landmark or labelled region role."
+        },
+        "lang": "en-us"
+    },
+    "reports": [
+        {
+            "issues": [
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.aria.OrphanedContent",
+                    "ruleId": "1157",
+                    "help": "idhi_accessibility_check_g1157.html",
+                    "msgArgs": [],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/input[1]",
+                    "snippet": "<input style=\"\" locale=\"en-US\" value=\"39nt1cyE-nBgW4OH6vXcl7kxpoBdTKkXh4u4\" id=\"app-access\" type=\"hidden\">",
+                    "level": "violation"
+                },
+                {
+                    "severityCode": "eISLow",
+                    "messageCode": "rpt.g466.styleColorSemantics1",
+                    "ruleId": "466",
+                    "help": "idhi_accessibility_check_g466.html",
+                    "msgArgs": [],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/head[1]/style[1]",
+                    "snippet": "<style type=\"text/css\">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISLow",
+                    "messageCode": "rpt.g506.styleHinderFocus1",
+                    "ruleId": "506",
+                    "help": "idhi_accessibility_check_g506.html",
+                    "msgArgs": [],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/head[1]/style[1]",
+                    "snippet": "<style type=\"text/css\">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.aria.MissingKeyboardHandler",
+                    "ruleId": "1087",
+                    "help": "idhi_accessibility_check_g1087.html",
+                    "msgArgs": [
+                        [
+                            "div"
+                        ],
+                        [
+                            "listbox"
+                        ]
+                    ],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/nav[1]/div[1]",
+                    "snippet": "<div style=\"\" class=\"bx--tabs-trigger\" tabindex=\"0\" aria-label=\"listbox\" role=\"listbox\">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.aria.MissingKeyboardHandler",
+                    "ruleId": "1087",
+                    "help": "idhi_accessibility_check_g1087.html",
+                    "msgArgs": [
+                        [
+                            "ul"
+                        ],
+                        [
+                            "tablist"
+                        ]
+                    ],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/nav[1]/ul[1]",
+                    "snippet": "<ul style=\"\" class=\"bx--tabs__nav bx--tabs__nav--hidden\" role=\"tablist\">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.aria.RequiredChildren",
+                    "ruleId": "1152",
+                    "help": "idhi_accessibility_check_g1152.html",
+                    "msgArgs": [
+                        "listbox",
+                        "option"
+                    ],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/nav[1]/div[1]",
+                    "snippet": "<div style=\"\" class=\"bx--tabs-trigger\" tabindex=\"0\" aria-label=\"listbox\" role=\"listbox\">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.g1204.inputVisibleLabel",
+                    "ruleId": "1204",
+                    "help": "idhi_accessibility_check_g1204.html",
+                    "msgArgs": [],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/button[1]",
+                    "snippet": "<button style=\"\" aria-label=\"Hamburger menu\" id=\"hamburger\" class=\"hamburger hamburger--slider \">",
+                    "level": "potentialviolation"
+                },
+                {
+                    "severityCode": "eISHigh",
+                    "messageCode": "wcag20.tech.g1204.inputVisibleLabel",
+                    "ruleId": "1204",
+                    "help": "idhi_accessibility_check_g1204.html",
+                    "msgArgs": [],
+                    "bounds": {
+                        "left": 0,
+                        "top": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/button[1]",
+                    "snippet": "<button style=\"\" aria-label=\"A core service that enables operators to define multicluster policies needed to meet enterprise requirements and standards.\" class=\"bx--tooltip__trigger bx--tooltip--icon__bottom\">",
+                    "level": "potentialviolation"
+                }
+            ],
+            "frameIdx": 0,
+            "frameTitle": "IBM Multicloud Manager"
+        }
+    ],
+    "summary": {
+        "counts": {
+            "violation": 1,
+            "potentialviolation": 7
+        },
+        "scanTime": 0,
+        "ruleArchive": "February 2019 Deployment (2019FebDeploy)",
+        "policies": [
+            "IBM_Accessibility_2019_02"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1573161108850
+    },
+    "scanID": "5a8b3a63-b707-4d55-9616-55ada23c2ede",
+    "toolID": "@ibma/aat-v1.5.1",
+    "label": "overview"
+}

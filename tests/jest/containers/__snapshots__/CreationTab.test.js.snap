@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreationTab container renders as expected 1`] = `
+CreationTab {
+  "addPBs": [Function],
+  "addPRs": [Function],
+  "context": Object {},
+  "formatUpdateError": [Function],
+  "handleCancel": [Function],
+  "handleCreate": [Function],
+  "handleCreateAndUpdate": [Function],
+  "props": Object {
+    "mutateStatus": "DONE",
+    "secondaryHeaderProps": Object {
+      "title": "testing1",
+    },
+    "updateSecondaryHeader": [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "id": "edit-button-portal-id",
+              "kind": "portal",
+              "title": true,
+            },
+            Object {
+              "id": "cancel-button-portal-id",
+              "kind": "portal",
+            },
+            Object {
+              "id": "create-button-portal-id",
+              "kind": "portal",
+            },
+          ],
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "updateRequested": false,
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <CreationTab
+        mutateStatus="DONE"
+        secondaryHeaderProps={
+          Object {
+            "title": "testing1",
+          }
+        }
+        updateSecondaryHeader={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Array [
+                  Object {
+                    "id": "edit-button-portal-id",
+                    "kind": "portal",
+                    "title": true,
+                  },
+                  Object {
+                    "id": "cancel-button-portal-id",
+                    "kind": "portal",
+                  },
+                  Object {
+                    "id": "create-button-portal-id",
+                    "kind": "portal",
+                  },
+                ],
+                undefined,
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <Redirect
+        to="undefined/all"
+      />,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`CreationTab container renders as expected 2`] = `
+CreationTab {
+  "addPBs": [Function],
+  "addPRs": [Function],
+  "context": Object {},
+  "formatUpdateError": [Function],
+  "handleCancel": [Function],
+  "handleCreate": [Function],
+  "handleCreateAndUpdate": [Function],
+  "props": Object {
+    "handleCreateResources": [MockFunction],
+    "secondaryHeaderProps": Object {
+      "title": "testing2",
+    },
+    "updateSecondaryHeader": [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "id": "edit-button-portal-id",
+              "kind": "portal",
+              "title": true,
+            },
+            Object {
+              "id": "cancel-button-portal-id",
+              "kind": "portal",
+            },
+            Object {
+              "id": "create-button-portal-id",
+              "kind": "portal",
+            },
+          ],
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "updateRequested": false,
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <CreationTab
+        handleCreateResources={[MockFunction]}
+        secondaryHeaderProps={
+          Object {
+            "title": "testing2",
+          }
+        }
+        updateSecondaryHeader={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Array [
+                  Object {
+                    "id": "edit-button-portal-id",
+                    "kind": "portal",
+                    "title": true,
+                  },
+                  Object {
+                    "id": "cancel-button-portal-id",
+                    "kind": "portal",
+                  },
+                  Object {
+                    "id": "create-button-portal-id",
+                    "kind": "portal",
+                  },
+                ],
+                undefined,
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <Redirect
+        to="undefined/all"
+      />,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

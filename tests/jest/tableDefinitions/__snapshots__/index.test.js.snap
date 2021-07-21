@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  Object {
+    "msgKey": "table.header.policy.name",
+    "resourceKey": "metadata.name",
+    "transformFunction": [Function],
+  },
+  Object {
+    "msgKey": "table.header.namespace",
+    "resourceKey": "metadata.namespace",
+  },
+  Object {
+    "msgKey": "table.header.remediation",
+    "resourceKey": "remediation",
+  },
+  Object {
+    "msgKey": "table.header.cluster.violation",
+    "resourceKey": "clusterCompliant",
+  },
+  Object {
+    "msgKey": "table.header.controls",
+    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]",
+    "transformFunction": [Function],
+  },
+  Object {
+    "msgKey": "table.header.standards",
+    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]",
+    "transformFunction": [Function],
+  },
+  Object {
+    "msgKey": "table.header.categories",
+    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]",
+    "transformFunction": [Function],
+  },
+]
+`;

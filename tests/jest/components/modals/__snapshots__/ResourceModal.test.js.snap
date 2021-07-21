@@ -1,0 +1,1343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateResourceModal modal onChange as expected 1`] = `
+Object {
+  "data": Object {
+    "__typename": "Compliance",
+    "clusterCompliant": "1/2",
+    "custom": Object {
+      "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+      "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+      "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+      "metadata.name": Object {
+        "_owner": null,
+        "_store": Object {},
+        "key": null,
+        "props": Object {
+          "children": "policy-auditpolicy-will-sev",
+          "replace": false,
+          "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+        },
+        "ref": null,
+      },
+    },
+    "kind": "HCMCompliance",
+    "metadata": Object {
+      "__typename": "Metadata",
+      "annotations": Object {
+        "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+        "policy.open-cluster-management.io/controls": "IAM",
+        "policy.open-cluster-management.io/standards": "FISMA",
+        "seed-generation": "2",
+      },
+      "name": "policy-auditpolicy-will-sev",
+      "namespace": "mcm",
+      "resourceVersion": "5300122",
+      "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+    },
+    "name": "policy-auditpolicy-will-sev",
+    "namespace": "mcm",
+    "placementBindings": Array [
+      Object {
+        "__typename": "PlacementBinding",
+        "metadata": Object {
+          "__typename": "Metadata",
+          "name": "binding-policy-auditpolicy-will-sev",
+          "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+        },
+      },
+    ],
+    "placementPolicies": Array [
+      Object {
+        "__typename": "PlacementPolicy",
+        "metadata": Object {
+          "__typename": "Metadata",
+          "name": "placement-policy-auditpolicy-will-sev",
+          "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+        },
+      },
+    ],
+    "policyCompliant": "1/2",
+    "raw": Object {
+      "apiVersion": "policy.open-cluster-management.io/v1",
+      "kind": "Policy",
+      "metadata": Object {
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+          "policy.open-cluster-management.io/controls": "IAM",
+          "policy.open-cluster-management.io/standards": "FISMA",
+          "seed-generation": "2",
+        },
+        "creationTimestamp": "2019-10-01T14:55:28Z",
+        "finalizers": Array [
+          "finalizer.policies.ibm.com",
+          "propagator.finalizer.mcm.ibm.com",
+        ],
+        "generation": 27,
+        "name": "policy-auditpolicy-will-sev",
+        "namespace": "mcm",
+        "resourceVersion": "5300122",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+        "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+      },
+      "spec": Object {
+        "complianceType": "musthave",
+        "namespaces": Object {
+          "exclude": Array [
+            "kube-*",
+          ],
+          "include": Array [
+            "default",
+          ],
+        },
+        "policy-templates": Array [
+          Object {
+            "objectDefinition": Object {
+              "apiVersion": "audit.policies.ibm.com/v1alpha1",
+              "kind": "AuditPolicy",
+              "metadata": Object {
+                "label": Object {
+                  "category": "System-Integrity",
+                },
+                "name": "policy-auditpolicy-will-sev",
+              },
+              "spec": Object {
+                "clusterAuditPolicy": Object {
+                  "auditPolicyRules": Object {
+                    "auth-idp": "ignore",
+                    "helmapi": "ignore",
+                    "kubernetes": "ignore",
+                    "platform-api": "ignore",
+                    "platform-identity-manager": "ignore",
+                    "platform-identity-provider": "ignore",
+                    "vulnerability-advisor": "ignore",
+                  },
+                },
+                "namespaceSelector": Object {
+                  "exclude": Array [
+                    "kube-system",
+                  ],
+                  "include": Array [
+                    "default",
+                    "kube-*",
+                  ],
+                },
+                "remediationAction": "inform",
+                "severity": "low",
+              },
+            },
+            "status": Object {
+              "Validity": Object {},
+            },
+          },
+        ],
+        "remediationAction": "inform",
+      },
+      "status": Object {
+        "placementBindings": Array [
+          "binding-policy-auditpolicy-will-sev",
+        ],
+        "placementPolicies": Array [
+          "placement-policy-auditpolicy-will-sev",
+        ],
+        "status": Object {
+          "cluster1": Object {
+            "aggregatePoliciesStatus": Object {
+              "policy-auditpolicy-will-sev": Object {
+                "compliant": "Compliant",
+              },
+            },
+            "clustername": "cluster1",
+            "compliant": "Compliant",
+          },
+          "clusterhub": Object {
+            "aggregatePoliciesStatus": Object {
+              "policy-auditpolicy-will-sev": Object {},
+            },
+            "clustername": "clusterhub",
+          },
+        },
+      },
+    },
+    "remediation": "inform",
+    "subItems": Array [
+      Object {
+        "items": Array [
+          "binding-policy-auditpolicy-will-sev",
+        ],
+        "name": "policy.pb",
+      },
+      Object {
+        "items": Array [
+          "placement-policy-auditpolicy-will-sev",
+        ],
+        "name": "policy.pp",
+      },
+    ],
+  },
+  "reqErrorMsg": Array [],
+}
+`;
+
+exports[`CreateResourceModal modal renders as expected 1`] = `
+ResourceModal {
+  "context": Object {},
+  "escapeEditor": [Function],
+  "handleClose": [Function],
+  "handleSubmit": [Function],
+  "onChange": [Function],
+  "props": Object {
+    "data": Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "1/2",
+      "custom": Object {
+        "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+        "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+        "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+        "metadata.name": Object {
+          "_owner": null,
+          "_store": Object {},
+          "key": null,
+          "props": Object {
+            "children": "policy-auditpolicy-will-sev",
+            "replace": false,
+            "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+          },
+          "ref": null,
+        },
+      },
+      "kind": "HCMCompliance",
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+          "policy.open-cluster-management.io/controls": "IAM",
+          "policy.open-cluster-management.io/standards": "FISMA",
+          "seed-generation": "2",
+        },
+        "name": "policy-auditpolicy-will-sev",
+        "namespace": "mcm",
+        "resourceVersion": "5300122",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+      },
+      "name": "policy-auditpolicy-will-sev",
+      "namespace": "mcm",
+      "placementBindings": Array [
+        Object {
+          "__typename": "PlacementBinding",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "name": "binding-policy-auditpolicy-will-sev",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+          },
+        },
+      ],
+      "placementPolicies": Array [
+        Object {
+          "__typename": "PlacementPolicy",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "name": "placement-policy-auditpolicy-will-sev",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+          },
+        },
+      ],
+      "policyCompliant": "1/2",
+      "raw": Object {
+        "apiVersion": "policy.open-cluster-management.io/v1",
+        "kind": "Policy",
+        "metadata": Object {
+          "annotations": Object {
+            "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+            "policy.open-cluster-management.io/controls": "IAM",
+            "policy.open-cluster-management.io/standards": "FISMA",
+            "seed-generation": "2",
+          },
+          "creationTimestamp": "2019-10-01T14:55:28Z",
+          "finalizers": Array [
+            "finalizer.policies.ibm.com",
+            "propagator.finalizer.mcm.ibm.com",
+          ],
+          "generation": 27,
+          "name": "policy-auditpolicy-will-sev",
+          "namespace": "mcm",
+          "resourceVersion": "5300122",
+          "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+          "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+        },
+        "spec": Object {
+          "complianceType": "musthave",
+          "namespaces": Object {
+            "exclude": Array [
+              "kube-*",
+            ],
+            "include": Array [
+              "default",
+            ],
+          },
+          "policy-templates": Array [
+            Object {
+              "objectDefinition": Object {
+                "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                "kind": "AuditPolicy",
+                "metadata": Object {
+                  "label": Object {
+                    "category": "System-Integrity",
+                  },
+                  "name": "policy-auditpolicy-will-sev",
+                },
+                "spec": Object {
+                  "clusterAuditPolicy": Object {
+                    "auditPolicyRules": Object {
+                      "auth-idp": "ignore",
+                      "helmapi": "ignore",
+                      "kubernetes": "ignore",
+                      "platform-api": "ignore",
+                      "platform-identity-manager": "ignore",
+                      "platform-identity-provider": "ignore",
+                      "vulnerability-advisor": "ignore",
+                    },
+                  },
+                  "namespaceSelector": Object {
+                    "exclude": Array [
+                      "kube-system",
+                    ],
+                    "include": Array [
+                      "default",
+                      "kube-*",
+                    ],
+                  },
+                  "remediationAction": "inform",
+                  "severity": "low",
+                },
+              },
+              "status": Object {
+                "Validity": Object {},
+              },
+            },
+          ],
+          "remediationAction": "inform",
+        },
+        "status": Object {
+          "placementBindings": Array [
+            "binding-policy-auditpolicy-will-sev",
+          ],
+          "placementPolicies": Array [
+            "placement-policy-auditpolicy-will-sev",
+          ],
+          "status": Object {
+            "cluster1": Object {
+              "aggregatePoliciesStatus": Object {
+                "policy-auditpolicy-will-sev": Object {
+                  "compliant": "Compliant",
+                },
+              },
+              "clustername": "cluster1",
+              "compliant": "Compliant",
+            },
+            "clusterhub": Object {
+              "aggregatePoliciesStatus": Object {
+                "policy-auditpolicy-will-sev": Object {},
+              },
+              "clustername": "clusterhub",
+            },
+          },
+        },
+      },
+      "remediation": "inform",
+      "subItems": Array [
+        Object {
+          "items": Array [
+            "binding-policy-auditpolicy-will-sev",
+          ],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [
+            "placement-policy-auditpolicy-will-sev",
+          ],
+          "name": "policy.pp",
+        },
+      ],
+    },
+    "label": Object {
+      "heading": "modal.edit-hcmcompliance.heading",
+      "label": "modal.edit-hcmcompliance.label",
+      "primaryBtn": "modal.button.submit",
+    },
+    "locale": "en-US",
+    "open": true,
+    "resourceType": Object {
+      "list": "ALL_POLICIES",
+      "name": "HCMCompliance",
+    },
+  },
+  "refs": Object {},
+  "setContainerRef": [Function],
+  "setEditor": [Function],
+  "setState": [Function],
+  "state": Object {
+    "data": "apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-auditpolicy-will-sev
+  namespace: mcm
+  annotations:
+    policy.open-cluster-management.io/categories: SystemAndCommunicationsProtections
+    policy.open-cluster-management.io/controls: IAM
+    policy.open-cluster-management.io/standards: FISMA
+    seed-generation: '2'
+  creationTimestamp: '2019-10-01T14:55:28Z'
+  finalizers:
+    - finalizer.policies.ibm.com
+    - propagator.finalizer.mcm.ibm.com
+  generation: 27
+  resourceVersion: '5300122'
+  selfLink: >-
+    /apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev
+  uid: 81b9569e-e45b-11e9-8895-005056a061f1
+spec:
+  complianceType: musthave
+  namespaces:
+    exclude:
+      - kube-*
+    include:
+      - default
+  policy-templates:
+    - objectDefinition:
+        apiVersion: audit.policies.ibm.com/v1alpha1
+        kind: AuditPolicy
+        metadata:
+          name: policy-auditpolicy-will-sev
+          label:
+            category: System-Integrity
+        spec:
+          clusterAuditPolicy:
+            auditPolicyRules:
+              auth-idp: ignore
+              helmapi: ignore
+              kubernetes: ignore
+              platform-api: ignore
+              platform-identity-manager: ignore
+              platform-identity-provider: ignore
+              vulnerability-advisor: ignore
+          namespaceSelector:
+            exclude:
+              - kube-system
+            include:
+              - default
+              - kube-*
+          remediationAction: inform
+          severity: low
+      status:
+        Validity: {}
+  remediationAction: inform
+",
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <ResourceModal
+        data={
+          Object {
+            "__typename": "Compliance",
+            "clusterCompliant": "1/2",
+            "custom": Object {
+              "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+              "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+              "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+              "metadata.name": Object {
+                "_owner": null,
+                "_store": Object {},
+                "key": null,
+                "props": Object {
+                  "children": "policy-auditpolicy-will-sev",
+                  "replace": false,
+                  "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                },
+                "ref": null,
+              },
+            },
+            "kind": "HCMCompliance",
+            "metadata": Object {
+              "__typename": "Metadata",
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "placementBindings": Array [
+              Object {
+                "__typename": "PlacementBinding",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "binding-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "placementPolicies": Array [
+              Object {
+                "__typename": "PlacementPolicy",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "placement-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "policyCompliant": "1/2",
+            "raw": Object {
+              "apiVersion": "policy.open-cluster-management.io/v1",
+              "kind": "Policy",
+              "metadata": Object {
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "creationTimestamp": "2019-10-01T14:55:28Z",
+                "finalizers": Array [
+                  "finalizer.policies.ibm.com",
+                  "propagator.finalizer.mcm.ibm.com",
+                ],
+                "generation": 27,
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+              },
+              "spec": Object {
+                "complianceType": "musthave",
+                "namespaces": Object {
+                  "exclude": Array [
+                    "kube-*",
+                  ],
+                  "include": Array [
+                    "default",
+                  ],
+                },
+                "policy-templates": Array [
+                  Object {
+                    "objectDefinition": Object {
+                      "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                      "kind": "AuditPolicy",
+                      "metadata": Object {
+                        "label": Object {
+                          "category": "System-Integrity",
+                        },
+                        "name": "policy-auditpolicy-will-sev",
+                      },
+                      "spec": Object {
+                        "clusterAuditPolicy": Object {
+                          "auditPolicyRules": Object {
+                            "auth-idp": "ignore",
+                            "helmapi": "ignore",
+                            "kubernetes": "ignore",
+                            "platform-api": "ignore",
+                            "platform-identity-manager": "ignore",
+                            "platform-identity-provider": "ignore",
+                            "vulnerability-advisor": "ignore",
+                          },
+                        },
+                        "namespaceSelector": Object {
+                          "exclude": Array [
+                            "kube-system",
+                          ],
+                          "include": Array [
+                            "default",
+                            "kube-*",
+                          ],
+                        },
+                        "remediationAction": "inform",
+                        "severity": "low",
+                      },
+                    },
+                    "status": Object {
+                      "Validity": Object {},
+                    },
+                  },
+                ],
+                "remediationAction": "inform",
+              },
+              "status": Object {
+                "placementBindings": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "placementPolicies": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "status": Object {
+                  "cluster1": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {
+                        "compliant": "Compliant",
+                      },
+                    },
+                    "clustername": "cluster1",
+                    "compliant": "Compliant",
+                  },
+                  "clusterhub": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {},
+                    },
+                    "clustername": "clusterhub",
+                  },
+                },
+              },
+            },
+            "remediation": "inform",
+            "subItems": Array [
+              Object {
+                "items": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pb",
+              },
+              Object {
+                "items": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pp",
+              },
+            ],
+          }
+        }
+        label={
+          Object {
+            "heading": "modal.edit-hcmcompliance.heading",
+            "label": "modal.edit-hcmcompliance.label",
+            "primaryBtn": "modal.button.submit",
+          }
+        }
+        locale="en-US"
+        open={true}
+        resourceType={
+          Object {
+            "list": "ALL_POLICIES",
+            "name": "HCMCompliance",
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        id="resource-modal-container"
+        onKeyDown={[Function]}
+        role="region"
+        tabIndex={-1}
+      >
+        <Modal
+          aria-label="Edit policy"
+          className="resource-modal"
+          focusTrap={true}
+          iconDescription="close the modal"
+          id="resource-modal-HCMCompliance"
+          modalHeading="Edit policy"
+          modalLabel="Edit policy"
+          onKeyDown={[Function]}
+          onRequestClose={[Function]}
+          onRequestSubmit={[Function]}
+          open={true}
+          passiveModal={false}
+          primaryButtonDisabled={false}
+          primaryButtonText="Submit"
+          role="region"
+          secondaryButtonText="Cancel"
+          selectorPrimaryFocus="[data-modal-primary-focus]"
+        >
+          <div>
+            <div
+              className="yamlEditorContainerContainer"
+            >
+              <YamlEditor
+                height="40vh"
+                onYamlChange={[Function]}
+                readOnly={false}
+                setEditor={[Function]}
+                width="50vw"
+                yaml="apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-auditpolicy-will-sev
+  namespace: mcm
+  annotations:
+    policy.open-cluster-management.io/categories: SystemAndCommunicationsProtections
+    policy.open-cluster-management.io/controls: IAM
+    policy.open-cluster-management.io/standards: FISMA
+    seed-generation: '2'
+  creationTimestamp: '2019-10-01T14:55:28Z'
+  finalizers:
+    - finalizer.policies.ibm.com
+    - propagator.finalizer.mcm.ibm.com
+  generation: 27
+  resourceVersion: '5300122'
+  selfLink: >-
+    /apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev
+  uid: 81b9569e-e45b-11e9-8895-005056a061f1
+spec:
+  complianceType: musthave
+  namespaces:
+    exclude:
+      - kube-*
+    include:
+      - default
+  policy-templates:
+    - objectDefinition:
+        apiVersion: audit.policies.ibm.com/v1alpha1
+        kind: AuditPolicy
+        metadata:
+          name: policy-auditpolicy-will-sev
+          label:
+            category: System-Integrity
+        spec:
+          clusterAuditPolicy:
+            auditPolicyRules:
+              auth-idp: ignore
+              helmapi: ignore
+              kubernetes: ignore
+              platform-api: ignore
+              platform-identity-manager: ignore
+              platform-identity-provider: ignore
+              vulnerability-advisor: ignore
+          namespaceSelector:
+            exclude:
+              - kube-system
+            include:
+              - default
+              - kube-*
+          remediationAction: inform
+          severity: low
+      status:
+        Validity: {}
+  remediationAction: inform
+"
+              />
+            </div>
+          </div>
+        </Modal>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`CreateResourceModal modal renders as expected 2`] = `
+ResourceModal {
+  "context": Object {},
+  "escapeEditor": [Function],
+  "handleClose": [Function],
+  "handleSubmit": [Function],
+  "onChange": [Function],
+  "props": Object {
+    "data": Object {
+      "__typename": "Compliance",
+      "clusterCompliant": "1/2",
+      "custom": Object {
+        "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+        "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+        "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+        "metadata.name": Object {
+          "_owner": null,
+          "_store": Object {},
+          "key": null,
+          "props": Object {
+            "children": "policy-auditpolicy-will-sev",
+            "replace": false,
+            "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+          },
+          "ref": null,
+        },
+      },
+      "kind": "HCMCompliance",
+      "metadata": Object {
+        "__typename": "Metadata",
+        "annotations": Object {
+          "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+          "policy.open-cluster-management.io/controls": "IAM",
+          "policy.open-cluster-management.io/standards": "FISMA",
+          "seed-generation": "2",
+        },
+        "name": "policy-auditpolicy-will-sev",
+        "namespace": "mcm",
+        "resourceVersion": "5300122",
+        "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+      },
+      "name": "policy-auditpolicy-will-sev",
+      "namespace": "mcm",
+      "placementBindings": Array [
+        Object {
+          "__typename": "PlacementBinding",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "name": "binding-policy-auditpolicy-will-sev",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+          },
+        },
+      ],
+      "placementPolicies": Array [
+        Object {
+          "__typename": "PlacementPolicy",
+          "metadata": Object {
+            "__typename": "Metadata",
+            "name": "placement-policy-auditpolicy-will-sev",
+            "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+          },
+        },
+      ],
+      "policyCompliant": "1/2",
+      "raw": Object {
+        "apiVersion": "policy.open-cluster-management.io/v1",
+        "kind": "Policy",
+        "metadata": Object {
+          "annotations": Object {
+            "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+            "policy.open-cluster-management.io/controls": "IAM",
+            "policy.open-cluster-management.io/standards": "FISMA",
+            "seed-generation": "2",
+          },
+          "creationTimestamp": "2019-10-01T14:55:28Z",
+          "finalizers": Array [
+            "finalizer.policies.ibm.com",
+            "propagator.finalizer.mcm.ibm.com",
+          ],
+          "generation": 27,
+          "name": "policy-auditpolicy-will-sev",
+          "namespace": "mcm",
+          "resourceVersion": "5300122",
+          "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+          "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+        },
+        "spec": Object {
+          "complianceType": "musthave",
+          "namespaces": Object {
+            "exclude": Array [
+              "kube-*",
+            ],
+            "include": Array [
+              "default",
+            ],
+          },
+          "policy-templates": Array [
+            Object {
+              "objectDefinition": Object {
+                "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                "kind": "AuditPolicy",
+                "metadata": Object {
+                  "label": Object {
+                    "category": "System-Integrity",
+                  },
+                  "name": "policy-auditpolicy-will-sev",
+                },
+                "spec": Object {
+                  "clusterAuditPolicy": Object {
+                    "auditPolicyRules": Object {
+                      "auth-idp": "ignore",
+                      "helmapi": "ignore",
+                      "kubernetes": "ignore",
+                      "platform-api": "ignore",
+                      "platform-identity-manager": "ignore",
+                      "platform-identity-provider": "ignore",
+                      "vulnerability-advisor": "ignore",
+                    },
+                  },
+                  "namespaceSelector": Object {
+                    "exclude": Array [
+                      "kube-system",
+                    ],
+                    "include": Array [
+                      "default",
+                      "kube-*",
+                    ],
+                  },
+                  "remediationAction": "inform",
+                  "severity": "low",
+                },
+              },
+              "status": Object {
+                "Validity": Object {},
+              },
+            },
+          ],
+          "remediationAction": "inform",
+        },
+        "status": Object {
+          "placementBindings": Array [
+            "binding-policy-auditpolicy-will-sev",
+          ],
+          "placementPolicies": Array [
+            "placement-policy-auditpolicy-will-sev",
+          ],
+          "status": Object {
+            "cluster1": Object {
+              "aggregatePoliciesStatus": Object {
+                "policy-auditpolicy-will-sev": Object {
+                  "compliant": "Compliant",
+                },
+              },
+              "clustername": "cluster1",
+              "compliant": "Compliant",
+            },
+            "clusterhub": Object {
+              "aggregatePoliciesStatus": Object {
+                "policy-auditpolicy-will-sev": Object {},
+              },
+              "clustername": "clusterhub",
+            },
+          },
+        },
+      },
+      "remediation": "inform",
+      "subItems": Array [
+        Object {
+          "items": Array [
+            "binding-policy-auditpolicy-will-sev",
+          ],
+          "name": "policy.pb",
+        },
+        Object {
+          "items": Array [
+            "placement-policy-auditpolicy-will-sev",
+          ],
+          "name": "policy.pp",
+        },
+      ],
+    },
+    "label": Object {
+      "heading": "modal.edit-hcmcompliance.heading",
+      "label": "modal.edit-hcmcompliance.label",
+      "primaryBtn": "modal.button.submit",
+    },
+    "locale": "en-US",
+    "open": true,
+    "reqCount": 2,
+    "resourceType": Object {
+      "list": "ALL_POLICIES",
+      "name": "HCMCompliance",
+    },
+  },
+  "refs": Object {},
+  "setContainerRef": [Function],
+  "setEditor": [Function],
+  "setState": [Function],
+  "state": Object {
+    "data": "apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-auditpolicy-will-sev
+  namespace: mcm
+  annotations:
+    policy.open-cluster-management.io/categories: SystemAndCommunicationsProtections
+    policy.open-cluster-management.io/controls: IAM
+    policy.open-cluster-management.io/standards: FISMA
+    seed-generation: '2'
+  creationTimestamp: '2019-10-01T14:55:28Z'
+  finalizers:
+    - finalizer.policies.ibm.com
+    - propagator.finalizer.mcm.ibm.com
+  generation: 27
+  resourceVersion: '5300122'
+  selfLink: >-
+    /apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev
+  uid: 81b9569e-e45b-11e9-8895-005056a061f1
+spec:
+  complianceType: musthave
+  namespaces:
+    exclude:
+      - kube-*
+    include:
+      - default
+  policy-templates:
+    - objectDefinition:
+        apiVersion: audit.policies.ibm.com/v1alpha1
+        kind: AuditPolicy
+        metadata:
+          name: policy-auditpolicy-will-sev
+          label:
+            category: System-Integrity
+        spec:
+          clusterAuditPolicy:
+            auditPolicyRules:
+              auth-idp: ignore
+              helmapi: ignore
+              kubernetes: ignore
+              platform-api: ignore
+              platform-identity-manager: ignore
+              platform-identity-provider: ignore
+              vulnerability-advisor: ignore
+          namespaceSelector:
+            exclude:
+              - kube-system
+            include:
+              - default
+              - kube-*
+          remediationAction: inform
+          severity: low
+      status:
+        Validity: {}
+  remediationAction: inform
+",
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <ResourceModal
+        data={
+          Object {
+            "__typename": "Compliance",
+            "clusterCompliant": "1/2",
+            "custom": Object {
+              "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]": "System And Communications Protections",
+              "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]": "IAM",
+              "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]": "FISMA",
+              "metadata.name": Object {
+                "_owner": null,
+                "_store": Object {},
+                "key": null,
+                "props": Object {
+                  "children": "policy-auditpolicy-will-sev",
+                  "replace": false,
+                  "to": "/multicloud/policies/all/policy-auditpolicy-will-sev",
+                },
+                "ref": null,
+              },
+            },
+            "kind": "HCMCompliance",
+            "metadata": Object {
+              "__typename": "Metadata",
+              "annotations": Object {
+                "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                "policy.open-cluster-management.io/controls": "IAM",
+                "policy.open-cluster-management.io/standards": "FISMA",
+                "seed-generation": "2",
+              },
+              "name": "policy-auditpolicy-will-sev",
+              "namespace": "mcm",
+              "resourceVersion": "5300122",
+              "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+            },
+            "name": "policy-auditpolicy-will-sev",
+            "namespace": "mcm",
+            "placementBindings": Array [
+              Object {
+                "__typename": "PlacementBinding",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "binding-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementbindings/binding-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "placementPolicies": Array [
+              Object {
+                "__typename": "PlacementPolicy",
+                "metadata": Object {
+                  "__typename": "Metadata",
+                  "name": "placement-policy-auditpolicy-will-sev",
+                  "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/placementpolicies/placement-policy-auditpolicy-will-sev",
+                },
+              },
+            ],
+            "policyCompliant": "1/2",
+            "raw": Object {
+              "apiVersion": "policy.open-cluster-management.io/v1",
+              "kind": "Policy",
+              "metadata": Object {
+                "annotations": Object {
+                  "policy.open-cluster-management.io/categories": "SystemAndCommunicationsProtections",
+                  "policy.open-cluster-management.io/controls": "IAM",
+                  "policy.open-cluster-management.io/standards": "FISMA",
+                  "seed-generation": "2",
+                },
+                "creationTimestamp": "2019-10-01T14:55:28Z",
+                "finalizers": Array [
+                  "finalizer.policies.ibm.com",
+                  "propagator.finalizer.mcm.ibm.com",
+                ],
+                "generation": 27,
+                "name": "policy-auditpolicy-will-sev",
+                "namespace": "mcm",
+                "resourceVersion": "5300122",
+                "selfLink": "/apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev",
+                "uid": "81b9569e-e45b-11e9-8895-005056a061f1",
+              },
+              "spec": Object {
+                "complianceType": "musthave",
+                "namespaces": Object {
+                  "exclude": Array [
+                    "kube-*",
+                  ],
+                  "include": Array [
+                    "default",
+                  ],
+                },
+                "policy-templates": Array [
+                  Object {
+                    "objectDefinition": Object {
+                      "apiVersion": "audit.policies.ibm.com/v1alpha1",
+                      "kind": "AuditPolicy",
+                      "metadata": Object {
+                        "label": Object {
+                          "category": "System-Integrity",
+                        },
+                        "name": "policy-auditpolicy-will-sev",
+                      },
+                      "spec": Object {
+                        "clusterAuditPolicy": Object {
+                          "auditPolicyRules": Object {
+                            "auth-idp": "ignore",
+                            "helmapi": "ignore",
+                            "kubernetes": "ignore",
+                            "platform-api": "ignore",
+                            "platform-identity-manager": "ignore",
+                            "platform-identity-provider": "ignore",
+                            "vulnerability-advisor": "ignore",
+                          },
+                        },
+                        "namespaceSelector": Object {
+                          "exclude": Array [
+                            "kube-system",
+                          ],
+                          "include": Array [
+                            "default",
+                            "kube-*",
+                          ],
+                        },
+                        "remediationAction": "inform",
+                        "severity": "low",
+                      },
+                    },
+                    "status": Object {
+                      "Validity": Object {},
+                    },
+                  },
+                ],
+                "remediationAction": "inform",
+              },
+              "status": Object {
+                "placementBindings": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "placementPolicies": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "status": Object {
+                  "cluster1": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {
+                        "compliant": "Compliant",
+                      },
+                    },
+                    "clustername": "cluster1",
+                    "compliant": "Compliant",
+                  },
+                  "clusterhub": Object {
+                    "aggregatePoliciesStatus": Object {
+                      "policy-auditpolicy-will-sev": Object {},
+                    },
+                    "clustername": "clusterhub",
+                  },
+                },
+              },
+            },
+            "remediation": "inform",
+            "subItems": Array [
+              Object {
+                "items": Array [
+                  "binding-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pb",
+              },
+              Object {
+                "items": Array [
+                  "placement-policy-auditpolicy-will-sev",
+                ],
+                "name": "policy.pp",
+              },
+            ],
+          }
+        }
+        label={
+          Object {
+            "heading": "modal.edit-hcmcompliance.heading",
+            "label": "modal.edit-hcmcompliance.label",
+            "primaryBtn": "modal.button.submit",
+          }
+        }
+        locale="en-US"
+        open={true}
+        reqCount={2}
+        resourceType={
+          Object {
+            "list": "ALL_POLICIES",
+            "name": "HCMCompliance",
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        id="resource-modal-container"
+        onKeyDown={[Function]}
+        role="region"
+        tabIndex={-1}
+      >
+        <Spinner
+          className="patternfly-spinner"
+        />
+        <Modal
+          aria-label="Edit policy"
+          className="resource-modal"
+          focusTrap={true}
+          iconDescription="close the modal"
+          id="resource-modal-HCMCompliance"
+          modalHeading="Edit policy"
+          modalLabel="Edit policy"
+          onKeyDown={[Function]}
+          onRequestClose={[Function]}
+          onRequestSubmit={[Function]}
+          open={true}
+          passiveModal={false}
+          primaryButtonDisabled={false}
+          primaryButtonText="Submit"
+          role="region"
+          secondaryButtonText="Cancel"
+          selectorPrimaryFocus="[data-modal-primary-focus]"
+        >
+          <div>
+            <div
+              className="yamlEditorContainerContainer"
+            >
+              <YamlEditor
+                height="40vh"
+                onYamlChange={[Function]}
+                readOnly={false}
+                setEditor={[Function]}
+                width="50vw"
+                yaml="apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-auditpolicy-will-sev
+  namespace: mcm
+  annotations:
+    policy.open-cluster-management.io/categories: SystemAndCommunicationsProtections
+    policy.open-cluster-management.io/controls: IAM
+    policy.open-cluster-management.io/standards: FISMA
+    seed-generation: '2'
+  creationTimestamp: '2019-10-01T14:55:28Z'
+  finalizers:
+    - finalizer.policies.ibm.com
+    - propagator.finalizer.mcm.ibm.com
+  generation: 27
+  resourceVersion: '5300122'
+  selfLink: >-
+    /apis/policy.open-cluster-management.io/v1/namespaces/mcm/policies/policy-auditpolicy-will-sev
+  uid: 81b9569e-e45b-11e9-8895-005056a061f1
+spec:
+  complianceType: musthave
+  namespaces:
+    exclude:
+      - kube-*
+    include:
+      - default
+  policy-templates:
+    - objectDefinition:
+        apiVersion: audit.policies.ibm.com/v1alpha1
+        kind: AuditPolicy
+        metadata:
+          name: policy-auditpolicy-will-sev
+          label:
+            category: System-Integrity
+        spec:
+          clusterAuditPolicy:
+            auditPolicyRules:
+              auth-idp: ignore
+              helmapi: ignore
+              kubernetes: ignore
+              platform-api: ignore
+              platform-identity-manager: ignore
+              platform-identity-provider: ignore
+              vulnerability-advisor: ignore
+          namespaceSelector:
+            exclude:
+              - kube-system
+            include:
+              - default
+              - kube-*
+          remediationAction: inform
+          severity: low
+      status:
+        Validity: {}
+  remediationAction: inform
+"
+              />
+            </div>
+          </div>
+        </Modal>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

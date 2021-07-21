@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyActionModal component Disable modal renders as expected 1`] = `
+<div>
+  <Modal
+    aria-label="Disable policy"
+    danger={true}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id="disable-resource-modal"
+    modalHeading="Disable policy"
+    modalLabel="Disable policy"
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    primaryButtonText="Disable policy"
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p>
+      Are you sure you want to disable this policy?
+    </p>
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Enable modal renders as expected 1`] = `
+<div>
+  <Modal
+    aria-label="Enable policy"
+    danger={false}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id="enable-resource-modal"
+    modalHeading="Enable policy"
+    modalLabel="Enable policy"
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    primaryButtonText="Enable policy"
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p>
+      Are you sure you want to enable this policy?
+    </p>
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Enforce modal renders as expected 1`] = `
+<div>
+  <Modal
+    aria-label="Enforce policy"
+    danger={true}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id="enforce-resource-modal"
+    modalHeading="Enforce policy"
+    modalLabel="Enforce policy"
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    primaryButtonText="Enforce policy"
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p>
+      Are you sure you want to enforce this policy? The policy makes any necessary changes to the applied cluster to remediate the violations.
+    </p>
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Inform modal renders as expected 1`] = `
+<div>
+  <Modal
+    aria-label="Inform policy"
+    danger={false}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id="inform-resource-modal"
+    modalHeading="Inform policy"
+    modalLabel="Inform policy"
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    primaryButtonText="Inform policy"
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p>
+      Are you sure you want to change the remediation action of this policy to inform? You must manually remediate the policy violations.
+    </p>
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal renders without data 1`] = `
+<div>
+  <Modal
+    danger={false}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id=""
+    modalHeading=""
+    modalLabel=""
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p />
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal returns notification on error 1`] = `
+<div>
+  <Modal
+    danger={false}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id=""
+    modalHeading=""
+    modalLabel=""
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div>
+      <Notification
+        hideCloseButton={false}
+        iconDescription="closes notification"
+        kind="error"
+        onCloseButtonClick={[Function]}
+        subtitle="There was an error."
+        title=""
+      />
+    </div>
+    <p />
+  </Modal>
+</div>
+`;
+
+exports[`PolicyActionModal component Modal returns spinner when loading 1`] = `
+<div>
+  <Spinner
+    className="patternfly-spinner"
+  />
+  <Modal
+    danger={false}
+    focusTrap={true}
+    iconDescription="close the modal"
+    id=""
+    modalHeading=""
+    modalLabel=""
+    onKeyDown={[Function]}
+    onRequestClose={[Function]}
+    onRequestSubmit={[Function]}
+    open={true}
+    passiveModal={false}
+    primaryButtonDisabled={false}
+    role="region"
+    secondaryButtonText="Cancel"
+    selectorPrimaryFocus="[data-modal-primary-focus]"
+  >
+    <div />
+    <p />
+  </Modal>
+</div>
+`;

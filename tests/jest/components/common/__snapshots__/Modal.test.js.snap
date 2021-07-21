@@ -1,0 +1,949 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component renders DisableResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.disable-hcmcompliance.heading",
+      "label": "modal.disable-hcmcompliance.heading",
+      "primaryBtn": "modal.disable-hcmcompliance.heading",
+    }
+  }
+  open={true}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-disable"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.disable-hcmcompliance.heading",
+        "label": "modal.disable-hcmcompliance.heading",
+        "primaryBtn": "modal.disable-hcmcompliance.heading",
+      }
+    }
+    open={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-disable"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.disable-hcmcompliance.heading",
+          "label": "modal.disable-hcmcompliance.heading",
+          "primaryBtn": "modal.disable-hcmcompliance.heading",
+        }
+      }
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-disable"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.disable-hcmcompliance.heading",
+            "label": "modal.disable-hcmcompliance.heading",
+            "primaryBtn": "modal.disable-hcmcompliance.heading",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-disable"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.disable-hcmcompliance.heading",
+              "label": "modal.disable-hcmcompliance.heading",
+              "primaryBtn": "modal.disable-hcmcompliance.heading",
+            }
+          }
+          open={true}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-disable"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;
+
+exports[`Modal component renders EditResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.edit-hcmcompliance.heading",
+      "label": "modal.edit-hcmcompliance.label",
+      "primaryBtn": "modal.button.submit",
+    }
+  }
+  open={true}
+  resourceType={
+    Object {
+      "list": "ALL_POLICIES",
+      "name": "HCMCompliance",
+    }
+  }
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-edit"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.edit-hcmcompliance.heading",
+        "label": "modal.edit-hcmcompliance.label",
+        "primaryBtn": "modal.button.submit",
+      }
+    }
+    open={true}
+    resourceType={
+      Object {
+        "list": "ALL_POLICIES",
+        "name": "HCMCompliance",
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-edit"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.edit-hcmcompliance.heading",
+          "label": "modal.edit-hcmcompliance.label",
+          "primaryBtn": "modal.button.submit",
+        }
+      }
+      open={true}
+      resourceType={
+        Object {
+          "list": "ALL_POLICIES",
+          "name": "HCMCompliance",
+        }
+      }
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-edit"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.edit-hcmcompliance.heading",
+            "label": "modal.edit-hcmcompliance.label",
+            "primaryBtn": "modal.button.submit",
+          }
+        }
+        open={true}
+        resourceType={
+          Object {
+            "list": "ALL_POLICIES",
+            "name": "HCMCompliance",
+          }
+        }
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-edit"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.edit-hcmcompliance.heading",
+              "label": "modal.edit-hcmcompliance.label",
+              "primaryBtn": "modal.button.submit",
+            }
+          }
+          open={true}
+          resourceType={
+            Object {
+              "list": "ALL_POLICIES",
+              "name": "HCMCompliance",
+            }
+          }
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-edit"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;
+
+exports[`Modal component renders EnableResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.enable-hcmcompliance.heading",
+      "label": "modal.enable-hcmcompliance.label",
+      "primaryBtn": "modal.enable-hcmcompliance.heading",
+    }
+  }
+  open={true}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-enable"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.enable-hcmcompliance.heading",
+        "label": "modal.enable-hcmcompliance.label",
+        "primaryBtn": "modal.enable-hcmcompliance.heading",
+      }
+    }
+    open={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-enable"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.enable-hcmcompliance.heading",
+          "label": "modal.enable-hcmcompliance.label",
+          "primaryBtn": "modal.enable-hcmcompliance.heading",
+        }
+      }
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-enable"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.enable-hcmcompliance.heading",
+            "label": "modal.enable-hcmcompliance.label",
+            "primaryBtn": "modal.enable-hcmcompliance.heading",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-enable"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.enable-hcmcompliance.heading",
+              "label": "modal.enable-hcmcompliance.label",
+              "primaryBtn": "modal.enable-hcmcompliance.heading",
+            }
+          }
+          open={true}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-enable"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;
+
+exports[`Modal component renders EnforceResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.enforce-hcmcompliance.heading",
+      "label": "modal.enforce-hcmcompliance.label",
+      "primaryBtn": "modal.enforce-hcmcompliance.heading",
+    }
+  }
+  open={true}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-enforce"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.enforce-hcmcompliance.heading",
+        "label": "modal.enforce-hcmcompliance.label",
+        "primaryBtn": "modal.enforce-hcmcompliance.heading",
+      }
+    }
+    open={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-enforce"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.enforce-hcmcompliance.heading",
+          "label": "modal.enforce-hcmcompliance.label",
+          "primaryBtn": "modal.enforce-hcmcompliance.heading",
+        }
+      }
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-enforce"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.enforce-hcmcompliance.heading",
+            "label": "modal.enforce-hcmcompliance.label",
+            "primaryBtn": "modal.enforce-hcmcompliance.heading",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-enforce"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.enforce-hcmcompliance.heading",
+              "label": "modal.enforce-hcmcompliance.label",
+              "primaryBtn": "modal.enforce-hcmcompliance.heading",
+            }
+          }
+          open={true}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-enforce"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;
+
+exports[`Modal component renders InformResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.inform-hcmcompliance.heading",
+      "label": "modal.inform-hcmcompliance.label",
+      "primaryBtn": "modal.inform-hcmcompliance.heading",
+    }
+  }
+  open={true}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-inform"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.inform-hcmcompliance.heading",
+        "label": "modal.inform-hcmcompliance.label",
+        "primaryBtn": "modal.inform-hcmcompliance.heading",
+      }
+    }
+    open={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-inform"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.inform-hcmcompliance.heading",
+          "label": "modal.inform-hcmcompliance.label",
+          "primaryBtn": "modal.inform-hcmcompliance.heading",
+        }
+      }
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-inform"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.inform-hcmcompliance.heading",
+            "label": "modal.inform-hcmcompliance.label",
+            "primaryBtn": "modal.inform-hcmcompliance.heading",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-inform"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.inform-hcmcompliance.heading",
+              "label": "modal.inform-hcmcompliance.label",
+              "primaryBtn": "modal.inform-hcmcompliance.heading",
+            }
+          }
+          open={true}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-inform"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;
+
+exports[`Modal component renders RemoveResource as expected 1`] = `
+<Connect(Modal)
+  data={
+    Object {
+      "kind": "Policy",
+      "metadata": Object {
+        "name": "test-policy",
+      },
+    }
+  }
+  label={
+    Object {
+      "heading": "modal.remove-hcmcompliance.heading",
+      "label": "modal.remove-hcmcompliance.label",
+      "primaryBtn": "modal.remove-hcmcompliance.heading",
+    }
+  }
+  open={true}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  type="resource-remove"
+>
+  <Modal
+    data={
+      Object {
+        "kind": "Policy",
+        "metadata": Object {
+          "name": "test-policy",
+        },
+      }
+    }
+    dispatch={[Function]}
+    label={
+      Object {
+        "heading": "modal.remove-hcmcompliance.heading",
+        "label": "modal.remove-hcmcompliance.label",
+        "primaryBtn": "modal.remove-hcmcompliance.heading",
+      }
+    }
+    open={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    type="resource-remove"
+  >
+    <ForwardRef
+      data={
+        Object {
+          "kind": "Policy",
+          "metadata": Object {
+            "name": "test-policy",
+          },
+        }
+      }
+      dispatch={[Function]}
+      label={
+        Object {
+          "heading": "modal.remove-hcmcompliance.heading",
+          "label": "modal.remove-hcmcompliance.label",
+          "primaryBtn": "modal.remove-hcmcompliance.heading",
+        }
+      }
+      open={true}
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+      type="resource-remove"
+    >
+      <Component
+        data={
+          Object {
+            "kind": "Policy",
+            "metadata": Object {
+              "name": "test-policy",
+            },
+          }
+        }
+        dispatch={[Function]}
+        forwardedRef={null}
+        label={
+          Object {
+            "heading": "modal.remove-hcmcompliance.heading",
+            "label": "modal.remove-hcmcompliance.label",
+            "primaryBtn": "modal.remove-hcmcompliance.heading",
+          }
+        }
+        open={true}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+        type="resource-remove"
+      >
+        <InnerLoadable
+          data={
+            Object {
+              "kind": "Policy",
+              "metadata": Object {
+                "name": "test-policy",
+              },
+            }
+          }
+          dispatch={[Function]}
+          forwardedRef={null}
+          label={
+            Object {
+              "heading": "modal.remove-hcmcompliance.heading",
+              "label": "modal.remove-hcmcompliance.label",
+              "primaryBtn": "modal.remove-hcmcompliance.heading",
+            }
+          }
+          open={true}
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+          type="resource-remove"
+        />
+      </Component>
+    </ForwardRef>
+  </Modal>
+</Connect(Modal)>
+`;

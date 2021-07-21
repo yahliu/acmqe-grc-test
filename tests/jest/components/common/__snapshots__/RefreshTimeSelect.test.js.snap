@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefreshTimeSelect component renders as expected on change 1`] = `
+<div
+  className="refresh-time-selection"
+>
+  <div
+    aria-label="Refresh"
+    className="button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+    title="Refresh"
+  >
+    <svg
+      className="button-icon"
+    >
+      <use
+        href="#diagramIcons_autoRefresh"
+      />
+    </svg>
+  </div>
+  <div
+    aria-label="Choose refresh"
+    className="bx--dropdown selection bx--list-box"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="listbox"
+    tabIndex={null}
+  >
+    <div
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label="Choose refresh"
+      aria-owns={null}
+      className="bx--list-box__field"
+      data-toggle={true}
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="bx--list-box__label"
+        htmlFor="downshift-2-input"
+      >
+        Refresh every {0}s
+      </span>
+      <div
+        className="bx--list-box__menu-icon"
+      >
+        <svg
+          alt="Open menu"
+          aria-label="Open menu"
+          fillRule="evenodd"
+          focusable="false"
+          height="5"
+          role="img"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <title>
+            Open menu
+          </title>
+          <path
+            d="M0 0l5 4.998L10 0z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefreshTimeSelect component renders as expected with data 1`] = `
+<div
+  className="refresh-time-selection"
+>
+  <div
+    aria-label="Refresh"
+    className="button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+    title="Refresh"
+  >
+    <svg
+      className="button-icon"
+    >
+      <use
+        href="#diagramIcons_autoRefresh"
+      />
+    </svg>
+  </div>
+  <div
+    aria-label="Choose refresh"
+    className="bx--dropdown selection bx--list-box"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="listbox"
+    tabIndex={null}
+  >
+    <div
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label="Choose refresh"
+      aria-owns={null}
+      className="bx--list-box__field"
+      data-toggle={true}
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="bx--list-box__label"
+        htmlFor="downshift-1-input"
+      >
+        Refresh every {0}s
+      </span>
+      <div
+        className="bx--list-box__menu-icon"
+      >
+        <svg
+          alt="Open menu"
+          aria-label="Open menu"
+          fillRule="evenodd"
+          focusable="false"
+          height="5"
+          role="img"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <title>
+            Open menu
+          </title>
+          <path
+            d="M0 0l5 4.998L10 0z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefreshTimeSelect component renders as expected without data 1`] = `
+<div
+  className="refresh-time-selection"
+>
+  <div
+    aria-label="Refresh"
+    className="button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+    title="Refresh"
+  >
+    <svg
+      className="button-icon"
+    >
+      <use
+        href="#diagramIcons_autoRefresh"
+      />
+    </svg>
+  </div>
+  <div
+    aria-label="Choose refresh"
+    className="bx--dropdown selection bx--list-box"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="listbox"
+    tabIndex={null}
+  >
+    <div
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label="Choose refresh"
+      aria-owns={null}
+      className="bx--list-box__field"
+      data-toggle={true}
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="bx--list-box__label"
+        htmlFor="downshift-0-input"
+      >
+        Choose refresh
+      </span>
+      <div
+        className="bx--list-box__menu-icon"
+      >
+        <svg
+          alt="Open menu"
+          aria-label="Open menu"
+          fillRule="evenodd"
+          focusable="false"
+          height="5"
+          role="img"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <title>
+            Open menu
+          </title>
+          <path
+            d="M0 0l5 4.998L10 0z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefreshTimeSelect component renders loading when reloading=true 1`] = `
+<div
+  className="refresh-time-selection"
+>
+  <div
+    aria-live="assertive"
+    className="bx--loading bx--loading--small"
+  >
+    <svg
+      className="bx--loading__svg"
+      viewBox="-75 -75 150 150"
+    >
+      <title>
+        Active loading indicator
+      </title>
+      <circle
+        className={null}
+        cx="0"
+        cy="0"
+        r="37.5"
+      />
+    </svg>
+  </div>
+  <div
+    aria-label="Choose refresh"
+    className="bx--dropdown selection bx--list-box"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="listbox"
+    tabIndex={null}
+  >
+    <div
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label="Choose refresh"
+      aria-owns={null}
+      className="bx--list-box__field"
+      data-toggle={true}
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="bx--list-box__label"
+        htmlFor="downshift-3-input"
+      >
+        Disable refresh
+      </span>
+      <div
+        className="bx--list-box__menu-icon"
+      >
+        <svg
+          alt="Open menu"
+          aria-label="Open menu"
+          fillRule="evenodd"
+          focusable="false"
+          height="5"
+          role="img"
+          viewBox="0 0 10 5"
+          width="10"
+        >
+          <title>
+            Open menu
+          </title>
+          <path
+            d="M0 0l5 4.998L10 0z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

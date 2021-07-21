@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResourceFilterBar w/ HIPAA filter returns multiple filter chips and clear all link 1`] = `
+<div
+  className="resource-filter-bar"
+>
+  <span
+    className="title"
+  >
+    Filters:
+  </span>
+  <span
+    className="bx--tag bx--tag--custom"
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    HIPAA
+    <svg
+      alt="Remove filter"
+      aria-label="Remove filter"
+      className="closeIcon"
+      fillRule="evenodd"
+      height="10"
+      name="icon--close"
+      onClick={[Function]}
+      role="img"
+      viewBox="0 0 10 10"
+      width="10"
+    >
+      <title>
+        Remove filter
+      </title>
+      <path
+        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+      />
+    </svg>
+  </span>
+  <span
+    className="bx--tag bx--tag--custom"
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    Enforce
+    <svg
+      alt="Remove filter"
+      aria-label="Remove filter"
+      className="closeIcon"
+      fillRule="evenodd"
+      height="10"
+      name="icon--close"
+      onClick={[Function]}
+      role="img"
+      viewBox="0 0 10 10"
+      width="10"
+    >
+      <title>
+        Remove filter
+      </title>
+      <path
+        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+      />
+    </svg>
+  </span>
+  <span
+    aria-label="Clear all"
+    className="button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+    title="Clear all"
+  >
+    Clear all
+  </span>
+</div>
+`;
+
+exports[`ResourceFilterBar w/ HIPAA filter returns single filter chip and clear all link 1`] = `
+<div
+  className="resource-filter-bar"
+>
+  <span
+    className="title"
+  >
+    Filters:
+  </span>
+  <span
+    className="bx--tag bx--tag--custom"
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    HIPAA
+    <svg
+      alt="Remove filter"
+      aria-label="Remove filter"
+      className="closeIcon"
+      fillRule="evenodd"
+      height="10"
+      name="icon--close"
+      onClick={[Function]}
+      role="img"
+      viewBox="0 0 10 10"
+      width="10"
+    >
+      <title>
+        Remove filter
+      </title>
+      <path
+        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+      />
+    </svg>
+  </span>
+  <span
+    aria-label="Clear all"
+    className="button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+    title="Clear all"
+  >
+    Clear all
+  </span>
+</div>
+`;

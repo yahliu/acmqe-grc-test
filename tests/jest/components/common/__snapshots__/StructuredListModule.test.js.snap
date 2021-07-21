@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StructuredListModule component test renders as expected 1`] = `
+<div
+  className="bx--module bx--module--double structured-list-module"
+>
+  <div
+    className="bx--module__inner"
+  >
+    <div
+      className="bx--module__header"
+    >
+      <h1
+        className="bx--module__title"
+      >
+        Policy details
+      </h1>
+    </div>
+    <div
+      className="bx--module__content"
+    >
+      <section
+        aria-label="Policy details"
+        className="bx--structured-list bx--structured-list--condensed"
+        role="region"
+      >
+        <div
+          className="bx--structured-list-thead"
+        >
+          <div
+            className="bx--structured-list-row bx--structured-list-row--header-row"
+          >
+            <div
+              className="bx--structured-list-th"
+            >
+              Type
+            </div>
+            <div
+              className="bx--structured-list-th"
+            >
+              Detail
+            </div>
+          </div>
+        </div>
+        <div
+          className="bx--structured-list-tbody"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="bx--structured-list-row"
+          >
+            <tr
+              className="bx--parent-row-v2 bx--expandable-row-v2"
+              data-parent-row={true}
+            >
+              <td
+                className="bx--table-expand-v2"
+                data-previous-value="collapsed"
+                headers="expand"
+              >
+                <button
+                  className="bx--table-expand-v2__button"
+                  onClick={[Function]}
+                >
+                  <svg
+                    alt="Provide a description that will be used as the title"
+                    aria-label="Provide a description that will be used as the title"
+                    className="bx--table-expand-v2__svg"
+                    fillRule="evenodd"
+                    height="12"
+                    role="img"
+                    viewBox="0 0 7 12"
+                    width="7"
+                  >
+                    <title>
+                      Provide a description that will be used as the title
+                    </title>
+                    <path
+                      d="M5.569 5.994L0 .726.687 0l6.336 5.994-6.335 6.002L0 11.27z"
+                    />
+                  </svg>
+                </button>
+              </td>
+              <div
+                className="bx--structured-list-td"
+              >
+                <p>
+                  Name
+                </p>
+              </div>
+              <div
+                className="bx--structured-list-td"
+              >
+                <p>
+                  case6-test-policy
+                </p>
+              </div>
+            </tr>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

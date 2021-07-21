@@ -1,0 +1,16 @@
+{
+    "ACM_VERSION": "2.2",
+    "contextPath": "/multicloud/policies",
+    "clusterContextPath": "/multicloud/clusters",
+    "docUrl": "https://github.com/open-cluster-management/rhacm-docs",
+    "feature_search-api": true,
+    "grcUiApiUrl": "",
+    "headerUrl":"https://management-ingress",
+    "headerContextPath": "/multicloud/header",
+    "httpPort": 3000,
+    "OAUTH2_CLIENT_ID": "",
+    "OAUTH2_CLIENT_SECRET": "",
+    "OAUTH2_REDIRECT_URL": "https://localhost:3000/multicloud/policies/auth/callback",
+    "ocmPoliciesPrefix": "policy.open-cluster-management.io",
+    "searchApiUrl": ""
+}

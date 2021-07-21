@@ -1,0 +1,965 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyDetailsOverview component renders as normal 1`] = `
+<div
+  className="overview-content"
+>
+  <div
+    className="vertical-expend"
+  >
+    <dl
+      aria-label=""
+      className="pf-c-accordion accordion-header"
+    >
+      <dt>
+        <button
+          aria-expanded={true}
+          className="pf-c-accordion__toggle pf-m-expanded section-title"
+          id="compliance.details-toggle"
+          onClick={[Function]}
+        >
+          <span
+            className="pf-c-accordion__toggle-text"
+          >
+            Policy details
+          </span>
+          <span
+            className="pf-c-accordion__toggle-icon"
+          >
+            <svg
+              aria-hidden={true}
+              aria-labelledby={null}
+              fill="currentColor"
+              height="1em"
+              role="img"
+              style={
+                Object {
+                  "verticalAlign": "-0.125em",
+                }
+              }
+              viewBox="0 0 256 512"
+              width="1em"
+            >
+              <path
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              />
+            </svg>
+          </span>
+        </button>
+      </dt>
+      <dd
+        aria-label=""
+        className="pf-c-accordion__expanded-content pf-m-expanded"
+        hidden={false}
+        id="compliance.details-expand"
+      >
+        <div
+          className="pf-c-accordion__expanded-content-body"
+        >
+          <dl
+            className="pf-c-description-list pf-m-horizontal pf-m-1-col"
+          >
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Name
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  case6-test-policy
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Namespace
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  default
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                />
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  -
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Enforcement
+                  <div
+                    content="Some policy controllers might not support the enforce feature. If the enforce feature is not supported by the controller, you must remediate it manually."
+                    data-testid="mockTooltip"
+                  >
+                    <svg
+                      className="info-icon"
+                    >
+                      <use
+                        href="#diagramIcons_info"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  inform
+                </div>
+              </dd>
+            </div>
+          </dl>
+          <hr
+            className="pf-c-divider pf-m-vertical"
+          />
+          <dl
+            className="pf-c-description-list pf-m-horizontal pf-m-1-col"
+          >
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Exclude namespaces
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  -
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Include namespaces
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  -
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Cluster violations
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  <div
+                    className="violationCell"
+                  >
+                    <div
+                      content="Policy is non-compliant"
+                      data-testid="mockTooltip"
+                    >
+                      <svg
+                        aria-hidden={true}
+                        aria-labelledby={null}
+                        fill="#c9190b"
+                        height="1em"
+                        role="img"
+                        style={
+                          Object {
+                            "verticalAlign": "-0.125em",
+                          }
+                        }
+                        viewBox="0 0 512 512"
+                        width="1em"
+                      >
+                        <path
+                          d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                        />
+                      </svg>
+                    </div>
+                    1/1
+                  </div>
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Categories
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  PR.DS Data Security
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Controls
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  PR.DS-2 Data-in-transit
+                </div>
+              </dd>
+            </div>
+            <div
+              className="pf-c-description-list__group"
+            >
+              <dt
+                className="pf-c-description-list__term"
+              >
+                <span
+                  className="pf-c-description-list__text"
+                >
+                  Standards
+                </span>
+              </dt>
+              <dd
+                className="pf-c-description-list__description"
+              >
+                <div
+                  className="pf-c-description-list__text"
+                >
+                  NIST-CSF
+                </div>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </dd>
+    </dl>
+  </div>
+  <div
+    className="vertical-expend"
+  >
+    <h5
+      className="section-title"
+    >
+      Placement
+    </h5>
+    <div
+      className="overview-content-second"
+    >
+      <div
+        className="overview-content-second-cell"
+      >
+        <div
+          className="bx--module bx--module--double structured-list-module"
+        >
+          <div
+            className="bx--module__inner"
+          >
+            <div
+              className="bx--module__header"
+              style={
+                Object {
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <h1
+                className="bx--module__title"
+              >
+                Placement rule
+              </h1>
+              <div
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-label="list of options"
+                className="bx--overflow-menu"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onClose={[Function]}
+                onKeyDown={[Function]}
+                open={false}
+                role="menu"
+                tabIndex={0}
+              >
+                <svg
+                  alt="Actions"
+                  aria-label="Actions"
+                  className="bx--overflow-menu__icon"
+                  fillRule="evenodd"
+                  focusable="false"
+                  height="15"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="img"
+                  viewBox="0 0 3 15"
+                  width="3"
+                >
+                  <title>
+                    Actions
+                  </title>
+                  <path
+                    d="M0 1.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0M0 7.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0M0 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="bx--module__content"
+            >
+              <section
+                aria-label="Placement rule"
+                className="bx--structured-list bx--structured-list--condensed"
+              >
+                <div
+                  className="bx--structured-list-tbody"
+                  onKeyDown={[Function]}
+                >
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Name
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      case6-test-policy-plr
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Namespace
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      default
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Cluster selector
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      -
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Decisions
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <div
+                        className="cluster-status-container"
+                      >
+                        <div
+                          className="one-cluster-status"
+                        >
+                          <a
+                            href="/multicloud/policies/policy/calamari/default.case6-test-policy"
+                            onClick={[Function]}
+                          >
+                            calamari
+                          </a>
+                          <div
+                            className="table-status-row"
+                          >
+                            <div
+                              className="table-status-icon table-status-icon__unknown"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                aria-labelledby={null}
+                                fill="#f0ab00"
+                                height="1em"
+                                role="img"
+                                style={
+                                  Object {
+                                    "verticalAlign": "-0.125em",
+                                  }
+                                }
+                                viewBox="0 0 576 512"
+                                width="1em"
+                              >
+                                <path
+                                  d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                />
+                              </svg>
+                            </div>
+                            <p>
+                              no status
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Timestamp
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      2020-06-02T10:43:49Z
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="overview-content-second-cell"
+      >
+        <div
+          className="bx--module bx--module--double structured-list-module"
+        >
+          <div
+            className="bx--module__inner"
+          >
+            <div
+              className="bx--module__header"
+              style={
+                Object {
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <h1
+                className="bx--module__title"
+              >
+                Placement binding
+              </h1>
+              <div
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-label="list of options"
+                className="bx--overflow-menu"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onClose={[Function]}
+                onKeyDown={[Function]}
+                open={false}
+                role="menu"
+                tabIndex={0}
+              >
+                <svg
+                  alt="Actions"
+                  aria-label="Actions"
+                  className="bx--overflow-menu__icon"
+                  fillRule="evenodd"
+                  focusable="false"
+                  height="15"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="img"
+                  viewBox="0 0 3 15"
+                  width="3"
+                >
+                  <title>
+                    Actions
+                  </title>
+                  <path
+                    d="M0 1.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0M0 7.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0M0 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 1 1-3 0"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="bx--module__content"
+            >
+              <section
+                aria-label="Placement binding"
+                className="bx--structured-list bx--structured-list--condensed"
+              >
+                <div
+                  className="bx--structured-list-tbody"
+                  onKeyDown={[Function]}
+                >
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Name
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      case6-test-policy-pb
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Namespace
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      default
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Placement rule
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      case6-test-policy-plr
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Subjects
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      -
+                    </div>
+                  </div>
+                  <div
+                    className="bx--structured-list-row"
+                  >
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      <p>
+                        Timestamp
+                      </p>
+                    </div>
+                    <div
+                      className="bx--structured-list-td"
+                    >
+                      2020-06-02T10:43:48Z
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="vertical-expend overview-content-bottom"
+  >
+    <h5
+      className="section-title"
+    >
+      Policy templates
+    </h5>
+    <div
+      className="overview-content-bottom"
+    >
+      <div
+        className="bx--module bx--module--double"
+        id="policyTemplates-module-id"
+      >
+        <div
+          className="bx--module__inner"
+        >
+          <div
+            className="bx--module__content"
+          >
+            <div
+              className="bx--data-table-v2-container"
+              id="policy-templates-table-container"
+            >
+              <table
+                className="bx--data-table-v2 resource-table bx--data-table-v2--zebra"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      scope="col"
+                    >
+                      <div
+                        className="bx--table-sort-v2 bx--table-sort-v2--ascending"
+                        data-default-key="objectDefinition.metadata.name"
+                        data-key="objectDefinition.metadata.name"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Sort rows by this header in ascending order."
+                      >
+                        <span
+                          className="bx--table-header-label"
+                        >
+                          Name
+                        </span>
+                        
+                        <svg
+                          alt="Sort rows by this header in ascending order."
+                          aria-label="Sort rows by this header in ascending order."
+                          className="bx--table-sort-v2__icon"
+                          fillRule="evenodd"
+                          height="5"
+                          name="caret--down"
+                          role="img"
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            Sort rows by this header in ascending order.
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </div>
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      <div
+                        className="bx--table-sort-v2 bx--table-sort-v2--ascending"
+                        data-default-key="objectDefinition.metadata.name"
+                        data-key="objectDefinition.apiVersion"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Sort rows by this header in ascending order."
+                      >
+                        <span
+                          className="bx--table-header-label"
+                        >
+                          API version
+                        </span>
+                        
+                        <svg
+                          alt="Sort rows by this header in ascending order."
+                          aria-label="Sort rows by this header in ascending order."
+                          className="bx--table-sort-v2__icon"
+                          fillRule="evenodd"
+                          height="5"
+                          name="caret--down"
+                          role="img"
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            Sort rows by this header in ascending order.
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </div>
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      <div
+                        className="bx--table-sort-v2 bx--table-sort-v2--ascending"
+                        data-default-key="objectDefinition.metadata.name"
+                        data-key="objectDefinition.kind"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Sort rows by this header in ascending order."
+                      >
+                        <span
+                          className="bx--table-header-label"
+                        >
+                          Kind
+                        </span>
+                        
+                        <svg
+                          alt="Sort rows by this header in ascending order."
+                          aria-label="Sort rows by this header in ascending order."
+                          className="bx--table-sort-v2__icon"
+                          fillRule="evenodd"
+                          height="5"
+                          name="caret--down"
+                          role="img"
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            Sort rows by this header in ascending order.
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </div>
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      <div
+                        className="bx--table-sort-v2 bx--table-sort-v2--ascending"
+                        data-default-key="objectDefinition.metadata.name"
+                        data-key="status.conditions[0].lastTransitionTime"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Sort rows by this header in ascending order."
+                      >
+                        <span
+                          className="bx--table-header-label"
+                        >
+                          Last transition
+                        </span>
+                        
+                        <svg
+                          alt="Sort rows by this header in ascending order."
+                          aria-label="Sort rows by this header in ascending order."
+                          className="bx--table-sort-v2__icon"
+                          fillRule="evenodd"
+                          height="5"
+                          name="caret--down"
+                          role="img"
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            Sort rows by this header in ascending order.
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </div>
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      <div
+                        className="bx--table-sort-v2 bx--table-sort-v2--ascending"
+                        data-default-key="objectDefinition.metadata.name"
+                        data-key="status.Compliant"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Sort rows by this header in ascending order."
+                      >
+                        <span
+                          className="bx--table-header-label"
+                        >
+                          Status
+                        </span>
+                        
+                        <svg
+                          alt="Sort rows by this header in ascending order."
+                          aria-label="Sort rows by this header in ascending order."
+                          className="bx--table-sort-v2__icon"
+                          fillRule="evenodd"
+                          height="5"
+                          name="caret--down"
+                          role="img"
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            Sort rows by this header in ascending order.
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    className="high-light"
+                  >
+                    <td />
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                  </tr>
+                  <tr
+                    className="high-light"
+                  >
+                    <td />
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                    <td>
+                      -
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+"local-cluster":
+ - [POLICYNAME]-example-0
+ - [POLICYNAME]-sample-restricted-psp-1
+ - [POLICYNAME]-sample-role-1
+"dhaks1020-2-dho-461":
+ - [POLICYNAME]-example-0
+ - [POLICYNAME]-sample-restricted-psp-1
+ - [POLICYNAME]-sample-role-0
+"dhgkeon1120-dho461":
+ - [POLICYNAME]-example-1
+ - [POLICYNAME]-sample-restricted-psp-1
+ - [POLICYNAME]-sample-role-1

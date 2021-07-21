@@ -1,0 +1,2393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyDetailsByCluster container test renders as expected 1`] = `
+<withRouter(Connect(PolicyDetailsByCluster))
+  resourceType={
+    Object {
+      "name": "HCMCompliance",
+      "query": "ALL_POLICIES",
+    }
+  }
+  updateSecondaryHeader={[MockFunction]}
+>
+  <Connect(PolicyDetailsByCluster)
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "ngh5of",
+            "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "ngh5of",
+          "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "key": "ngh5of",
+        "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    match={
+      Object {
+        "isExact": true,
+        "params": Object {
+          "clusterName": "test-namespace",
+          "name": "test-policy",
+        },
+        "path": "/multicloud/policies/policy/:clusterName/:name",
+        "url": "/multicloud/policies/policy/test-namespace/test-policy",
+      }
+    }
+    resourceType={
+      Object {
+        "name": "HCMCompliance",
+        "query": "ALL_POLICIES",
+      }
+    }
+    updateSecondaryHeader={[MockFunction]}
+  >
+    <PolicyDetailsByCluster
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "ngh5of",
+              "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "ngh5of",
+            "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+      location={
+        Object {
+          "hash": "",
+          "key": "ngh5of",
+          "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+          "search": "",
+          "state": undefined,
+        }
+      }
+      match={
+        Object {
+          "isExact": true,
+          "params": Object {
+            "clusterName": "test-namespace",
+            "name": "test-policy",
+          },
+          "path": "/multicloud/policies/policy/:clusterName/:name",
+          "url": "/multicloud/policies/policy/test-namespace/test-policy",
+        }
+      }
+      resourceType={
+        Object {
+          "name": "HCMCompliance",
+          "query": "ALL_POLICIES",
+        }
+      }
+      updateSecondaryHeader={[Function]}
+    >
+      <Query
+        notifyOnNetworkStatusChange={true}
+        pollInterval={10000}
+        query={
+          Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "getPolicyInClusterNamespace",
+                },
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": Object {
+                        "kind": "Name",
+                        "value": "policies",
+                      },
+                      "arguments": Array [
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "name",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "name",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "clusterName",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "clusterName",
+                            },
+                          },
+                        },
+                      ],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "policies",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "cluster",
+                            },
+                            "selectionSet": undefined,
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "metadata",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "name",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "namespace",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "selfLink",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "creationTimestamp",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "annotations",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "labels",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "resourceVersion",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "uid",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "status",
+                            },
+                            "selectionSet": undefined,
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "enforcement",
+                            },
+                            "selectionSet": undefined,
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "raw",
+                            },
+                            "selectionSet": undefined,
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "policyTemplates",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "name",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "kind",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "lastTransition",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "complianceType",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "apiVersion",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "status",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "raw",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "violations",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "name",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "cluster",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "message",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "timestamp",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "String",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "name",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "String",
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "clusterName",
+                      },
+                    },
+                  },
+                ],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 617,
+              "start": 0,
+            },
+          }
+        }
+        variables={
+          Object {
+            "clusterName": "test-namespace",
+            "name": "test-policy",
+          }
+        }
+      >
+        <withRouter(PolicyClusterDetail)
+          loading={true}
+          resourceType={
+            Object {
+              "name": "HCMCompliance",
+              "query": "ALL_POLICIES",
+            }
+          }
+          staticResourceData={
+            Object {
+              "compliancePolicies": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "compliancePolicies",
+                "tableKeys": Array [
+                  Object {
+                    "key": "policyCompliantStatus",
+                    "msgKey": "table.header.compliant",
+                    "resourceKey": "policyCompliantStatus",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "clusterCompliant",
+                    "msgKey": "table.header.cluster.compliant",
+                    "resourceKey": "clusterCompliant",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "clusterNotCompliant",
+                    "msgKey": "table.header.cluster.not.compliant",
+                    "resourceKey": "clusterNotCompliant",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.compliance.policies",
+              },
+              "complianceStatus": Object {
+                "defaultSortField": "clusterNamespace",
+                "normalizedKey": "clusterNamespace",
+                "resourceKey": "complianceStatus",
+                "tableKeys": Array [
+                  Object {
+                    "key": "clusterNamespace",
+                    "msgKey": "table.header.cluster.namespace",
+                    "resourceKey": "clusterNamespace",
+                  },
+                  Object {
+                    "key": "localCompliantStatus",
+                    "msgKey": "table.header.compliance.policy.status",
+                    "resourceKey": "localCompliantStatus",
+                  },
+                  Object {
+                    "key": "localValidStatus",
+                    "msgKey": "table.header.compliance.policy.valid",
+                    "resourceKey": "localValidStatus",
+                  },
+                ],
+                "title": "table.header.compliance.compliant",
+              },
+              "defaultSortField": "metadata.name",
+              "detailKeys": Object {
+                "headerRows": Array [
+                  "type",
+                  "detail",
+                ],
+                "rows": Array [
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.name",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.name",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.namespace",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.namespace",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "information": "grc.remediation.tooltip",
+                        "resourceKey": "description.title.enforcement",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "raw.spec.remediationAction",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.disabled",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "raw.spec.disabled",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "table.header.cluster.violation",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "clusterCompliant",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.categories",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.controls",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.standards",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.created",
+                        "type": "timestamp",
+                      },
+                      Object {
+                        "resourceKey": "metadata.creationTimestamp",
+                      },
+                    ],
+                  },
+                ],
+                "title": "compliance.details",
+              },
+              "objectTemplates": Object {
+                "defaultSortField": "metadata.name",
+                "normalizedKey": "metadata.name",
+                "resourceKey": "object-templates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.object.template.name",
+                    "resourceKey": "metadata.name",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.object.template.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "table.header.object.template.apiVersion",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "kind",
+                    "msgKey": "table.header.object.template.kind",
+                    "resourceKey": "kind",
+                  },
+                ],
+                "title": "table.header.object.template",
+              },
+              "placementBindingKeys": Object {
+                "defaultSortField": "name",
+                "detailKeys": Object {
+                  "headerRows": Array [
+                    "type",
+                    "detail",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pb.details.name",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pb.details.namespace",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.namespace",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pb.details.pp",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "placementRef.name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pb.details.subjects",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "subjects[0]",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pb.details.timestamp",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.creationTimestamp",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "policy.pb.details.title",
+                },
+                "resourceKey": "placementBindings",
+                "tableActions": Array [
+                  "table.actions.edit",
+                ],
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "metadata.name",
+                  },
+                  Object {
+                    "key": "namespace",
+                    "msgKey": "table.header.namespace",
+                    "resourceKey": "metadata.namespace",
+                  },
+                  Object {
+                    "key": "placementpolicy",
+                    "msgKey": "table.header.placementpolicy",
+                    "resourceKey": "placementRef.name",
+                  },
+                  Object {
+                    "key": "subjects",
+                    "msgKey": "table.header.subjects",
+                    "resourceKey": "subjects",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "timestamp",
+                    "msgKey": "table.header.created",
+                    "resourceKey": "metadata.creationTimestamp",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "application.placement.bindings",
+              },
+              "placementPolicyKeys": Object {
+                "defaultSortField": "name",
+                "detailKeys": Object {
+                  "headerRows": Array [
+                    "type",
+                    "detail",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pp.details.name",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pp.details.namespace",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.namespace",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pp.details.clusterSelector",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "clusterLabels",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pp.details.decisions",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "status",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "policy.pp.details.timestamp",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.creationTimestamp",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "policy.pp.details.title",
+                },
+                "resourceKey": "placementPolicies",
+                "tableActions": Array [
+                  "table.actions.edit",
+                ],
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "metadata.name",
+                  },
+                  Object {
+                    "key": "namespace",
+                    "msgKey": "table.header.namespace",
+                    "resourceKey": "metadata.namespace",
+                  },
+                  Object {
+                    "key": "clusterSelector",
+                    "msgKey": "table.header.cluster.selector",
+                    "resourceKey": "clusterLabels",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "decisions",
+                    "msgKey": "table.header.decisions",
+                    "resourceKey": "status",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "timestamp",
+                    "msgKey": "table.header.created",
+                    "resourceKey": "metadata.creationTimestamp",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "application.placement.policies",
+              },
+              "policyDetailKeys": Object {
+                "headerRows": Array [
+                  "type",
+                  "detail",
+                ],
+                "rows": Array [
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.name",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "metadata.name",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "table.header.cluster",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "cluster",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "table.header.message",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "status.details",
+                        "transformFunction": [Function],
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.status",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "status.compliant",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.enforcement",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "enforcement",
+                      },
+                    ],
+                  },
+                ],
+                "title": "policy.details",
+              },
+              "policyInfoKeys": Object {
+                "headerRows": Array [
+                  "type",
+                  "detail",
+                ],
+                "rows": Array [
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.name",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "name",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "table.header.message",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "message",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.status",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "status",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.enforcement",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "enforcement",
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.exclude_namespace",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "detail.exclude_namespace",
+                        "transformFunction": [Function],
+                      },
+                    ],
+                  },
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "description.title.include_namespace",
+                        "type": "i18n",
+                      },
+                      Object {
+                        "resourceKey": "detail.include_namespace",
+                        "transformFunction": [Function],
+                      },
+                    ],
+                  },
+                ],
+                "title": "policy.details",
+              },
+              "policyObjectTemplates": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "objectTemplates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "description.title.api.version",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "kind",
+                    "msgKey": "table.header.kind",
+                    "resourceKey": "kind",
+                  },
+                  Object {
+                    "key": "compliant",
+                    "msgKey": "table.header.compliant",
+                    "resourceKey": "compliant",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.objectTemplates",
+              },
+              "policyPolicyTemplates": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "policyTemplates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "description.title.api.version",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "kind",
+                    "msgKey": "table.header.kind",
+                    "resourceKey": "kind",
+                  },
+                  Object {
+                    "key": "compliant",
+                    "msgKey": "table.header.compliant",
+                    "resourceKey": "compliant",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.policyTemplates",
+              },
+              "policyRoleBindingTemplates": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "roleBindingTemplates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "description.title.api.version",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "compliant",
+                    "msgKey": "table.header.compliant",
+                    "resourceKey": "compliant",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.roleBindingTemplates",
+              },
+              "policyRoleTemplates": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "roleTemplates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "description.title.api.version",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "compliant",
+                    "msgKey": "table.header.compliant",
+                    "resourceKey": "compliant",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.roleTemplates",
+              },
+              "policyRules": Object {
+                "defaultSortField": "ruleUID",
+                "normalizedKey": "ruleUID",
+                "resourceKey": "rules",
+                "tableKeys": Array [
+                  Object {
+                    "key": "ruleUID",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "ruleUID",
+                  },
+                  Object {
+                    "key": "templateType",
+                    "msgKey": "table.header.templateType",
+                    "resourceKey": "templateType",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiGroups",
+                    "msgKey": "table.header.apiGroups",
+                    "resourceKey": "apiGroups",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "verbs",
+                    "msgKey": "table.header.ruleVerbs",
+                    "resourceKey": "verbs",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "resources",
+                    "msgKey": "table.header.resources",
+                    "resourceKey": "resources",
+                  },
+                ],
+                "title": "table.header.rules",
+              },
+              "policyTemplates": Object {
+                "defaultSortField": "metadata.name",
+                "normalizedKey": "metadata.name",
+                "resourceKey": "policy-templates",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.object.template.name",
+                    "resourceKey": "metadata.name",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "table.header.object.template.apiVersion",
+                    "resourceKey": "apiVersion",
+                  },
+                  Object {
+                    "key": "kind",
+                    "msgKey": "table.header.object.template.kind",
+                    "resourceKey": "kind",
+                  },
+                ],
+                "title": "table.header.policy.template",
+              },
+              "policyTemplatesKeys": Object {
+                "headerRows": Array [
+                  "description.title.name",
+                  "description.title.last.transition",
+                  "description.title.templateType",
+                ],
+                "rows": Array [
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "name",
+                      },
+                      Object {
+                        "resourceKey": "lastTransition",
+                        "transformFunction": [Function],
+                      },
+                      Object {
+                        "resourceKey": "templateType",
+                      },
+                    ],
+                  },
+                ],
+                "title": "policy.template.details",
+              },
+              "policyViolations": Object {
+                "defaultSortField": "name",
+                "normalizedKey": "name",
+                "resourceKey": "violations",
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.name",
+                    "resourceKey": "name",
+                  },
+                  Object {
+                    "key": "cluster",
+                    "msgKey": "table.header.cluster",
+                    "resourceKey": "cluster",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "message",
+                    "msgKey": "table.header.message",
+                    "resourceKey": "message",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "key": "timestamp",
+                    "msgKey": "table.header.timestamp",
+                    "resourceKey": "timestamp",
+                    "transformFunction": [Function],
+                  },
+                ],
+                "title": "table.header.violation.detail",
+              },
+              "primaryKey": "metadata.name",
+              "roleTemplates": Object {
+                "defaultSortField": "metadata.name",
+                "normalizedKey": "metadata.name",
+                "resourceKey": "role-templates",
+                "rows": Array [
+                  Object {
+                    "cells": Array [
+                      Object {
+                        "resourceKey": "metadata.name",
+                      },
+                      Object {
+                        "resourceKey": "complianceType",
+                      },
+                      Object {
+                        "resourceKey": "apiVersion",
+                      },
+                    ],
+                  },
+                ],
+                "subHeaders": Array [
+                  "table.header.role.template.complianceType",
+                  "table.header.apiGroups",
+                  "table.header.resources",
+                  "table.header.ruleVerbs",
+                ],
+                "tableKeys": Array [
+                  Object {
+                    "key": "name",
+                    "msgKey": "table.header.role.template.name",
+                    "resourceKey": "metadata.name",
+                  },
+                  Object {
+                    "key": "complianceType",
+                    "msgKey": "table.header.role.template.complianceType",
+                    "resourceKey": "complianceType",
+                  },
+                  Object {
+                    "key": "apiVersion",
+                    "msgKey": "table.header.role.template.apiVersion",
+                    "resourceKey": "apiVersion",
+                  },
+                ],
+                "title": "table.header.role.template",
+              },
+              "secondaryKey": "metadata.namespace",
+              "tableActions": Array [
+                "table.actions.edit",
+                "table.actions.remove",
+              ],
+              "tableKeys": Array [
+                Object {
+                  "msgKey": "table.header.policy.name",
+                  "resourceKey": "metadata.name",
+                  "transformFunction": [Function],
+                },
+                Object {
+                  "msgKey": "table.header.namespace",
+                  "resourceKey": "metadata.namespace",
+                },
+                Object {
+                  "msgKey": "table.header.remediation",
+                  "resourceKey": "remediation",
+                },
+                Object {
+                  "msgKey": "table.header.cluster.violation",
+                  "resourceKey": "clusterCompliant",
+                },
+                Object {
+                  "msgKey": "table.header.controls",
+                  "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]",
+                  "transformFunction": [Function],
+                },
+                Object {
+                  "msgKey": "table.header.standards",
+                  "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]",
+                  "transformFunction": [Function],
+                },
+                Object {
+                  "msgKey": "table.header.categories",
+                  "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]",
+                  "transformFunction": [Function],
+                },
+              ],
+            }
+          }
+        >
+          <PolicyClusterDetail
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "ngh5of",
+                    "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "ngh5of",
+                  "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            loading={true}
+            location={
+              Object {
+                "hash": "",
+                "key": "ngh5of",
+                "pathname": "/multicloud/policies/policy/test-namespace/test-policy",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {
+                  "clusterName": "test-namespace",
+                  "name": "test-policy",
+                },
+                "path": "/multicloud/policies/policy/:clusterName/:name",
+                "url": "/multicloud/policies/policy/test-namespace/test-policy",
+              }
+            }
+            resourceType={
+              Object {
+                "name": "HCMCompliance",
+                "query": "ALL_POLICIES",
+              }
+            }
+            staticResourceData={
+              Object {
+                "compliancePolicies": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "compliancePolicies",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "policyCompliantStatus",
+                      "msgKey": "table.header.compliant",
+                      "resourceKey": "policyCompliantStatus",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "clusterCompliant",
+                      "msgKey": "table.header.cluster.compliant",
+                      "resourceKey": "clusterCompliant",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "clusterNotCompliant",
+                      "msgKey": "table.header.cluster.not.compliant",
+                      "resourceKey": "clusterNotCompliant",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.compliance.policies",
+                },
+                "complianceStatus": Object {
+                  "defaultSortField": "clusterNamespace",
+                  "normalizedKey": "clusterNamespace",
+                  "resourceKey": "complianceStatus",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "clusterNamespace",
+                      "msgKey": "table.header.cluster.namespace",
+                      "resourceKey": "clusterNamespace",
+                    },
+                    Object {
+                      "key": "localCompliantStatus",
+                      "msgKey": "table.header.compliance.policy.status",
+                      "resourceKey": "localCompliantStatus",
+                    },
+                    Object {
+                      "key": "localValidStatus",
+                      "msgKey": "table.header.compliance.policy.valid",
+                      "resourceKey": "localValidStatus",
+                    },
+                  ],
+                  "title": "table.header.compliance.compliant",
+                },
+                "defaultSortField": "metadata.name",
+                "detailKeys": Object {
+                  "headerRows": Array [
+                    "type",
+                    "detail",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.name",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.namespace",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.namespace",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "information": "grc.remediation.tooltip",
+                          "resourceKey": "description.title.enforcement",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "raw.spec.remediationAction",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.disabled",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "raw.spec.disabled",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "table.header.cluster.violation",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "clusterCompliant",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.categories",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.controls",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.standards",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.created",
+                          "type": "timestamp",
+                        },
+                        Object {
+                          "resourceKey": "metadata.creationTimestamp",
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "compliance.details",
+                },
+                "objectTemplates": Object {
+                  "defaultSortField": "metadata.name",
+                  "normalizedKey": "metadata.name",
+                  "resourceKey": "object-templates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.object.template.name",
+                      "resourceKey": "metadata.name",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.object.template.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "table.header.object.template.apiVersion",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "kind",
+                      "msgKey": "table.header.object.template.kind",
+                      "resourceKey": "kind",
+                    },
+                  ],
+                  "title": "table.header.object.template",
+                },
+                "placementBindingKeys": Object {
+                  "defaultSortField": "name",
+                  "detailKeys": Object {
+                    "headerRows": Array [
+                      "type",
+                      "detail",
+                    ],
+                    "rows": Array [
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pb.details.name",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.name",
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pb.details.namespace",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.namespace",
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pb.details.pp",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "placementRef.name",
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pb.details.subjects",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "subjects[0]",
+                            "transformFunction": [Function],
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pb.details.timestamp",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.creationTimestamp",
+                            "transformFunction": [Function],
+                          },
+                        ],
+                      },
+                    ],
+                    "title": "policy.pb.details.title",
+                  },
+                  "resourceKey": "placementBindings",
+                  "tableActions": Array [
+                    "table.actions.edit",
+                  ],
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "metadata.name",
+                    },
+                    Object {
+                      "key": "namespace",
+                      "msgKey": "table.header.namespace",
+                      "resourceKey": "metadata.namespace",
+                    },
+                    Object {
+                      "key": "placementpolicy",
+                      "msgKey": "table.header.placementpolicy",
+                      "resourceKey": "placementRef.name",
+                    },
+                    Object {
+                      "key": "subjects",
+                      "msgKey": "table.header.subjects",
+                      "resourceKey": "subjects",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "timestamp",
+                      "msgKey": "table.header.created",
+                      "resourceKey": "metadata.creationTimestamp",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "application.placement.bindings",
+                },
+                "placementPolicyKeys": Object {
+                  "defaultSortField": "name",
+                  "detailKeys": Object {
+                    "headerRows": Array [
+                      "type",
+                      "detail",
+                    ],
+                    "rows": Array [
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pp.details.name",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.name",
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pp.details.namespace",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.namespace",
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pp.details.clusterSelector",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "clusterLabels",
+                            "transformFunction": [Function],
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pp.details.decisions",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "status",
+                            "transformFunction": [Function],
+                          },
+                        ],
+                      },
+                      Object {
+                        "cells": Array [
+                          Object {
+                            "resourceKey": "policy.pp.details.timestamp",
+                            "type": "i18n",
+                          },
+                          Object {
+                            "resourceKey": "metadata.creationTimestamp",
+                            "transformFunction": [Function],
+                          },
+                        ],
+                      },
+                    ],
+                    "title": "policy.pp.details.title",
+                  },
+                  "resourceKey": "placementPolicies",
+                  "tableActions": Array [
+                    "table.actions.edit",
+                  ],
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "metadata.name",
+                    },
+                    Object {
+                      "key": "namespace",
+                      "msgKey": "table.header.namespace",
+                      "resourceKey": "metadata.namespace",
+                    },
+                    Object {
+                      "key": "clusterSelector",
+                      "msgKey": "table.header.cluster.selector",
+                      "resourceKey": "clusterLabels",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "decisions",
+                      "msgKey": "table.header.decisions",
+                      "resourceKey": "status",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "timestamp",
+                      "msgKey": "table.header.created",
+                      "resourceKey": "metadata.creationTimestamp",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "application.placement.policies",
+                },
+                "policyDetailKeys": Object {
+                  "headerRows": Array [
+                    "type",
+                    "detail",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.name",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "metadata.name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "table.header.cluster",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "cluster",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "table.header.message",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "status.details",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.status",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "status.compliant",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.enforcement",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "enforcement",
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "policy.details",
+                },
+                "policyInfoKeys": Object {
+                  "headerRows": Array [
+                    "type",
+                    "detail",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.name",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "name",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "table.header.message",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "message",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.status",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "status",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.enforcement",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "enforcement",
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.exclude_namespace",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "detail.exclude_namespace",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "description.title.include_namespace",
+                          "type": "i18n",
+                        },
+                        Object {
+                          "resourceKey": "detail.include_namespace",
+                          "transformFunction": [Function],
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "policy.details",
+                },
+                "policyObjectTemplates": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "objectTemplates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "description.title.api.version",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "kind",
+                      "msgKey": "table.header.kind",
+                      "resourceKey": "kind",
+                    },
+                    Object {
+                      "key": "compliant",
+                      "msgKey": "table.header.compliant",
+                      "resourceKey": "compliant",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.objectTemplates",
+                },
+                "policyPolicyTemplates": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "policyTemplates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "description.title.api.version",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "kind",
+                      "msgKey": "table.header.kind",
+                      "resourceKey": "kind",
+                    },
+                    Object {
+                      "key": "compliant",
+                      "msgKey": "table.header.compliant",
+                      "resourceKey": "compliant",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.policyTemplates",
+                },
+                "policyRoleBindingTemplates": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "roleBindingTemplates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "description.title.api.version",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "compliant",
+                      "msgKey": "table.header.compliant",
+                      "resourceKey": "compliant",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.roleBindingTemplates",
+                },
+                "policyRoleTemplates": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "roleTemplates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "description.title.api.version",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "compliant",
+                      "msgKey": "table.header.compliant",
+                      "resourceKey": "compliant",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.roleTemplates",
+                },
+                "policyRules": Object {
+                  "defaultSortField": "ruleUID",
+                  "normalizedKey": "ruleUID",
+                  "resourceKey": "rules",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "ruleUID",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "ruleUID",
+                    },
+                    Object {
+                      "key": "templateType",
+                      "msgKey": "table.header.templateType",
+                      "resourceKey": "templateType",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiGroups",
+                      "msgKey": "table.header.apiGroups",
+                      "resourceKey": "apiGroups",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "verbs",
+                      "msgKey": "table.header.ruleVerbs",
+                      "resourceKey": "verbs",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "resources",
+                      "msgKey": "table.header.resources",
+                      "resourceKey": "resources",
+                    },
+                  ],
+                  "title": "table.header.rules",
+                },
+                "policyTemplates": Object {
+                  "defaultSortField": "metadata.name",
+                  "normalizedKey": "metadata.name",
+                  "resourceKey": "policy-templates",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.object.template.name",
+                      "resourceKey": "metadata.name",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "table.header.object.template.apiVersion",
+                      "resourceKey": "apiVersion",
+                    },
+                    Object {
+                      "key": "kind",
+                      "msgKey": "table.header.object.template.kind",
+                      "resourceKey": "kind",
+                    },
+                  ],
+                  "title": "table.header.policy.template",
+                },
+                "policyTemplatesKeys": Object {
+                  "headerRows": Array [
+                    "description.title.name",
+                    "description.title.last.transition",
+                    "description.title.templateType",
+                  ],
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "name",
+                        },
+                        Object {
+                          "resourceKey": "lastTransition",
+                          "transformFunction": [Function],
+                        },
+                        Object {
+                          "resourceKey": "templateType",
+                        },
+                      ],
+                    },
+                  ],
+                  "title": "policy.template.details",
+                },
+                "policyViolations": Object {
+                  "defaultSortField": "name",
+                  "normalizedKey": "name",
+                  "resourceKey": "violations",
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.name",
+                      "resourceKey": "name",
+                    },
+                    Object {
+                      "key": "cluster",
+                      "msgKey": "table.header.cluster",
+                      "resourceKey": "cluster",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "message",
+                      "msgKey": "table.header.message",
+                      "resourceKey": "message",
+                      "transformFunction": [Function],
+                    },
+                    Object {
+                      "key": "timestamp",
+                      "msgKey": "table.header.timestamp",
+                      "resourceKey": "timestamp",
+                      "transformFunction": [Function],
+                    },
+                  ],
+                  "title": "table.header.violation.detail",
+                },
+                "primaryKey": "metadata.name",
+                "roleTemplates": Object {
+                  "defaultSortField": "metadata.name",
+                  "normalizedKey": "metadata.name",
+                  "resourceKey": "role-templates",
+                  "rows": Array [
+                    Object {
+                      "cells": Array [
+                        Object {
+                          "resourceKey": "metadata.name",
+                        },
+                        Object {
+                          "resourceKey": "complianceType",
+                        },
+                        Object {
+                          "resourceKey": "apiVersion",
+                        },
+                      ],
+                    },
+                  ],
+                  "subHeaders": Array [
+                    "table.header.role.template.complianceType",
+                    "table.header.apiGroups",
+                    "table.header.resources",
+                    "table.header.ruleVerbs",
+                  ],
+                  "tableKeys": Array [
+                    Object {
+                      "key": "name",
+                      "msgKey": "table.header.role.template.name",
+                      "resourceKey": "metadata.name",
+                    },
+                    Object {
+                      "key": "complianceType",
+                      "msgKey": "table.header.role.template.complianceType",
+                      "resourceKey": "complianceType",
+                    },
+                    Object {
+                      "key": "apiVersion",
+                      "msgKey": "table.header.role.template.apiVersion",
+                      "resourceKey": "apiVersion",
+                    },
+                  ],
+                  "title": "table.header.role.template",
+                },
+                "secondaryKey": "metadata.namespace",
+                "tableActions": Array [
+                  "table.actions.edit",
+                  "table.actions.remove",
+                ],
+                "tableKeys": Array [
+                  Object {
+                    "msgKey": "table.header.policy.name",
+                    "resourceKey": "metadata.name",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "msgKey": "table.header.namespace",
+                    "resourceKey": "metadata.namespace",
+                  },
+                  Object {
+                    "msgKey": "table.header.remediation",
+                    "resourceKey": "remediation",
+                  },
+                  Object {
+                    "msgKey": "table.header.cluster.violation",
+                    "resourceKey": "clusterCompliant",
+                  },
+                  Object {
+                    "msgKey": "table.header.controls",
+                    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/controls\\"]",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "msgKey": "table.header.standards",
+                    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/standards\\"]",
+                    "transformFunction": [Function],
+                  },
+                  Object {
+                    "msgKey": "table.header.categories",
+                    "resourceKey": "metadata.annotations[\\"policy.open-cluster-management.io/categories\\"]",
+                    "transformFunction": [Function],
+                  },
+                ],
+              }
+            }
+          >
+            <Spinner
+              className="patternfly-spinner"
+            >
+              <span
+                aria-valuetext="Loading..."
+                className="pf-c-spinner pf-m-xl patternfly-spinner"
+                role="progressbar"
+              >
+                <span
+                  className="pf-c-spinner__clipper"
+                />
+                <span
+                  className="pf-c-spinner__lead-ball"
+                />
+                <span
+                  className="pf-c-spinner__tail-ball"
+                />
+              </span>
+            </Spinner>
+          </PolicyClusterDetail>
+        </withRouter(PolicyClusterDetail)>
+      </Query>
+    </PolicyDetailsByCluster>
+  </Connect(PolicyDetailsByCluster)>
+</withRouter(Connect(PolicyDetailsByCluster))>
+`;

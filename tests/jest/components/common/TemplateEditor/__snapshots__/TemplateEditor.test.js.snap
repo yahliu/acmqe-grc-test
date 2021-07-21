@@ -1,0 +1,1290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateEditor component renders as expected 1`] = `
+<div
+  className="creation-view showEditor"
+>
+  <div
+    className="creation-view-split-container showEditor"
+  >
+    <div
+      className="SplitPane  vertical "
+      style={
+        Object {
+          "MozUserSelect": "text",
+          "WebkitUserSelect": "text",
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "height": "100%",
+          "left": 0,
+          "msUserSelect": "text",
+          "outline": "none",
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "userSelect": "text",
+        }
+      }
+    >
+      <div
+        className="Pane vertical Pane1  "
+        style={
+          Object {
+            "flex": "none",
+            "outline": "none",
+            "position": "relative",
+            "width": 1000,
+          }
+        }
+      >
+        <div
+          className="creation-view-controls-container"
+        >
+          <div
+            className="creation-view-controls-note"
+          >
+            All fields marked with an asterisk (*) are mandatory.
+          </div>
+          <div
+            className="creation-view-controls"
+          >
+            <div
+              className="creation-view-controls-textbox"
+            >
+              <div
+                className="creation-view-controls-textbox-title"
+              >
+                Name
+                <div
+                  className="creation-view-controls-must-exist"
+                >
+                  *
+                </div>
+              </div>
+              <div
+                className="bx--form-item"
+              >
+                <input
+                  aria-label="name"
+                  className="bx--text-input bx--text__input"
+                  disabled={false}
+                  id="name"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  spellCheck={false}
+                  type="text"
+                  value="policy-certificatepolicy-1"
+                />
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-singleselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Namespace
+                <div
+                  className="creation-view-controls-must-exist"
+                >
+                  *
+                </div>
+                <div
+                  content="The namespace to create and store the policy on the hub cluster."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="Choose an item"
+                className="bx--dropdown bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex={null}
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="namespace"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <span
+                    className="bx--list-box__label"
+                    htmlFor="downshift-0-input"
+                  >
+                    governance
+                  </span>
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-multiselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Specifications
+                <div
+                  className="creation-view-controls-must-exist"
+                >
+                  *
+                </div>
+                <div
+                  content="The parameter section that describes which set of rules will validate a cluster."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="specs"
+                className="bx--multi-select bx--combo-box bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex="-1"
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="specs"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <div
+                    className="bx--list-box__selection bx--list-box__selection--multi"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex="0"
+                    title="Clear all selected items"
+                  >
+                    1
+                    <svg
+                      alt="Clear all selected items"
+                      aria-label="Clear all selected items"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="10"
+                      role="img"
+                      viewBox="0 0 10 10"
+                      width="10"
+                    >
+                      <title>
+                        Clear all selected items
+                      </title>
+                      <path
+                        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-activedescendant={null}
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    autoComplete="off"
+                    className="bx--text-input"
+                    disabled={false}
+                    id="downshift-1-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="CertificatePolicy"
+                    role="combobox"
+                    value=""
+                  />
+                  
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-multiselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Cluster selector
+                <div
+                  content="Fill the required parameter field to select the cluster where your policy is applied. The placement policy and placement binding are required, and added into the YAML file."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="clusters"
+                className="bx--multi-select bx--combo-box bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex="-1"
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="clusters"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <div
+                    className="bx--list-box__selection bx--list-box__selection--multi"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex="0"
+                    title="Clear all selected items"
+                  >
+                    1
+                    <svg
+                      alt="Clear all selected items"
+                      aria-label="Clear all selected items"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="10"
+                      role="img"
+                      viewBox="0 0 10 10"
+                      width="10"
+                    >
+                      <title>
+                        Clear all selected items
+                      </title>
+                      <path
+                        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-activedescendant={null}
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    autoComplete="off"
+                    className="bx--text-input"
+                    disabled={false}
+                    id="downshift-2-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="cloud: \\"Amazon\\""
+                    role="combobox"
+                    value=""
+                  />
+                  
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-multiselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Standards
+                <div
+                  content="The name or names of security standards your policy should validate. You can only create a new label by adding it directly into the YAML file."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="standards"
+                className="bx--multi-select bx--combo-box bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex="-1"
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="standards"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <div
+                    className="bx--list-box__selection bx--list-box__selection--multi"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex="0"
+                    title="Clear all selected items"
+                  >
+                    1
+                    <svg
+                      alt="Clear all selected items"
+                      aria-label="Clear all selected items"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="10"
+                      role="img"
+                      viewBox="0 0 10 10"
+                      width="10"
+                    >
+                      <title>
+                        Clear all selected items
+                      </title>
+                      <path
+                        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-activedescendant={null}
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    autoComplete="off"
+                    className="bx--text-input"
+                    disabled={false}
+                    id="downshift-3-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="NIST-CSF"
+                    role="combobox"
+                    value=""
+                  />
+                  
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-multiselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Categories
+                <div
+                  content="A security control category represent specific requirements for one or more standards. You can only create a new label by adding it directly into the YAML file."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="categories"
+                className="bx--multi-select bx--combo-box bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex="-1"
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="categories"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <div
+                    className="bx--list-box__selection bx--list-box__selection--multi"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex="0"
+                    title="Clear all selected items"
+                  >
+                    1
+                    <svg
+                      alt="Clear all selected items"
+                      aria-label="Clear all selected items"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="10"
+                      role="img"
+                      viewBox="0 0 10 10"
+                      width="10"
+                    >
+                      <title>
+                        Clear all selected items
+                      </title>
+                      <path
+                        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-activedescendant={null}
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    autoComplete="off"
+                    className="bx--text-input"
+                    disabled={false}
+                    id="downshift-4-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="PR.DS Data Security"
+                    role="combobox"
+                    value=""
+                  />
+                  
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-multiselect"
+            >
+              <div
+                className="creation-view-controls-multiselect-title"
+              >
+                Controls
+                <div
+                  content="The control contains the instructions for ensuring that a policy meets the security requirements for one or more standards. You can only create a new label by adding it directly into the YAML file."
+                  data-testid="mockTooltip"
+                >
+                  <svg
+                    className="info-icon"
+                  >
+                    <use
+                      href="#diagramIcons_info"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-label="controls"
+                className="bx--multi-select bx--combo-box bx--list-box"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="listbox"
+                tabIndex="-1"
+              >
+                <div
+                  aria-controls={null}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-label="controls"
+                  aria-owns={null}
+                  className="bx--list-box__field"
+                  data-toggle={true}
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  type="button"
+                >
+                  <div
+                    className="bx--list-box__selection bx--list-box__selection--multi"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex="0"
+                    title="Clear all selected items"
+                  >
+                    1
+                    <svg
+                      alt="Clear all selected items"
+                      aria-label="Clear all selected items"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="10"
+                      role="img"
+                      viewBox="0 0 10 10"
+                      width="10"
+                    >
+                      <title>
+                        Clear all selected items
+                      </title>
+                      <path
+                        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-activedescendant={null}
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    autoComplete="off"
+                    className="bx--text-input"
+                    disabled={false}
+                    id="downshift-5-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="PR.DS-2 Data-in-transit"
+                    role="combobox"
+                    value=""
+                  />
+                  
+                  <div
+                    className="bx--list-box__menu-icon"
+                  >
+                    <svg
+                      alt="Open menu"
+                      aria-label="Open menu"
+                      fillRule="evenodd"
+                      focusable="false"
+                      height="5"
+                      role="img"
+                      viewBox="0 0 10 5"
+                      width="10"
+                    >
+                      <title>
+                        Open menu
+                      </title>
+                      <path
+                        d="M0 0l5 4.998L10 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-checkbox"
+            >
+              <div
+                className="bx--form-item bx--checkbox-wrapper"
+              >
+                <input
+                  aria-label="enforce"
+                  checked={false}
+                  className="bx--checkbox"
+                  id="enforce"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="bx--checkbox-label checkbox"
+                  htmlFor="enforce"
+                  title={null}
+                >
+                  <span
+                    className="bx--visually-hidden"
+                  >
+                    
+                  </span>
+                </label>
+              </div>
+              <div>
+                Enforce if supported
+              </div>
+              <div
+                content="Select Enforce, if the feature is supported for your policy, to update remediationAction. When Enforce is not selected, the parameter value for remediationAction is inform."
+                data-testid="mockTooltip"
+              >
+                <svg
+                  className="info-icon"
+                >
+                  <use
+                    href="#diagramIcons_info"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="creation-view-controls-checkbox"
+            >
+              <div
+                className="bx--form-item bx--checkbox-wrapper"
+              >
+                <input
+                  aria-label="disabled"
+                  checked={false}
+                  className="bx--checkbox"
+                  id="disabled"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="bx--checkbox-label checkbox"
+                  htmlFor="disabled"
+                  title={null}
+                >
+                  <span
+                    className="bx--visually-hidden"
+                  >
+                    
+                  </span>
+                </label>
+              </div>
+              <div>
+                Disable policy
+              </div>
+              <div
+                content="Select to disable the policy from being propagated to the managed cluster. If selected, the policy can be re-enabled from the dropdown menu in the policies table."
+                data-testid="mockTooltip"
+              >
+                <svg
+                  className="info-icon"
+                >
+                  <use
+                    href="#diagramIcons_info"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        className="Resizer vertical "
+        onClick={[Function]}
+        onDoubleClick={[Function]}
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        role="presentation"
+        style={Object {}}
+      />
+      <div
+        className="Pane vertical Pane2  "
+        style={
+          Object {
+            "flex": 1,
+            "outline": "none",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          className="creation-view-yaml"
+        >
+          <div
+            className="creation-view-yaml-header"
+          >
+            <div
+              className="creation-view-yaml-header-toolbar"
+              role="region"
+            >
+              <div
+                className="editor-bar"
+              >
+                <div
+                  className="editor-bar-title"
+                >
+                  Policy YAML
+                </div>
+                <div
+                  className="editor-bar-toolbar"
+                >
+                  <div
+                    className="editor-bar-section"
+                  >
+                    <div
+                      aria-label="Reset"
+                      className="editor-bar-button  disabled"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex={0}
+                      title="Reset"
+                    >
+                      <div>
+                        Reset
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="editor-bar-section"
+                  >
+                    <div
+                      aria-label="Undo"
+                      className="editor-bar-button  disabled"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex={0}
+                      title="Undo"
+                    >
+                      <svg>
+                        <use
+                          href="#diagramIcons_undo"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      aria-label="Redo"
+                      className="editor-bar-button  disabled"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex={0}
+                      title="Redo"
+                    >
+                      <svg>
+                        <use
+                          href="#diagramIcons_redo"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    className="editor-bar-section"
+                  >
+                    <div
+                      aria-label="Find"
+                      className="editor-bar-search"
+                      id="Find"
+                      role="region"
+                    >
+                      <div
+                        aria-labelledby="template-editor-search-undefined-label"
+                        className="bx--search bx--search--sm"
+                        role="search"
+                      >
+                        <svg
+                          alt=""
+                          aria-label=""
+                          className="bx--search-magnifier"
+                          fillRule="evenodd"
+                          height="16"
+                          role="img"
+                          viewBox="0 0 16 16"
+                          width="16"
+                        >
+                          <title>
+                            
+                          </title>
+                          <path
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm4.936-1.27l4.563 4.557-.707.708-4.563-4.558a6.5 6.5 0 1 1 .707-.707z"
+                          />
+                        </svg>
+                        <label
+                          className="bx--label"
+                          htmlFor="template-editor-search-undefined"
+                          id="template-editor-search-undefined-label"
+                        >
+                          
+                        </label>
+                        <input
+                          aria-label="Find"
+                          className="bx--search-input"
+                          id="template-editor-search-undefined"
+                          onChange={[Function]}
+                          placeholder="Find"
+                          spellCheck={false}
+                          type="text"
+                        />
+                        <button
+                          className="bx--search-close bx--search-close--hidden"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <svg
+                            alt="Provide a description that will be used as the title"
+                            aria-label="Provide a description that will be used as the title"
+                            fillRule="evenodd"
+                            height="16"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                          >
+                            <title>
+                              Provide a description that will be used as the title
+                            </title>
+                            <path
+                              d="M8 6.586L5.879 4.464 4.464 5.88 6.586 8l-2.122 2.121 1.415 1.415L8 9.414l2.121 2.122 1.415-1.415L9.414 8l2.122-2.121-1.415-1.415L8 6.586zM8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                      <div
+                        aria-label="Previous"
+                        className="editor-bar-button  disabled"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Previous"
+                      >
+                        <svg>
+                          <use
+                            href="#diagramIcons_previous"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        aria-label="Next"
+                        className="editor-bar-button  disabled"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        title="Next"
+                      >
+                        <svg>
+                          <use
+                            href="#diagramIcons_next"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="editor-bar-section"
+                  >
+                    <div
+                      aria-label="Close"
+                      className="editor-bar-button "
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex={0}
+                      title="Close"
+                    >
+                      <svg>
+                        <use
+                          href="#diagramIcons_close"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="yamlEditorContainer"
+            style={
+              Object {
+                "display": "block",
+                "minHeight": "100px",
+              }
+            }
+          >
+            <div
+              className="react-monaco-editor-container"
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`on control change function renders as expected 1`] = `
+<div
+  aria-label="Invalid name: should only have lowercase alphanumeric characters, '-', or '.' and not begin or end with punctuation"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <div>
+    <Notification
+      className="persistent notification"
+      hideCloseButton={false}
+      iconDescription=""
+      kind="error"
+      onCloseButtonClick={[Function]}
+      subtitle={
+        <span>
+          <br />
+          Invalid name due to Kubernetes naming restriction.
+          <br />
+          The name must meet the following requirements:
+          <br />
+          • contain no more than 253 characters
+          <br />
+          • contain only lowercase alphanumeric characters, '-' or '.'
+          <br />
+          • start with an alphanumeric character
+          <br />
+          • end with an alphanumeric character
+        </span>
+      }
+      title="Create error:"
+    />
+  </div>
+</div>
+`;
+
+exports[`on control change function renders as expected 2`] = `
+<div
+  aria-label="Invalid name: should only have lowercase alphanumeric characters, '-', or '.' and not begin or end with punctuation"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <div>
+    <Notification
+      className="persistent notification"
+      hideCloseButton={false}
+      iconDescription=""
+      kind="error"
+      onCloseButtonClick={[Function]}
+      subtitle={
+        <span>
+          <br />
+          Invalid name due to Kubernetes naming restriction.
+          <br />
+          The name must meet the following requirements:
+          <br />
+          • contain no more than 253 characters
+          <br />
+          • contain only lowercase alphanumeric characters, '-' or '.'
+          <br />
+          • start with an alphanumeric character
+          <br />
+          • end with an alphanumeric character
+        </span>
+      }
+      title="Create error:"
+    />
+  </div>
+</div>
+`;
+
+exports[`on editor change function renders as expected 1`] = `
+"apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-certificatepolicy-1
+  namespace: governance
+  annotations:
+    policy.open-cluster-management.io/standards: NIST-CSF
+    policy.open-cluster-management.io/categories: PR.DS Data Security
+    policy.open-cluster-management.io/controls: PR.DS-2 Data-in-transit
+spec:
+  remediationAction: inform
+  disabled: false
+  policy-templates:
+  - objectDefinition:
+      apiVersion: policies.ibm.com/v1alpha1
+      kind: CertificatePolicy # cert management expiration
+      metadata:
+        name: policy-certificatepolicy-1-example
+      spec:
+        namespaceSelector:
+          include: [\\"default\\"]
+          exclude: []
+        remediationAction: inform
+        severity: low
+        minimumDuration: 300h
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: binding-policy-certificatepolicy-1
+  namespace: governance
+placementRef:
+  name: placement-policy-certificatepolicy-1
+  kind: PlacementRule
+  apiGroup: apps.open-cluster-management.io
+subjects:
+- name: policy-certificatepolicy-1
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: placement-policy-certificatepolicy-1
+  namespace: governance
+spec:
+  clusterConditions:
+  - status: \\"True\\"
+    type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchExpressions:
+      - {key: cloud, operator: In, values: [\\"Amazon\\"]}
+"
+`;
+
+exports[`on editor change function renders as expected 2`] = `
+"apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-certificatepolicy-1
+  namespace: 
+  annotations:
+    policy.open-cluster-management.io/standards: NIST-CSF
+    policy.open-cluster-management.io/categories: PR.DS Data Security
+    policy.open-cluster-management.io/controls: PR.DS-2 Data-in-transit
+spec:
+  remediationAction: inform
+  disabled: false
+  policy-templates:
+  - objectDefinition:
+      apiVersion: policies.ibm.com/v1alpha1
+      kind: CertificatePolicy # cert management expiration
+      metadata:
+        name: policy-certificatepolicy-1-example
+      spec:
+        namespaceSelector:
+          include: [\\"default\\"]
+          exclude: []
+        remediationAction: inform
+        severity: low
+        minimumDuration: 300h
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: binding-policy-certificatepolicy-1
+  namespace: 
+placementRef:
+  name: placement-policy-certificatepolicy-1
+  kind: PlacementRule
+  apiGroup: apps.open-cluster-management.io
+subjects:
+- name: policy-certificatepolicy-1
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: placement-policy-certificatepolicy-1
+  namespace: 
+spec:
+  clusterConditions:
+  - status: \\"True\\"
+    type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchExpressions:
+      - {key: cloud, operator: In, values: [\\"Amazon\\"]}
+"
+`;
+
+exports[`on editor change function renders as expected 3`] = `
+"apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-certificatepolicy-1
+  namespace: default1,default2,mcm
+  annotations:
+    policy.open-cluster-management.io/standards: NIST-CSF
+    policy.open-cluster-management.io/categories: PR.DS Data Security
+    policy.open-cluster-management.io/controls: PR.DS-2 Data-in-transit
+spec:
+  remediationAction: inform
+  disabled: true
+  policy-templates:
+  - objectDefinition:
+      apiVersion: policies.ibm.com/v1alpha1
+      kind: CertificatePolicy # cert management expiration
+      metadata:
+        name: policy-certificatepolicy-1-example
+      spec:
+        namespaceSelector:
+          include: [\\"default\\"]
+          exclude: []
+        remediationAction: inform
+        severity: low
+        minimumDuration: 300h
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: binding-policy-certificatepolicy-1
+  namespace: default1,default2,mcm
+placementRef:
+  name: placement-policy-certificatepolicy-1
+  kind: PlacementRule
+  apiGroup: apps.open-cluster-management.io
+subjects:
+- name: policy-certificatepolicy-1
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: placement-policy-certificatepolicy-1
+  namespace: default1,default2,mcm
+spec:
+  clusterConditions:
+  - status: \\"True\\"
+    type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchExpressions:
+      - {key: cloud, operator: In, values: [\\"Amazon\\"]}
+"
+`;

@@ -1,0 +1,9 @@
+namespace: 'default'
+standards:
+- 'NIST-CSF'
+categories:
+- 'PR.DS Data Security'
+controls:
+- 'PR.DS-2 Data-in-transit'
+enforce: False
+disable: False

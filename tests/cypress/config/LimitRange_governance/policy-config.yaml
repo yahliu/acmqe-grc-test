@@ -1,0 +1,23 @@
+# these are policies required by following Polarion test cases:
+
+test-limitrange-policy-[ID]:
+  apiVersion: 'policy.open-cluster-management.io/v1'
+  namespace: 'default'
+#  cluster_binding:
+#    - 'name: "dhaks1020-2-dho-461"'
+#    - 'local-cluster: "true"'
+  binding_selector:
+    - 'matchExpressions =[]'
+#    - 'matchExpressions =[ { "key": "name", "operator": "In", "values": [ "dhaks1020-2-dho-461" ] } ]'
+#    - 'matchExpressions =[ { "key": "local-cluster", "operator": "In", "values": [ "true" ] } ]'
+  kind: 'ConfigurationPolicy'
+  specifications:
+    - 'LimitRange - Limit container memory usage'
+  standards:
+    - 'NIST-CSF'
+  categories:
+    - 'PR.IP Information Protection Processes and Procedures'
+  controls:
+    - 'PR.IP-1 Baseline Configuration'
+  enforce: False
+  disable: False

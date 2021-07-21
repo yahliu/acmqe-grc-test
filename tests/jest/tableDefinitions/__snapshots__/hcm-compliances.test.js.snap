@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hcm-compliances - createComplianceLink should return valid compliance link 1`] = `"testCreateComplianceLink1"`;
+
+exports[`hcm-compliances - createComplianceLink should return valid compliance link 2`] = `
+<Link
+  to="undefined/all/testCreateComplianceLink2"
+>
+  testCreateComplianceLink2
+   (Deprecated)
+</Link>
+`;
+
+exports[`hcm-compliances - createComplianceLink should return valid compliance link 3`] = `
+<Link
+  to="undefined/all/testCreateComplianceLink3"
+>
+  testCreateComplianceLink3
+</Link>
+`;
+
+exports[`hcm-compliances - createCompliancePolicyLink should return valid compliance policy link 1`] = `"-"`;
+
+exports[`hcm-compliances - createPolicyLink should return valid policy link 1`] = `
+<Link
+  to="undefined/all/undefined/undefined/compliancePolicy/undefined"
+/>
+`;
+
+exports[`hcm-compliances - formLinkToCluster should get -  1`] = `"-"`;
+
+exports[`hcm-compliances - formLinkToCluster should get -  2`] = `"-"`;
+
+exports[`hcm-compliances - formLinkToCluster should get RedHat  1`] = `"RedHat"`;
+
+exports[`hcm-compliances - formLinkToCluster should get formLinkToCluster 1`] = `
+<a
+  href="/multicloud/clusters"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  RedHat
+</a>
+`;
+
+exports[`hcm-compliances - formMessageLink should get -  1`] = `"-"`;
+
+exports[`hcm-compliances - formMessageLink should get -  2`] = `"-"`;
+
+exports[`hcm-compliances - formMessageLink should get message view details link 1`] = `
+<div>
+  NonCompliant; violation - k8srequiredlabels \`ns-must-have-gk\` does not exist as specified, and should be created 
+  <Link
+    to="undefined/all/default/policy-gatekeeper/template/calamari/policy.open-cluster-management.io/v1/ConfigurationPolicy/policy-gatekeeper-audit"
+  >
+    View details
+  </Link>
+</div>
+`;
+
+exports[`hcm-compliances - formatAnnotationString should get "-"  1`] = `"-"`;
+
+exports[`hcm-compliances - formatAnnotationString should get "-"  2`] = `"-"`;
+
+exports[`hcm-compliances - formatAnnotationString should get list of annotations back with proper whitespace 1`] = `"test1 test2, test3, test4 test5"`;
+
+exports[`hcm-compliances - getCategories should return categories status 1`] = `"11, 12, 13, 14, 15"`;
+
+exports[`hcm-compliances - getClusterCount should return cluster count 1`] = `"7/15"`;
+
+exports[`hcm-compliances - getCompliancePolicyStatus should return compliance policy status 1`] = `
+<StatusField
+  status="noncompliant"
+  text="not compliant"
+/>
+`;
+
+exports[`hcm-compliances - getCompliancePolicyStatus should return compliance policy status 2`] = `
+<StatusField
+  status="compliant"
+  text="compliant"
+/>
+`;
+
+exports[`hcm-compliances - getControls should return control status 1`] = `"1, 2, 3, 4, 5"`;
+
+exports[`hcm-compliances - getDecisions should return decisions status 1`] = `"clusterName1, clusterName2, clusterName3"`;
+
+exports[`hcm-compliances - getDecisions should return default status 1`] = `"-"`;
+
+exports[`hcm-compliances - getStandards should return standards status 1`] = `"6, 7, 8, 9, 10"`;
+
+exports[`hcm-compliances - getStatus should return compliant status 1`] = `
+<StatusField
+  status="compliant"
+  text="compliant"
+/>
+`;
+
+exports[`hcm-compliances - getStatus should return compliant status 2`] = `
+<StatusField
+  status="noncompliant"
+  text="not compliant"
+/>
+`;
+
+exports[`hcm-compliances - getStatusCount should return status count 1`] = `"5/10"`;
+
+exports[`hcm-compliances - getSubjects should get ""  1`] = `""`;
+
+exports[`hcm-compliances - getSubjects should get "-"  1`] = `"-"`;
+
+exports[`hcm-compliances - getSubjects should get subjects 1`] = `"testName1(testApiGroup1), testName2(testApiGroup2)"`;
