@@ -33,10 +33,10 @@ else
   echo -e "System env variables don't exist, loading local config from '$USER_OPTIONS_FILE' file.\n"
   if [ -f $USER_OPTIONS_FILE ]; then
     echo "Using cypress config from '$USER_OPTIONS_FILE' file."
-    export CYPRESS_OPTIONS_HUB_CLUSTER_URL=`yq r $USER_OPTIONS_FILE 'options.hub.hubClusterURL'`
-    export CYPRESS_OPTIONS_HUB_USER=`yq r $USER_OPTIONS_FILE 'options.hub.user'`
-    export CYPRESS_OPTIONS_HUB_PASSWORD=`yq r $USER_OPTIONS_FILE 'options.hub.password'`
-    export CYPRESS_BASE_URL=`yq r $USER_OPTIONS_FILE 'options.hub.baseURL'`
+    export CYPRESS_OPTIONS_HUB_CLUSTER_URL=`yq eval '(.options.hub.hubClusterURL)' $USER_OPTIONS_FILE`
+    export CYPRESS_OPTIONS_HUB_USER=`yq eval '(.options.hub.user)' $USER_OPTIONS_FILE`
+    export CYPRESS_OPTIONS_HUB_PASSWORD=`yq eval '(.options.hub.password)' $USER_OPTIONS_FILE`
+    export CYPRESS_BASE_URL=`yq eval '(.options.hub.baseURL)' $USER_OPTIONS_FILE`
   else
     echo "Can't find '$USER_OPTIONS_FILE' locally and set all cypress config to empty."
     export CYPRESS_OPTIONS_HUB_CLUSTER_URL=""

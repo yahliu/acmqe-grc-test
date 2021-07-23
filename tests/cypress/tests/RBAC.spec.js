@@ -9,7 +9,6 @@ import { test_userPermissionsPageContentCheck } from '../support/tests'
 import { getDefaultSubstitutionRules } from '../support/views'
 
 
-describeT('@rbac RHACM4K-2584 - GRC UI: [P1][Sev1][policy-grc] Role Based Access Control tests', () => {
 
   // we expect the user password to be exported in CYPRESS_RBAC_PASS variable
   const RBACpass = Cypress.env('RBAC_PASS')
@@ -32,6 +31,15 @@ describeT('@rbac RHACM4K-2584 - GRC UI: [P1][Sev1][policy-grc] Role Based Access
   const namespacesForNamespaced = [ 'e2e-rbac-test-1' ]
   const id = Cypress.env('RESOURCE_ID')
   const policyNameFilter = `${id}-e2e-rbac`
+    const subscriptionPolicy = 'automation/create_subscription.yaml'
+  const credentialPolicy = 'automation/create_credential.yaml'
+  const cleanUpPolicy = 'automation/clean_up.yaml'
+  //create subscription to install ansible automation operator
+  const substitutionRules = getDefaultSubstitutionRules()
+  const rawSubPolicyYAML = getConfigObject(subscriptionPolicy, 'raw', substitutionRules)
+  const subPolicyName = rawSubPolicyYAML.replace(/\r?\n|\r/g, ' ').replace(/^.*?name:\s*/m, '').replace(/\s.*/m,'')
+
+describeT('@rbac RHACM4K-2584 - GRC UI: [P1][Sev1][policy-grc] Role Based Access Control tests', () => {
 
   it('Verify that CYPRESS_RBAC_PASS environment variable is defined', () => {
     expect(RBACpass).to.not.equal(undefined)
@@ -129,14 +137,26 @@ describeT('@rbac RHACM4K-2584 - GRC UI: [P1][Sev1][policy-grc] Role Based Access
 
   // This would be 1 policy, but admin user also has view access to namespace 2
   // Verify admin permissions for this user by filtering for the specific policy
+})
+
+describeT('@rbac RHACM4K-956 - GRC UI: [P1][Sev1][policy-grc] As an user with namespace-role-binding of default admin role to check policy', () => {
   test_userPermissionsPageContentCheck('e2e-admin-ns', RBACpass, IDP, policyNamesNS1, confPolicies, namespaces, permissions['admin'], true, false, `${policyNameFilter}-test-1`)
 
-  test_userPermissionsPageContentCheck('e2e-edit-ns', RBACpass, IDP, policyNamesNS1, confPolicies, namespacesForNamespaced, permissions['edit'], true, false, policyNameFilter)
+})
 
+describeT('@rbac RHACM4K-958 - GRC UI: [P1][Sev1][policy-grc] As an user with namespace-role-binding of default edit role to check policy', () => {
+ test_userPermissionsPageContentCheck('e2e-edit-ns', RBACpass, IDP, policyNamesNS1, confPolicies, namespacesForNamespaced, permissions['edit'], true, false, policyNameFilter)
+
+})
+
+describeT('@rbac RHACM4K-957 - GRC UI: [P1][Sev1][policy-grc] As an user with namespace-role-binding of default view role to check policy', () => { 
   test_userPermissionsPageContentCheck('e2e-view-ns', RBACpass, IDP, policyNamesNS1, confPolicies, namespacesForNamespaced, permissions['view'], true, false, policyNameFilter)
 
   test_userPermissionsPageContentCheck('e2e-group-ns', RBACpass, IDP, policyNamesNS1, confPolicies, namespaces, permissions['view'], true, false, policyNameFilter)
+})
 
+
+describeT('@rbac clean up rbac related', () => {
   /***********
    * Cleanup *
    ***********/
